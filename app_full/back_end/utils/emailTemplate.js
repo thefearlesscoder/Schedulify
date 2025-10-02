@@ -53,16 +53,16 @@ export function generateForgotPasswordEmailTemplate(resetPasswordUrl) {
       </head>
       <body>
         <div class="container">
-          <div class="header">Bookworm Library Management System</div>
+          <div class="header">Schedulify - the time table generator</div>
           <div class="message">
             <p>Hello,</p>
             <p>You recently requested to reset your password. Click the button below to reset it:</p>
             <a href="${resetPasswordUrl}" class="button">Reset Password</a>
             <p>If you did not request a password reset, please ignore this email.</p>
-            <p>Thank you,<br/>Bookworm Team</p>
+            <p>Thank you,<br/>Schedulify Team</p>
           </div>
           <div class="footer">
-            &copy; ${new Date().getFullYear()} Bookworm Library. All rights reserved.
+            &copy; ${new Date().getFullYear()} Schedulify. All rights reserved.
           </div>
         </div>
       </body>
