@@ -1,6 +1,7 @@
 import { catchAsyncError } from "../middlewares/catchAsyncErrors.js";
 import ErrorHandler from "../middlewares/error.js";
 import { User } from "../models/userSchema.js";
+import { generateForgotPasswordEmailTemplate } from "../utils/emailTemplate.js";
 import {sendToken} from "../utils/sendToken.js"
 
 export const register = catchAsyncError(async(req, res,next) => {
@@ -74,3 +75,41 @@ export const getUser = catchAsyncErrors((req, res, next) => {
     user,
   });
 });
+
+export const forgotpassword = catchAsyncError(async(req,res,next) => {
+  if(!req.body.email){
+    return next(new ErrorHandler(401,"Please provide the email"));
+  }
+
+  const {email} = req.body;
+
+  const user = await User.findOne({email});
+
+  if(!user){
+    return next(new ErrorHandler(401,"User not found in the database with this email"));
+  }
+
+  const resetToken = user.getResetPasswordToken();
+  await user.save({validateModifiedOnly: false});
+
+  const resetPasswordUrl = `${process.env.FRONTEND_URL}/password/reset/${resetToken}`;
+
+  const message = generateForgotPasswordEmailTemplate(resetPasswordUrl);
+
+  try {
+    await sendEmail({
+      email: user.email,
+      subject: "Bookworm Library management Password Reset Request",
+      message,
+    });
+    res.status(200).json({
+      success: true,
+      message: `Email sent to ${user.email} with password reset instructions`,
+    });
+  } catch (error) {
+    user.resetPasswordToken = undefined;
+    user.resetPasswordExpire = undefined;
+    await user.save({ validateBeforeSave: false });
+    return next(new ErrorHandler(error.message, 500));
+  }
+})
