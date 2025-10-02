@@ -11,10 +11,19 @@ export const register = catchAsyncError(async(req, res,next) => {
     return next(new ErrorHandler(401,"Please Provide all the fields in the form"));
   }
 
-  const isEmail = User.findOne({email});
+  const isEmail = await User.findOne({email});
 
   if(isEmail){
     return next(new ErrorHandler(401,"This user is already registered on the portal"));
+  }
+
+  if (password.length < 8 || password.length > 16) {
+    return next(
+      new ErrorHandler(
+        400,
+        "Password must be at least 8 characters long and less than 16 characters"
+      )
+    );
   }
 
   const user = await User.create({
@@ -37,7 +46,7 @@ export const login = catchAsyncError(async(req,res,next) => {
   if (!user) {
     return next(new ErrorHandler("Invalid Email Or Password.", 400));
   }
-  const isPasswordMatched = await user.comparePassword(password);
+  const isPasswordMatched = await user.comparePasswords(password);
   if (!isPasswordMatched) {
     return next(new ErrorHandler("Invalid Email Or Password.", 400));
   }
@@ -64,7 +73,7 @@ export const logout = catchAsyncError(async(req,res,next) => {
     });
 });
 
-export const getUser = catchAsyncErrors((req, res, next) => {
+export const getUser = catchAsyncError((req, res, next) => {
   // console.log("here at getuser");
 
   const user = req.user;
@@ -99,7 +108,7 @@ export const forgotpassword = catchAsyncError(async(req,res,next) => {
   try {
     await sendEmail({
       email: user.email,
-      subject: "Bookworm Library management Password Reset Request",
+      subject: "Schedulify - Password reset url",
       message,
     });
     res.status(200).json({
@@ -113,3 +122,75 @@ export const forgotpassword = catchAsyncError(async(req,res,next) => {
     return next(new ErrorHandler(error.message, 500));
   }
 })
+
+export const resetPassword = catchAsyncError(async (req, res, next) => {
+  const { token } = req.params;
+  const resetPasswordToken = crypto
+    .createHash("sha256")
+    .update(token)
+    .digest("hex");
+
+  const user = await User.findOne({
+    resetPasswordToken,
+    resetPasswordExpire: { $gt: Date.now() }, // Check if the token is still valid
+  });
+  if (!user) {
+    return next(new ErrorHandler("Invalid or expired reset token", 400));
+  }
+
+  if (req.body.password !== req.body.confirmPassword) {
+    return next(new ErrorHandler("Passwords do not match", 400));
+  }
+
+  if (req.body.password.length < 8 || req.body.password.length > 16) {
+    return next(
+      new ErrorHandler(
+        "Password must be at least 8 characters long and less than 16 characters",
+        400
+      )
+    );
+  }
+
+  user.password = req.body.password;
+  user.resetPasswordToken = undefined;
+  await user.save({ validateModifiedOnly: false });
+  sendToken(user, 200, "Password reset successfully", res);
+});
+
+export const updatePassword = catchAsyncError(async (req, res, next) => {
+  const user = await User.findById(req.user._id).select("+password");
+  const { currentPassword, newPassword, confirmPassword } = req.body;
+  if (!currentPassword || !newPassword || !confirmPassword) {
+    return next(new ErrorHandler("Please provide all fields", 400));
+  }
+
+  const isPasswordMatched = await bcrypt.compare(
+    currentPassword,
+    user.password
+  );
+  if (!isPasswordMatched) {
+    return next(new errorHandler("Current password is incorrect", 400));
+  }
+  if (newPassword.length < 8 || newPassword.length > 16) {
+    return next(
+      new ErrorHandler(
+        "Password must be at least 8 characters long and less than 16 characters",
+        400
+      )
+    );
+  }
+  if (newPassword !== confirmPassword) {
+    return next(
+      new ErrorHandler("New password and confirm password do not match", 400)
+    );
+  }
+
+  // const hashedPassword = await bcrypt.hash(newPassword, 10);
+  user.password = newPassword;
+  await user.save({ validateModifiedOnly: false });
+
+  res.status(200).json({
+    success: true,
+    message: "Password updated successfully",
+  });
+});

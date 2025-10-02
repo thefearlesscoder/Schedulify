@@ -1,9 +1,9 @@
 import {User} from '../models/userSchema.js';
 import jwt  from 'jsonwebtoken';
-import {catchAsyncErrors} from './catchAsyncErrors.js'
+import {catchAsyncError} from './catchAsyncErrors.js'
 import ErrorHandler from './error.js';
 
-export const isAuthenticated = catchAsyncErrors(async(req,res,next) => {
+export const isAuthenticated = catchAsyncError(async(req,res,next) => {
   const {token} = req.cookies;
 
   if(!token){
