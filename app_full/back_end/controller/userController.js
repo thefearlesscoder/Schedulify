@@ -42,13 +42,13 @@ export const login = catchAsyncError(async(req,res,next) => {
       new ErrorHandler("Please provide email ,password and role.", 400)
     );
   }
-  const user = await User.findOne({ email }).select("+password");
+  const user = await User.findOne({ email });
   if (!user) {
-    return next(new ErrorHandler("Invalid Email Or Password.", 400));
+    return next(new ErrorHandler(400,"Invalid Email Or Password.1"));
   }
   const isPasswordMatched = await user.comparePasswords(password);
   if (!isPasswordMatched) {
-    return next(new ErrorHandler("Invalid Email Or Password.", 400));
+    return next(new ErrorHandler(400, "Invalid Email Or Password.2"));
   }
   if (user.role !== role) {
     return next(

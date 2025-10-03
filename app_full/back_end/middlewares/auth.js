@@ -10,9 +10,10 @@ export const isAuthenticated = catchAsyncError(async(req,res,next) => {
     return next(new ErrorHandler(401,"This user is not authenticated / token not found"));
   }
 
+  console.log("This means the token is verified successfully");
   const decoded = jwt.verify(token,process.env.JWT_SECRET);
-
-  req.user = await User.findById  (decoded.id);
+  
+  req.user = await User.findById(decoded.id);
   next();
 });
 
