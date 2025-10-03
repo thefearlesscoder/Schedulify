@@ -11,7 +11,7 @@ export const errorMiddleware = (err, req, res, next) => {
 
   if (err.name === "CastError") {
     const message = `Resource not found. Invalid ${err.path}`,
-      err = new ErrorHandler(400,message );
+      err = new ErrorHandler(400, message);
   }
   if (err.code === 11000) {
     const message = `Duplicate ${Object.keys(err.keyValue)} Entered`,

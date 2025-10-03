@@ -2,7 +2,9 @@ import { catchAsyncError } from "../middlewares/catchAsyncErrors.js";
 import ErrorHandler from "../middlewares/error.js";
 import { User } from "../models/userSchema.js";
 import { generateForgotPasswordEmailTemplate } from "../utils/emailTemplate.js";
+import { sendEmail } from "../utils/sendEmail.js";
 import {sendToken} from "../utils/sendToken.js"
+import crypto from "crypto";
 
 export const register = catchAsyncError(async(req, res,next) => {
   const {name,email,password,role} = req.body;
@@ -85,21 +87,20 @@ export const getUser = catchAsyncError((req, res, next) => {
   });
 });
 
-export const forgotpassword = catchAsyncError(async(req,res,next) => {
-  if(!req.body.email){
-    return next(new ErrorHandler(401,"Please provide the email"));
+export const forgotPassword = catchAsyncError(async (req, res, next) => {
+  if (!req.body.email) {
+    return next(new ErrorHandler(400,"Please provide email"));
   }
-
-  const {email} = req.body;
-
-  const user = await User.findOne({email});
-
-  if(!user){
-    return next(new ErrorHandler(401,"User not found in the database with this email"));
+  const { email } = req.body;
+  if (!email) {
+    return next(new ErrorHandler(400,"Please provide email"));
   }
-
+  const user = await User.findOne({ email });
+  if (!user) {
+    return next(new ErrorHandler(400,"Invalid Email"));
+  }
   const resetToken = user.getResetPasswordToken();
-  await user.save({validateModifiedOnly: false});
+  await user.save({ validateModifiedOnly: false });
 
   const resetPasswordUrl = `${process.env.FRONTEND_URL}/password/reset/${resetToken}`;
 
@@ -108,7 +109,7 @@ export const forgotpassword = catchAsyncError(async(req,res,next) => {
   try {
     await sendEmail({
       email: user.email,
-      subject: "Schedulify - Password reset url",
+      subject: "Schedulify - password forget",
       message,
     });
     res.status(200).json({
@@ -119,9 +120,9 @@ export const forgotpassword = catchAsyncError(async(req,res,next) => {
     user.resetPasswordToken = undefined;
     user.resetPasswordExpire = undefined;
     await user.save({ validateBeforeSave: false });
-    return next(new ErrorHandler(error.message, 500));
+    return next(new ErrorHandler(500,error.message));
   }
-})
+});
 
 export const resetPassword = catchAsyncError(async (req, res, next) => {
   const { token } = req.params;
@@ -135,11 +136,11 @@ export const resetPassword = catchAsyncError(async (req, res, next) => {
     resetPasswordExpire: { $gt: Date.now() }, // Check if the token is still valid
   });
   if (!user) {
-    return next(new ErrorHandler("Invalid or expired reset token", 400));
+    return next(new ErrorHandler(400,"Invalid or expired reset token"));
   }
 
   if (req.body.password !== req.body.confirmPassword) {
-    return next(new ErrorHandler("Passwords do not match", 400));
+    return next(new ErrorHandler(400,"Passwords do not match"));
   }
 
   if (req.body.password.length < 8 || req.body.password.length > 16) {
@@ -151,17 +152,20 @@ export const resetPassword = catchAsyncError(async (req, res, next) => {
     );
   }
 
+  
   user.password = req.body.password;
   user.resetPasswordToken = undefined;
+  user.resetPasswordExpire = undefined;
   await user.save({ validateModifiedOnly: false });
-  sendToken(user, 200, "Password reset successfully", res);
+
+  sendToken(user, 200,res, "Password reset successfully");
 });
 
 export const updatePassword = catchAsyncError(async (req, res, next) => {
   const user = await User.findById(req.user._id).select("+password");
   const { currentPassword, newPassword, confirmPassword } = req.body;
   if (!currentPassword || !newPassword || !confirmPassword) {
-    return next(new ErrorHandler("Please provide all fields", 400));
+    return next(new ErrorHandler(400,"Please provide all fields"));
   }
 
   const isPasswordMatched = await bcrypt.compare(
@@ -169,7 +173,7 @@ export const updatePassword = catchAsyncError(async (req, res, next) => {
     user.password
   );
   if (!isPasswordMatched) {
-    return next(new errorHandler("Current password is incorrect", 400));
+    return next(new errorHandler(400,"Current password is incorrect"));
   }
   if (newPassword.length < 8 || newPassword.length > 16) {
     return next(
@@ -181,7 +185,7 @@ export const updatePassword = catchAsyncError(async (req, res, next) => {
   }
   if (newPassword !== confirmPassword) {
     return next(
-      new ErrorHandler("New password and confirm password do not match", 400)
+      new ErrorHandler(400,"New password and confirm password do not match")
     );
   }
 

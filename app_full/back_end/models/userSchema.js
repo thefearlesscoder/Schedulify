@@ -17,6 +17,7 @@ export const userSchema = new mongoose.Schema({
   password: {
     type: String,
     required: true,
+    select: false
   },
   role: {
     type: String,
@@ -28,10 +29,13 @@ export const userSchema = new mongoose.Schema({
 });
 
 userSchema.pre("save", async function (next) {
+  // If password is not modified, use 'return' to exit the function immediately
   if (!this.isModified("password")) {
-    next();
+    return next();
   }
+  // If password IS modified, hash it and then proceed
   this.password = await bcrypt.hash(this.password, 10);
+  next();
 });
 
 userSchema.methods.comparePasswords = async function (enteredPassword) {
