@@ -10,8 +10,26 @@ export const isAuthenticated = catchAsyncError(async(req,res,next) => {
     return next(new ErrorHandler(401,"This user is not authenticated / token not found"));
   }
 
-  console.log("This means the token is verified successfully");
-  const decoded = jwt.verify(token,process.env.JWT_SECRET);
+  let decoded;
+  try {
+    // --- IMPROVED DEBUGGING ---
+    // Add a log to see the secret being used. Be careful not to do this in production.
+    // console.log("Verifying token with secret:", process.env.JWT_SECRET);
+
+    decoded = jwt.verify(token, process.env.JWT_SECRET);
+  } catch (error) {
+    // This will catch the specific error from jwt.verify
+    console.error("JWT Verification Failed:", error.message);
+    return next(
+      new ErrorHandler(
+        401,
+        `JSON Web Token is invalid. Error: ${error.message}`
+      )
+    );
+  }
+
+  // console.log("This means the token is verified successfully");
+  // const decoded = jwt.verify(token,process.env.JWT_SECRET);
   
   req.user = await User.findById(decoded.id);
   next();
