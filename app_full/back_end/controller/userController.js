@@ -42,7 +42,7 @@ export const login = catchAsyncError(async(req,res,next) => {
       new ErrorHandler("Please provide email ,password and role.", 400)
     );
   }
-  const user = await User.findOne({ email });
+  const user = await User.findOne({ email }).select("+password");
   if (!user) {
     return next(new ErrorHandler(400,"Invalid Email Or Password.1"));
   }
