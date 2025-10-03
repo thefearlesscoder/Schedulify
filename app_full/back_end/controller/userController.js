@@ -5,7 +5,7 @@ import { generateForgotPasswordEmailTemplate } from "../utils/emailTemplate.js";
 import { sendEmail } from "../utils/sendEmail.js";
 import {sendToken} from "../utils/sendToken.js"
 import crypto from "crypto";
-
+// errorHandler
 export const register = catchAsyncError(async(req, res,next) => {
   const {name,email,password,role} = req.body;
 
@@ -156,7 +156,7 @@ export const resetPassword = catchAsyncError(async (req, res, next) => {
   user.password = req.body.password;
   user.resetPasswordToken = undefined;
   user.resetPasswordExpire = undefined;
-  await user.save({ validateModifiedOnly: false });
+  await user.save({ validateBeforeSave: false });
 
   sendToken(user, 200,res, "Password reset successfully");
 });
@@ -173,7 +173,7 @@ export const updatePassword = catchAsyncError(async (req, res, next) => {
     user.password
   );
   if (!isPasswordMatched) {
-    return next(new errorHandler(400,"Current password is incorrect"));
+    return next(new ErrorHandler(400,"Current password is incorrect"));
   }
   if (newPassword.length < 8 || newPassword.length > 16) {
     return next(
