@@ -25,4 +25,4 @@ app.use("/api/v1/user", userRouter);
 
 dbConnection();
 
-app.use(errorMiddleware);
+app.use(errorMiddleware); 
