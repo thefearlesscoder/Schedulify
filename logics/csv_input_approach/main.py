@@ -34,6 +34,126 @@ class SchedulerData:
         self.classes_to_schedule = []
 
     def load_data(self):
+        # Helper function to load CSV with fallback encoding
+        def safe_read_csv(filename):
+            try:
+                # Try standard UTF-8 first
+                return pd.read_csv(filename)
+            except UnicodeDecodeError:
+                print(f" [Info] {filename} has special characters. Switching to Windows encoding...")
+                # Fallback to Windows-1252 (Excel default)
+                return pd.read_csv(filename, encoding='cp1252')
+
+        # A. Generate Slots
+        self.slots = []
+        self.lunch_slot_index = int((LUNCH_START - START_TIME) / SLOT_DURATION_HOURS)
+        for day in WORKING_DAYS:
+            for i in range(NUM_SLOTS):
+                self.slots.append((day, i))
+
+        # B. Load Groups
+        print("[Loading] groups.csv...")
+        try:
+            df_groups = safe_read_csv('groups.csv')
+            df_groups.columns = [c.strip() for c in df_groups.columns]
+            
+            for _, row in df_groups.iterrows():
+                g_name = str(row['group name']).strip().upper() 
+                sem = str(row['semester']).strip()
+                deg = str(row['degree']).strip()
+                
+                unique_id = f"{deg}_{sem}_{g_name}"
+                
+                self.groups[unique_id] = {
+                    'strength': row['strength'],
+                    'semester': sem,
+                    'degree': deg,
+                    'dept': deg
+                }
+        except FileNotFoundError:
+            print(" [Error] groups.csv not found. Please create it.")
+            return
+
+        # C. Load Rooms
+        print("[Loading] rooms.csv...")
+        if not os.path.exists('rooms.csv'):
+            print(" [Info] rooms.csv not found. Creating a temporary one in memory...")
+            self.rooms.append({'id': 'Hall-A', 'capacity': 100, 'dept': 'General'})
+            self.rooms.append({'id': 'Hall-B', 'capacity': 100, 'dept': 'General'})
+            self.rooms.append({'id': 'Hall-C', 'capacity': 100, 'dept': 'General'})
+        else:
+            df_rooms = safe_read_csv('rooms.csv')
+            for _, row in df_rooms.iterrows():
+                r_dept = str(row['department']).strip()
+                if pd.isna(row['department']) or r_dept.lower() in ['common', 'general', 'nan', '']:
+                    final_dept = 'General'
+                else:
+                    final_dept = r_dept
+
+                self.rooms.append({
+                    'id': str(row['room no.']).strip(),
+                    'capacity': row['capacity'],
+                    'dept': final_dept
+                })
+
+        # D. Load Courses
+        print("[Loading] courses.csv...")
+        try:
+            df_courses = safe_read_csv('courses.csv')
+            df_courses.dropna(subset=['course_code'], inplace=True)
+            self.classes_to_schedule = [] 
+            
+            for _, row in df_courses.iterrows():
+                c_code = str(row['course_code']).strip()
+                g_name = str(row['group']).strip().upper()
+                sem = str(row['semester']).strip()
+                
+                # Degree Cleaning
+                if 'degree' in row and pd.notna(row['degree']):
+                    deg = str(row['degree']).strip()
+                    if deg == 'Btech': deg = 'BTech'
+                else:
+                    deg = "BTech"
+                
+                target_group_id = f"{deg}_{sem}_{g_name}"
+                
+                if target_group_id not in self.groups:
+                    continue
+
+                hours = int(row['no_of_hours'])
+                is_practical = str(row['is_there_a_practical']).lower().strip() == 'yes'
+                dept = row['department']
+                
+                virtual_teacher_id = f"Fac_{c_code}_{target_group_id}"
+
+                # Lectures
+                for _ in range(hours):
+                    self.classes_to_schedule.append({
+                        'type': 'Lecture',
+                        'course': c_code,
+                        'group': target_group_id,
+                        'teacher_id': virtual_teacher_id, 
+                        'teacher_display': "Dept Faculty", 
+                        'dept': dept,
+                        'slots_required': 1
+                    })
+
+                # Practicals
+                if is_practical:
+                    slots_needed = math.ceil(2.0 / SLOT_DURATION_HOURS)
+                    self.classes_to_schedule.append({
+                        'type': 'Practical',
+                        'course': c_code,
+                        'group': target_group_id,
+                        'teacher_id': virtual_teacher_id,
+                        'teacher_display': "Dept Faculty",
+                        'dept': dept,
+                        'slots_required': slots_needed
+                    })
+            print(f" - Loaded {len(self.classes_to_schedule)} sessions to schedule.")
+            
+        except FileNotFoundError:
+            print(" [Error] courses.csv not found.")
         # A. Generate Slots
         self.slots = []
         self.lunch_slot_index = int((LUNCH_START - START_TIME) / SLOT_DURATION_HOURS)
