@@ -1,0 +1,357 @@
+course_code,name,department,semester,group,no_of_hours,is_there_a_practical,degree
+PHM11501,Physics,physics,1,#NAME?,3,Yes,BTech
+MAN11101,MATHS,maths,1,A,4,No,BTech
+CSN11601,Introduction to Artificial Intelligence & Machine ,CSED,1,A,2,Yes,BTech
+CSN11101,Computer Programming ,CSED,1,A,3,Yes,BTech
+CSN11102,Introduction  to Computer Organization ,CSED,1,A,3,No,BTech
+CSN11103,Discrete Mathematics ,CSED,1,A,2,No,BTech
+EAN11700,Professional Ethics & Social Values,SMS,1,A,1,No,BTech
+PHM11501,Physics,physics,1,B,3,Yes,BTech
+MAN11101,MATHS,maths,1,B,4,No,BTech
+CSN11601,Introduction to Artificial Intelligence & Machine ,CSED,1,B,2,Yes,BTech
+CSN11101,Computer Programming ,CSED,1,B,3,Yes,BTech
+CSN11102,Introduction  to Computer Organization ,CSED,1,B,3,No,BTech
+CSN11103,Discrete Mathematics ,CSED,1,B,2,No,BTech
+EAN11700,Professional Ethics & Social Values,SMS,1,B,1,No,BTech
+PHM11501,Physics,physics,1,C,3,Yes,BTech
+MAN11101,MATHS,maths,1,C,4,No,BTech
+CSN11601,Introduction to Artificial Intelligence & Machine ,CSED,1,C,2,Yes,BTech
+CSN11101,Computer Programming ,CSED,1,C,3,Yes,BTech
+CSN11102,Introduction  to Computer Organization ,CSED,1,C,3,No,BTech
+CSN11103,Discrete Mathematics ,CSED,1,C,2,No,BTech
+EAN11700,Professional Ethics & Social Values,SMS,1,C,1,No,BTech
+PHM11501,Physics,physics,1,D,3,Yes,BTech
+MAN11101,MATHS,maths,1,D,4,No,BTech
+CSN11601,Introduction to Artificial Intelligence & Machine ,CSED,1,D,2,Yes,BTech
+CSN11101,Computer Programming ,CSED,1,D,3,Yes,BTech
+CSN11102,Introduction  to Computer Organization ,CSED,1,D,3,No,BTech
+CSN11103,Discrete Mathematics ,CSED,1,D,2,No,BTech
+EAN11700,Professional Ethics & Social Values,SMS,1,D,1,No,BTech
+PHM11501,Physics,physics,1,E,3,Yes,BTech
+MAN11101,MATHS,maths,1,E,4,No,BTech
+CSN11601,Introduction to Artificial Intelligence & Machine ,CSED,1,E,2,Yes,BTech
+ECN11102,Digital Electronics,ECE,1,E,2,Yes,BTech
+ECN11101,Basic Electronics,ECE,1,E,2,Yes,BTech
+ECN11103,Electronics Workshop and Manufacturing Process ,ECE,1,E,1,Yes,BTech
+EAN11700,Professional Ethics & Social Values,ECE,1,E,2,Yes,BTech
+PHM11501,Physics,physics,1,F,3,Yes,BTech
+MAN11101,MATHS,maths,1,F,4,No,BTech
+CSN11601,Introduction to Artificial Intelligence & Machine ,CSED,1,F,2,Yes,BTech
+ECN11102,Digital Electronics,ECE,1,F,2,Yes,BTech
+ECN11101,Basic Electronics,ECE,1,F,2,Yes,BTech
+ECN11103,Electronics Workshop and Manufacturing Process ,ECE,1,F,1,Yes,BTech
+EAN11700,Professional Ethics & Social Values,ECE,1,F,2,Yes,BTech
+CYN11502,Chemistry ,chemistry,1,G,3,Yes,BTech
+MAN11101,Mathematics1   ,maths,1,G,4,No,BTech
+HSN11600,Professional Communication,humanities,1,G,2,Yes,BTech
+MEN11101,Engineering Thermodynamics,mechanical,1,G,3,No,BTech
+AMN11101,Materials Science and  Engineering,applied mechanics,1,G,3,No,BTech
+MEN11602,Workshop and Manufacturing Process ,mechanical,1,G,1,Yes,BTech
+CYN11502,Chemistry ,chemistry,1,H,3,Yes,BTech
+MAN11101,Mathematics1   ,maths,1,H,4,No,BTech
+HSN11600,Professional Communication,humanities,1,H,2,Yes,BTech
+MEN11101,Engineering Thermodynamics,mechanical,1,H,3,No,BTech
+AMN11101,Materials Science and  Engineering,applied mechanics,1,H,3,No,BTech
+MEN11602,Workshop and Manufacturing Process ,mechanical,1,H,1,Yes,BTech
+CYN11504,Chemistry 4,chemistry,1,I,3,Yes,BTech
+MAN11101,Mathematics1   ,maths,1,I,4,No,BTech
+HSN11600,Professional Communication,humanities,1,I,2,Yes,BTech
+CEN11101,Building Engineering ,civil,1,I,2,Yes,BTech
+CEN11102,Plumbing and Sanitation System ,civil,1,I,2,Yes,BTech
+EG3D,Engineering Graphics and 3D  Modeling  ,civil,1,I,1,Yes,BTech
+CYN11504,Chemistry 4,chemistry,1,J,3,Yes,BTech
+MAN11101,Mathematics1   ,maths,1,J,4,No,BTech
+HSN11600,Professional Communication,humanities,1,J,2,Yes,BTech
+CEN11101,Building Engineering ,civil,1,J,2,Yes,BTech
+CEN11102,Plumbing and Sanitation System ,civil,1,J,2,Yes,BTech
+EG3D,Engineering Graphics and 3D  Modeling  ,civil,1,J,1,Yes,BTech
+CYN11503,Chemistry 3,chemistry,1,K,3,Yes,BTech
+MAN11101,Mathematics1   ,maths,1,K,4,No,BTech
+BTN11101,Basic of Bio  Manufacturing   ,biotech,1,K,2,Yes,BTech
+BTN11102,Introductory Cell and Molecular Biology ,biotech,1,K,3,,BTech
+EG,Engineering Graphics ,biotech,1,K,1,Yes,BTech
+CYN11503,Chemistry 3,chemistry,1,L,3,Yes,BTech
+MAN11101,Mathematics1   ,maths,1,L,4,No,BTech
+HSN11600,Professional Communication,humanities,1,L,2,Yes,BTech
+CHN11101,Chemical Process Principles  ,chemical,1,L,3,No,BTech
+MEN11101,Engineering Thermodynamics ,mechanical,1,L,3,No,BTech
+CYN11502,Chemistry ,chemistry,1,M,3,Yes,BTech
+MAN11101,Mathematics1   ,maths,1,M,4,No,BTech
+HSN11600,Professional Communication,humanities,1,M,2,Yes,BTech
+AMN11101,Materials Science and  Engineering,applied mechanics,1,M,3,No,BTech
+PIN11101,Fluid and Thermal Engineering  ,production,1,M,3,No,BTech
+CYN11501,Chemistry 1,chemistry,1,N,3,Yes,BTech
+MAN11101,Mathematics1   ,maths,1,N,4,No,BTech
+HSN11600,Professional Communication,humanities,1,N,2,Yes,BTech
+EEN11101,Essentials of Electrical Engineering  ,electrical,1,N,2,Yes,BTech
+EEN11102,Electrical  Measurement & Instrumentation ,electrical,1,N,2,Yes,BTech
+MEN11602,Workshop and Manufacturing Process ,mechanical,1,N,1,Yes,BTech
+BTN13101,Microbiology ,biotech,3,K,3,Yes,BTech
+BTN13102,Biochemistry ,biotech,3,K,3,Yes,BTech
+BTN13103,Fundamentals of Biochemical Engineering,biotech,3,K,4,No,BTech
+MAN13102,Biostatistics,maths,3,K,4,No,BTech
+HSN13601,Communication Skills and Technical writing,humanities,3,K,3,No,BTech
+BTN13250,Biophysics & Structural Biology,biotech,3,K,3,No,BTech
+BTN13251,Genetics and evolution ,biotech,3,K,3,No,BTech
+CSN13400,Analysis of Algorithms,CSED,3,A,4,Yes,BTech
+CSN13401,Computer Architecture,CSED,3,A,4,No,BTech
+CSN13402,Operation Research,CSED,3,A,3,No,BTech
+CSN13250,Object Oriented Programming ,CSED,3,A,2,Yes,BTech
+CSN13403,Automata Theory,CSED,3,A,3,No,BTech
+CSN13400,Analysis of Algorithms,CSED,3,B,4,Yes,BTech
+CSN13401,Computer Architecture,CSED,3,B,4,No,BTech
+CSN13402,Operation Research,CSED,3,B,3,No,BTech
+CSN13250,Object Oriented Programming ,CSED,3,B,2,Yes,BTech
+CSN13403,Automata Theory,CSED,3,B,3,No,BTech
+CSN13400,Analysis of Algorithms,CSED,3,C,4,Yes,BTech
+CSN13401,Computer Architecture,CSED,3,C,4,No,BTech
+CSN13402,Operation Research,CSED,3,C,3,No,BTech
+CSN13250,Object Oriented Programming ,CSED,3,C,2,Yes,BTech
+CSN13403,Automata Theory,CSED,3,C,3,No,BTech
+CSN13400,Analysis of Algorithms,CSED,3,D,4,Yes,BTech
+CSN13401,Computer Architecture,CSED,3,D,4,No,BTech
+CSN13402,Operation Research,CSED,3,D,3,No,BTech
+CSN13250,Object Oriented Programming ,CSED,3,D,2,Yes,BTech
+CSN13403,Automata Theory,CSED,3,D,3,No,BTech
+CEN13101,Concrete Technology & Construction Management,civil,3,I,3,Yes,BTech
+CEN13102,Engineering Geology ,civil,3,I,2,Yes,BTech
+CEN13103,Surveying,civil,3,I,4,Yes,BTech
+AMN13103,Fluid Mechanics & Hydraulic Machines ,applied mechanics,3,I,4,Yes,BTech
+AMN13102,Solid Mechanics ,applied mechanics,3,I,4,Yes,BTech
+HSN13601,Management Concepts and Applications,humanities,3,I,3,No,BTech
+CEN13101,Concrete Technology & Construction Management,civil,3,J,3,Yes,BTech
+CEN13102,Engineering Geology ,civil,3,J,2,Yes,BTech
+CEN13103,Surveying,civil,3,J,4,Yes,BTech
+AMN13103,Fluid Mechanics & Hydraulic Machines ,applied mechanics,3,J,4,Yes,BTech
+AMN13102,Solid Mechanics ,applied mechanics,3,J,4,Yes,BTech
+HSN13601,Management Concepts and Applications,humanities,3,J,3,No,BTech
+ECN13401,Analog & Digital Electronics  ,ECE,3,N,3,Yes,BTech
+CSN13101,Data Structures and Operating Systems ,CSED,3,N,3,No,BTech
+EEN13101,Signals & Systems,electrical,3,N,4,No,BTech
+HSN13602,Business Economics  ,humanities,3,N,4,No,BTech
+AMN13250,Electrical Engineering  Materials and Devicse,applied mechanics,3,N,4,No,BTech
+EEN13250,Non Engineering Energy Resources,electrical,3,N,4,No,BTech
+EEN13102,Simulation Tools for Electrical Engineering,electrical,3,N,3,Yes,BTech
+ECN13101,Electromagnetic  Theory ,ECE,3,E,3,No,BTech
+ECN13102,Signals and Systems ,ECE,3,E,3,No,BTech
+CSN13404,Data Structures and Operating Systems ,CSED,3,E,3,Yes,BTech
+EEN13401,Network  and  System,electrical,3,E,3,No,BTech
+ECN13103,Microprocessor and its Applications ,ECE,3,E,3,Yes,BTech
+ECN13104,Solid  State Devices  and Circuits ,ECE,3,E,3,Yes,BTech
+HSN13602,Business Economics  ,humanities,3,E,3,No,BTech
+EAN13700,Extra Activity ,SMS,3,E,2,No,BTech
+ECN13101,Electromagnetic  Theory ,ECE,3,F,3,No,BTech
+ECN13102,Signals and Systems ,ECE,3,F,3,No,BTech
+CSN13404,Data Structures and Operating Systems ,CSED,3,F,3,Yes,BTech
+EEN13401,Network  and  System,electrical,3,F,3,No,BTech
+ECN13103,Microprocessor and its Applications ,ECE,3,F,3,Yes,BTech
+ECN13104,Solid  State Devices  and Circuits ,ECE,3,F,3,Yes,BTech
+HSN13602,Business Economics  ,humanities,3,F,3,No,BTech
+EAN13700,Extra Activity ,SMS,3,F,2,No,BTech
+CHN13103,Chemical  Engineering  Thermodynamics ,chemical,3,L,4,No,BTech
+CHN13104,Heat  Transfer Operations,chemical,3,L,4,Yes,BTech
+CHN13105,Fluid Particle Mechanics and Mechanical  Operations ,chemical,3,L,4,Yes,BTech
+MAN13101,Numerical Methods and Statistical Techniques ,maths,3,L,3,No,BTech
+HSN13601,Management Concepts and Applications,humanities,3,L,3,No,BTech
+AMN13101,Mechanics of Materials,applied mechanics,3,M,3,Yes,BTech
+PIN13101,Industrial Engineering,production,3,M,3,Yes,BTech
+AMN13106,Kinematics and Dynamics  of Machines,applied mechanics,3,M,3,No,BTech
+EEN13200,Basic Electrical and Electronics ,electrical,3,M,2,Yes,BTech
+PIN13102,Instrumentation  and Process Control,production,3,M,3,Yes,BTech
+PIN13103,Operation Research ,production,3,M,3,Yes,BTech
+AMN13101,Mechanics of Materials,applied mechanics,3,G,3,Yes,BTech
+MEN13101,Energy Conversion Technologies(,mechanical,3,G,3,Yes,BTech
+AMN13104,Fluid Mechanics and Hydraulic Machines,applied mechanics,3,G,3,Yes,BTech
+EEN13200,Basic Electrical and Electronics ,electrical,3,G,2,Yes,BTech
+MEN13103,Industrial Engineering,mechanical,3,G,3,No,BTech
+MEN13102,Heat and Mass Transfer ,mechanical,3,G,3,Yes,BTech
+BT15110,Genetic Engineering ,biotech,5,K,4,Yes,BTech
+BT15111,Microbial Biotechnology ,biotech,5,K,4,Yes,BTech
+BT15112,Immunology,biotech,5,K,3,Yes,BTech
+BT15113,Molecular and Cellular Diagnostics ,biotech,5,K,4,No,BTech
+HS15101,Principles of Management ,humanities,5,K,3,No,BTech
+MA15101,Biostatistics,maths,5,K,4,No,BTech
+AM15101,Structural Analysis-II ,applied mechanics,5,I,4,Yes,BTech
+CE15101,Geotechnical Engineering-I ,civil,5,I,4,Yes,BTech
+CE15102,Transportation Engineering-I ,civil,5,I,4,Yes,BTech
+CE15103,Concrete Structures-I ,civil,5,I,4,No,BTech
+CE15104,Environmental Engineering-I ,civil,5,I,4,No,BTech
+CE15105,Geoinformatics ,civil,5,I,4,No,BTech
+AM15101,Structural Analysis-II ,applied mechanics,5,J,4,Yes,BTech
+CE15101,Geotechnical Engineering-I ,civil,5,J,4,Yes,BTech
+CE15102,Transportation Engineering-I ,civil,5,J,4,Yes,BTech
+CE15103,Concrete Structures-I ,civil,5,J,4,No,BTech
+CE15104,Environmental Engineering-I ,civil,5,J,4,No,BTech
+CE15105,Geoinformatics ,civil,5,J,4,No,BTech
+CS15101,Microprocessor and its Application ,CSED,5,A,3,Yes,BTech
+CS15102,Operating Systems ,CSED,5,A,4,Yes,BTech
+CS15103,Database Management System ,CSED,5,A,4,Yes,BTech
+CS15104,Object Oriented Modeling,CSED,5,A,4,Yes,BTech
+CS15105,Operation Research,CSED,5,A,3,No,BTech
+CS15106,Computer Architecture ,CSED,5,A,3,No,BTech
+CS15101,Microprocessor and its Application ,CSED,5,B,3,Yes,BTech
+CS15102,Operating Systems ,CSED,5,B,4,Yes,BTech
+CS15103,Database Management System ,CSED,5,B,4,Yes,BTech
+CS15104,Object Oriented Modeling,CSED,5,B,4,Yes,BTech
+CS15105,Operation Research,CSED,5,B,3,No,BTech
+CS15106,Computer Architecture ,CSED,5,B,3,No,BTech
+CS15101,Microprocessor and its Application ,CSED,5,C,3,Yes,BTech
+CS15102,Operating Systems ,CSED,5,C,4,Yes,BTech
+CS15103,Database Management System ,CSED,5,C,4,Yes,BTech
+CS15104,Object Oriented Modeling,CSED,5,C,4,Yes,BTech
+CS15105,Operation Research,CSED,5,C,3,No,BTech
+CS15106,Computer Architecture ,CSED,5,C,3,No,BTech
+CS15101,Microprocessor and its Application ,CSED,5,D,3,Yes,BTech
+CS15102,Operating Systems ,CSED,5,D,4,Yes,BTech
+CS15103,Database Management System ,CSED,5,D,4,Yes,BTech
+CS15104,Object Oriented Modeling,CSED,5,D,4,Yes,BTech
+CS15105,Operation Research,CSED,5,D,3,No,BTech
+CS15106,Computer Architecture ,CSED,5,D,3,No,BTech
+EE15101,Electrical Machine II,electrical,5,N,4,Yes,BTech
+EE15102,Control System  I,electrical,5,N,4,Yes,BTech
+EE15103,Power System-II ,electrical,5,N,4,Yes,BTech
+EE15104,Power Electronics ,electrical,5,N,4,Yes,BTech
+HS15101,Principles of Management ,humanities,5,N,3,No,BTech
+EC15101,VLSI Technology  ,ECE,5,E,3,No,BTech
+EC15102,Microprocessors and its Applications ,ECE,5,E,3,Yes,BTech
+EC15103,Antenna and Wave Propagation ,ECE,5,E,3,No,BTech
+EC15104,Electronic Circuit Design ,ECE,5,E,4,Yes,BTech
+EE15111,Automatic Control systems ,ECE,5,E,3,Yes,BTech
+EC15105,Digital Communication ,ECE,5,E,3,Yes,BTech
+EC15101,VLSI Technology  ,ECE,5,F,3,No,BTech
+EC15102,Microprocessors and its Applications ,ECE,5,F,3,Yes,BTech
+EC15103,Antenna and Wave Propagation ,ECE,5,F,3,No,BTech
+EC15104,Electronic Circuit Design ,ECE,5,F,4,Yes,BTech
+EE15111,Automatic Control systems ,ECE,5,F,3,Yes,BTech
+EC15105,Digital Communication ,ECE,5,F,3,Yes,BTech
+ME15101,Computer Aided Design ,mechanical,5,G,4,Yes,BTech
+ME15102,Machine Design-I ,mechanical,5,G,4,Yes,BTech
+ME15103,Manufacturing Science and Technology-I ,mechanical,5,G,4,Yes,BTech
+ME15104,Steam Power Engineering ,mechanical,5,G,4,Yes,BTech
+HS15101,Principles of Management ,humanities,5,G,3,No,BTech
+ME15101,Computer Aided Design ,mechanical,5,H,4,Yes,BTech
+ME15102,Machine Design-I ,mechanical,5,H,4,Yes,BTech
+ME15103,Manufacturing Science and Technology-I ,mechanical,5,H,4,Yes,BTech
+ME15104,Steam Power Engineering ,mechanical,5,H,4,Yes,BTech
+HS15101,Principles of Management ,humanities,5,H,3,No,BTech
+ME15101,Computer Aided Design ,mechanical,5,M,4,Yes,BTech
+ME15102,Machine Design-I ,mechanical,5,M,4,Yes,BTech
+ME15103,Manufacturing Science and Technology-I ,mechanical,5,M,4,Yes,BTech
+ME15111,Operation Research ,mechanical,5,M,4,Yes,BTech
+HS15101,Principles of Management ,humanities,5,M,3,No,BTech
+CH15101,Chemical reaction engineering-I ,chemical,5,L,4,No,BTech
+CH15102,Mass transfer-II ,chemical,5,L,4,Yes,BTech
+CH15103,Process dynamics and control ,chemical,5,L,4,Yes,BTech
+CH15104,Chemical  Engineering Thermodynamics’-II ,chemical,5,L,4,Yes,BTech
+HS15101,Principles of management ,humanities,5,L,3,No,BTech
+BT17301,Food Biotechnology ,biotech,7,K,3,Yes,BTech
+BT17303,Drug Design and Delivery  ,biotech,7,K,3,Yes,BTech
+BT17304,Environmental Biotechnology ,biotech,7,K,3,No,BTech
+BT17305,Stem  Cell  in Health Care,biotech,7,K,3,No,BTech
+OE17501,Open Elective – I ,biotech,7,K,3,No,BTech
+CE17101,Steel Structures – I,civil,7,I,3,Yes,BTech
+CE17102,Construction Planning & Management ,civil,7,I,3,No,BTech
+CE17103,Water Resource Engineering – l ,civil,7,I,3,No,BTech
+OE17501,Open Elective – I ,civil,7,I,3,No,BTech
+CE17302,Professional Elective – I ,civil,7,I,4,No,BTech
+CE17305,Professional Elective – I ,civil,7,I,4,No,BTech
+CE17101,Steel Structures – I,civil,7,J,3,Yes,BTech
+CE17102,Construction Planning & Management ,civil,7,J,3,No,BTech
+CE17103,Water Resource Engineering – l ,civil,7,J,3,No,BTech
+OE17501,Open Elective – I ,civil,7,J,3,No,BTech
+CE17302,Professional Elective – I ,civil,7,J,4,No,BTech
+CE17305,Professional Elective – I ,civil,7,J,4,No,BTech
+CS17101,Distributed System ,CSED,7,A,4,Yes,BTech
+CS17102,Wireless  & Mobile Networks,CSED,7,A,3,No,BTech
+CS17301,Professional Elective – l ,CSED,7,A,3,No,BTech
+CS17311,Professional Elective – ll ,CSED,7,A,3,No,BTech
+OE17501,Open Elective – l ,CSED,7,A,3,No,BTech
+CS17101,Distributed System ,CSED,7,B,4,Yes,BTech
+CS17102,Wireless  & Mobile Networks,CSED,7,B,3,No,BTech
+CS17301,Professional Elective – l ,CSED,7,B,3,No,BTech
+CS17311,Professional Elective – ll ,CSED,7,B,3,No,BTech
+OE17501,Open Elective – l ,CSED,7,B,3,No,BTech
+CS17101,Distributed System ,CSED,7,C,4,Yes,BTech
+CS17102,Wireless  & Mobile Networks,CSED,7,C,3,No,BTech
+CS17301,Professional Elective – l ,CSED,7,C,3,No,BTech
+CS17311,Professional Elective – ll ,CSED,7,C,3,No,BTech
+OE17501,Open Elective – l ,CSED,7,C,3,No,BTech
+CS17101,Distributed System ,CSED,7,D,4,Yes,BTech
+CS17102,Wireless  & Mobile Networks,CSED,7,D,3,No,BTech
+CS17301,Professional Elective – l ,CSED,7,D,3,No,BTech
+CS17311,Professional Elective – ll ,CSED,7,D,3,No,BTech
+OE17501,Open Elective – l ,CSED,7,D,3,No,BTech
+EE17101,Electrical Drives ,electrical,7,N,4,Yes,BTech
+EE17102,Renewable Energy Sources and Distributed Generation ,electrical,7,N,4,No,BTech
+EE17301,Professional Elective – l ,electrical,7,N,4,No,BTech
+EE17305,Professional Elective – l ,electrical,7,N,4,No,BTech
+OE17501,Open Elective – l ,electrical,7,N,4,No,BTech
+EC17101,Mobile and Wireless Communication ,ECE,7,E,3,No,BTech
+EC17301,Professional Elective – l ,ECE,7,E,4,No,BTech
+EC17302,Professional Elective – l,ECE,7,E,4,No,BTech
+EC17304,Professional Elective – l ,ECE,7,E,4,No,BTech
+EC17311,Professional Elective – ll ,ECE,7,E,4,No,BTech
+EC17314,Professional Elective – ll ,ECE,7,E,4,No,BTech
+EC17313,Professional Elective – ll ,ECE,7,E,4,No,BTech
+OE17501,Open Elective – l ,ECE,7,E,3,No,BTech
+EC17101,Mobile and Wireless Communication ,ECE,7,F,3,No,BTech
+EC17301,Professional Elective – l ,ECE,7,F,4,No,BTech
+EC17302,Professional Elective – l,ECE,7,F,4,No,BTech
+EC17304,Professional Elective – l ,ECE,7,F,4,No,BTech
+EC17311,Professional Elective – ll ,ECE,7,F,4,No,BTech
+EC17314,Professional Elective – ll ,ECE,7,F,4,No,BTech
+EC17313,Professional Elective – ll ,ECE,7,F,4,No,BTech
+OE17501,Open Elective – l ,ECE,7,F,3,No,BTech
+ME17101,Refrigeration and Air conditioning ,mechanical,7,G,4,No,BTech
+ME17301,Professional Elective – l ,mechanical,7,G,4,No,BTech
+ME17304,Professional Elective – l ,mechanical,7,G,4,No,BTech
+ME17308,Professional Elective – l ,mechanical,7,G,4,No,BTech
+ME17307,Professional Elective – l ,mechanical,7,G,4,No,BTech
+ME17309,Professional Elective – l ,mechanical,7,G,4,No,BTech
+ME17101,Refrigeration and Air conditioning ,mechanical,7,H,4,No,BTech
+ME17301,Professional Elective – l ,mechanical,7,H,4,No,BTech
+ME17304,Professional Elective – l ,mechanical,7,H,4,No,BTech
+ME17308,Professional Elective – l ,mechanical,7,H,4,No,BTech
+ME17307,Professional Elective – l ,mechanical,7,H,4,No,BTech
+ME17309,Professional Elective – l ,mechanical,7,H,4,No,BTech
+ME17111,Advanced Manufacturing Process ,mechanical,7,M,4,Yes,BTech
+ME17301,Professional Elective – l ,mechanical,7,M,4,Yes,BTech
+ME17308,Professional Elective – l ,mechanical,7,M,4,Yes,BTech
+ME17309,Professional Elective – l ,mechanical,7,M,4,No,BTech
+ME17306,Professional Elective – l ,mechanical,7,M,4,No,BTech
+OE17501,Open Elective – l ,production,7,M,3,No,BTech
+CH17101,Petroleum Refining and Petrochemicals,chemical,7,L,4,No,BTech
+CH17102,Optimization of Chemical Process,chemical,7,L,4,No,BTech
+CH17334,Food Technology & Engineering ,chemical,7,L,4,No,BTech
+CH17338,Mathematical Methods in Chemical Engineering  ,chemical,7,L,4,No,BTech
+CH17340,Bioenergy  Engineering ,chemical,7,L,4,No,BTech
+CH17342,Industrial  Catalysis (Professional Elective – I ,chemical,7,L,4,No,BTech
+OE17501,Open Elective – I,chemical,7,L,3,No,BTech
+CS31101,Programming & Problem Solving ,CSED,1,MCA1,4,No,MCA
+CS31102,Principles of IT Industries Management ,CSED,1,MCA1,3,No,MCA
+CS31103,Digital Computer Organization ,CSED,1,MCA1,4,No,MCA
+CS31104,Foundation of Logic ,CSED,1,MCA1,3,No,MCA
+CS31201,Programming & Problem Solving ,CSED,1,MCA1,0,Yes,MCA
+CS31202,Digital Computer Organization ,CSED,1,MCA1,0,Yes,MCA
+CS31203,Shell Programming ,CSED,1,MCA1,0,Yes,MCA
+CS33101,Operating System ,CSED,3,MCA3,4,Yes,MCA
+CS33102,Computer Networks ,CSED,3,MCA3,4,Yes,MCA
+CS33103,Soft Computing ,CSED,3,MCA3,3,No,MCA
+CS33104,Analysis of Algorithms ,CSED,3,MCA3,3,Yes,MCA
+CS33105,Object Based Modeling ,CSED,3,MCA3,3,No,MCA
+CS33204,Web Programming ,CSED,3,MCA3,0,Yes,MCA
+CS35101,Multimedia Technology,CSED,5,MCA5,3,Yes,MCA
+CS35102,E- Commerce,CSED,5,MCA5,4,Yes,MCA
+CS35103,Professional Ethics ,CSED,5,MCA5,2,No,MCA
+CS35104,Software Project Management ,CSED,5,MCA5,2,No,MCA
+MA51101,Programming Languages,Maths,1,MSC1,4,No,MSC
+MA51102,Real Analysis and General Topology ,Maths,1,MSC1,4,No,MSC
+MA51103,Algebra,Maths,1,MSC1,4,No,MSC
+MA51104,Advanced Differential Equations ,Maths,1,MSC1,4,No,MSC
+MA51201,Programming Languages Lab ,Maths,1,MSC1,0,Yes,MSC
+MA53101,Mathematical Modeling  ,Maths,3,MSC3,4,No,MSC
+MA53102,Complex Analysis ,Maths,3,MSC3,4,No,MSC
+MA53103,Optimization,Maths,3,MSC3,4,No,MSC
+MA53104,Mathematical Models ,Maths,3,MSC3,4,No,MSC
+MA53302,Computational Fluid Dynamics,Maths,3,MSC3,4,No,MSC
+MA53303,Number Theory,Maths,3,MSC3,4,No,MSC
