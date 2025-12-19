@@ -1,0 +1,7 @@
+constraint_level,entity_name,group_name,preferred_time,preferred_room
+Course,CE15101,I,,GS3
+Course ,CE15104,J,13:00,
+Course,CS15102 ,A,,CSNB1
+Course,CS15102 ,B,,CSNB1
+Course,CS15102 ,C,,CSNB1
+Course,CS15102 ,D,,CSNB1
