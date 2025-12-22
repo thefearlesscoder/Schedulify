@@ -1,50 +1,97 @@
-room no.,capacity,department
-CSNB1,100,CSED
-CSNB2,100,CSED
-NLH1,210,General
-NLH2,210,General
-SEW7,150,General
-SEW8,150,General
-FC5,100,General
-GS3,120,General
-GS4,120,General
-GS5,120,General
-GS6,120,General
-GS7,120,General
-GS8,120,General
-FE16,90,General
-FE17,90,General
-FE18,90,General
-FN1,100,General
-FN3,90,General
-FN4,90,General
-FEW1,100,General
-FEW15,100,General
-SEW1,100,General
-SEW9,90,General
-SEW10,90,General
-GW3,48,General
-GW4,48,General
-GW5,48,General
-GW6,48,General
-GW7,48,General
-GW8,48,General
-GW9,48,General
-GW10,48,General
-GW11,48,General
-GW12,48,General
-LH2,54,General
-LH3,60,General
-LH4,60,General
-LH5,45,General
-LH6,45,General
-LH7,45,General
-LH8,45,General
-SMS1,88,General
-SMS2,88,General
-SMS3,120,General
-LH1,48,General
-,,
-,,
-,,
-,,
+room no.,capacity,department,room_type
+CSNB1,100,CSED,Classroom
+CSNB2,100,CSED,Classroom
+NLH1,210,General,Classroom
+NLH2,210,General,Classroom
+SEW7,150,General,Classroom
+SEW8,150,General,Classroom
+FC5,100,General,Classroom
+GS3,120,General,Classroom
+GS4,120,General,Classroom
+GS5,120,General,Classroom
+GS6,120,General,Classroom
+GS7,120,General,Classroom
+GS8,120,General,Classroom
+FE16,90,General,Classroom
+FE17,90,General,Classroom
+FE18,90,General,Classroom
+FN1,100,General,Classroom
+FN3,90,General,Classroom
+FN4,90,General,Classroom
+FEW1,100,General,Classroom
+FEW15,100,General,Classroom
+SEW1,100,General,Classroom
+SEW9,90,General,Classroom
+SEW10,90,General,Classroom
+GW3,48,General,Classroom
+GW4,48,General,Classroom
+GW5,48,General,Classroom
+GW6,48,General,Classroom
+GW7,48,General,Classroom
+GW8,48,General,Classroom
+GW9,48,General,Classroom
+GW10,48,General,Classroom
+GW11,48,General,Classroom
+GW12,48,General,Classroom
+LH2,54,General,Classroom
+LH3,60,General,Classroom
+LH4,60,General,Classroom
+LH5,45,General,Classroom
+LH6,45,General,Classroom
+LH7,45,General,Classroom
+LH8,45,General,Classroom
+SMS1,88,General,Classroom
+SMS2,88,General,Classroom
+SMS3,120,General,Classroom
+LH1,48,General,Classroom
+bio lab,70,biotech,Lab
+EE-lab1,70,electrical,Lab
+EE-lab2,70,electrical,Lab
+EE-lab3,70,electrical,Lab
+EE-lab4,70,electrical,Lab
+EE-lab5,70,electrical,Lab
+CSED - L1,100,CSED,Lab
+CSED - L2,100,CSED,Lab
+CSED - L3,100,CSED,Lab
+CCGF,100,CSED,Lab
+CCFF,100,CSED,Lab
+CCSF,100,CSED,Lab
+CCTF,100,CSED,Lab
+micro lab,60,CSED,Lab
+survey lab,40,civil,Lab
+concrete lab,40,civil,Lab
+EG3D,100,civil,Lab
+software lab,40,civil,Lab
+transportation,40,civil,Lab
+geotech,40,civil,Lab
+water management,40,civil,Lab
+solid mech,50,applied mechanics,Lab
+fluid mech,50,applied mechanics,Lab
+mechanical workshop,100,mechanical,Lab
+chemistry lab,100,chemistry,Lab
+physics lab,100,physics,Lab
+comm lab,100,humanities,Lab
+pss lab,100,civil,Lab
+geology lab,40,civil,Lab
+ECE1,60,ECE,Lab
+ECE2,60,ECE,Lab
+ECE3,60,ECE,Lab
+ECE4,60,ECE,Lab
+ECE5,60,ECE,Lab
+CAD,50,mechanical,Lab
+mat test,50,applied mechanics,Lab
+adv manuf,50,mechanical,Lab
+instrumentation,50,mechanical,Lab
+heat engine,50,mechanical,Lab
+mech lab4,50,mechanical,Lab
+industry lab ,50,production,Lab
+prod lab 1,50,production,Lab
+SOM ,50,applied mechanics,Lab
+mass transfer,50,chemical,Lab
+chemical react,50,chemical,Lab
+chem lab3,50,chemical,Lab
+chem lab4,50,chemical,Lab
+chem lab5,50,chemical,Lab
+chem lab6,50,chemical,Lab
+heat transfer,50,applied mechanics,Lab
+structure lab,40,applied mechanics,Lab

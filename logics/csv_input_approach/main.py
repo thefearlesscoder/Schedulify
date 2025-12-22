@@ -8,18 +8,21 @@ import os
 # ==========================================
 # 1. CONFIGURATION
 # ==========================================
-WORKING_DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
-START_TIME = 9.0   # 9:00 AM
+WORKING_DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+START_TIME = 8.0   # 8:00 AM
 END_TIME = 18.0    # 6:00 PM
-NUM_SLOTS = 9      # 9 hours total
+NUM_SLOTS = 10     # 10 hours total
 LUNCH_START = 13.0 # 1:00 PM
+LAB_BATCH_SIZE = 30 
 
-# Calculate slot duration
+PENALTY_HARD = 10000 
+PENALTY_SOFT = 1      
+
 TOTAL_HOURS = END_TIME - START_TIME
 SLOT_DURATION_HOURS = TOTAL_HOURS / NUM_SLOTS
 
-print(f"--- Schedulify: Optimization Mode ---")
-print(f"Time: {START_TIME}:00 to {END_TIME}:00 | Lunch @ {LUNCH_START}:00")
+print(f"--- Schedulify: Single Run Mode ---")
+print(f"Time: {START_TIME}:00 to {END_TIME}:00 | Slots: {NUM_SLOTS}")
 
 # ==========================================
 # 2. DATA LOADING
@@ -32,131 +35,160 @@ class SchedulerData:
         self.slots = []
         self.lunch_slot_index = -1 
         self.classes_to_schedule = []
-        self.constraints = [] # <--- Added Back
+        self.constraints = []
+        self.room_id_map = {} 
+        self.room_indices = {} 
+        self.room_id_to_idx = {}
+
+    def clean_str(self, s):
+        """Standardizes strings to lowercase and stripped."""
+        return str(s).strip().lower() if pd.notna(s) else ""
 
     def load_data(self):
-        # --- HELPER: SAFE READ ---
         def read_excel_csv(filename):
             return pd.read_csv(filename, encoding='cp1252')
-        # -------------------------
 
-        # A. Generate Slots
         self.slots = []
         self.lunch_slot_index = int((LUNCH_START - START_TIME) / SLOT_DURATION_HOURS)
         for day in WORKING_DAYS:
             for i in range(NUM_SLOTS):
                 self.slots.append((day, i))
 
-        # B. Load Groups
-        print("[Loading] groups.csv...")
+        # --- GROUPS ---
+        print("\n[1] Loading groups...")
         try:
             df_groups = read_excel_csv('groups.csv')
-            df_groups.columns = [c.strip() for c in df_groups.columns]
-            
             for _, row in df_groups.iterrows():
-                g_name = str(row['group name']).strip().upper() 
-                sem = str(row['semester']).strip()
-                deg = str(row['degree']).strip()
-                unique_id = f"{deg}_{sem}_{g_name}"
+                if pd.isna(row.get('group name')): continue
+                g_raw = str(row['group name'])
+                s_raw = str(row['semester'])
+                d_raw = str(row['degree'])
                 
+                unique_id = f"{self.clean_str(d_raw)}_{self.clean_str(s_raw)}_{self.clean_str(g_raw)}"
+                try: strength = int(row['strength'])
+                except: strength = 50 
+                
+                num_batches = math.ceil(strength / LAB_BATCH_SIZE)
                 self.groups[unique_id] = {
-                    'strength': row['strength'],
-                    'semester': sem,
-                    'degree': deg,
-                    'dept': deg
+                    'strength': strength, 'dept': self.clean_str(d_raw), 
+                    'num_batches': num_batches, 'batch_strength': math.ceil(strength / num_batches)
                 }
-        except FileNotFoundError:
-            print(" [Error] groups.csv not found.")
-            return
+        except FileNotFoundError: return
 
-        # C. Load Rooms
-        print("[Loading] rooms.csv...")
-        if not os.path.exists('rooms.csv'):
-            print(" [Info] rooms.csv not found. Creating a temporary one in memory...")
-            self.rooms.append({'id': 'Hall-A', 'capacity': 100, 'dept': 'General'})
-            self.rooms.append({'id': 'Hall-B', 'capacity': 100, 'dept': 'General'})
-        else:
+        # --- ROOMS ---
+        print("[2] Loading rooms...")
+        if os.path.exists('rooms.csv'):
             df_rooms = read_excel_csv('rooms.csv')
+            col_map = {self.clean_str(c): c for c in df_rooms.columns}
+            
+            room_col = next((col_map[c] for c in col_map if 'room' in c and 'no' in c), None) or 'room no.'
+            type_col = next((col_map[c] for c in col_map if 'type' in c), None)
+            dept_col = next((col_map[c] for c in col_map if 'dept' in c or 'department' in c), None)
+
             for _, row in df_rooms.iterrows():
-                r_dept = str(row['department']).strip()
-                if pd.isna(row['department']) or r_dept.lower() in ['common', 'general', 'nan', '']:
-                    final_dept = 'General'
-                else:
-                    final_dept = r_dept
+                if pd.isna(row.get(room_col)): continue
+                orig_id = str(row[room_col]).strip()
+                clean_id = self.clean_str(orig_id)
+                
+                r_type = 'classroom'
+                if type_col and pd.notna(row.get(type_col)):
+                    val = self.clean_str(row[type_col])
+                    if 'lab' in val or 'practical' in val: r_type = 'lab'
+                
+                r_dept = 'general'
+                if dept_col and pd.notna(row.get(dept_col)): r_dept = self.clean_str(row[dept_col])
 
-                self.rooms.append({
-                    'id': str(row['room no.']).strip(),
-                    'capacity': row['capacity'],
-                    'dept': final_dept
-                })
+                try: cap = int(row['capacity'])
+                except: cap = 0
+                
+                self.rooms.append({'id': orig_id, 'clean_id': clean_id, 'capacity': cap, 'dept': r_dept, 'type': r_type})
+                
+            for i, r in enumerate(self.rooms):
+                self.room_id_map[r['clean_id']] = r['id']
+                self.room_indices[r['clean_id']] = i
+                self.room_id_to_idx[r['id']] = i # For output mapping if needed
+            print(f" - Loaded {len(self.rooms)} rooms.")
 
-        # D. Load Courses
-        print("[Loading] courses.csv...")
+        # --- COURSES ---
+        print("[3] Loading courses...")
         try:
             df_courses = read_excel_csv('courses.csv')
             df_courses.dropna(subset=['course_code'], inplace=True)
             self.classes_to_schedule = [] 
-            
+            col_map = {self.clean_str(c): c for c in df_courses.columns}
+            prac_room_col = next((col_map[c] for c in col_map if 'practical' in c and 'room' in c), None)
+
             for _, row in df_courses.iterrows():
                 c_code = str(row['course_code']).strip()
-                g_name = str(row['group']).strip().upper()
-                sem = str(row['semester']).strip()
+                g_raw = str(row['group'])
+                s_raw = str(row['semester'])
+                d_raw = str(row['degree']) if 'degree' in row else 'BTech'
                 
-                if 'degree' in row and pd.notna(row['degree']):
-                    deg = str(row['degree']).strip()
-                    if deg == 'Btech': deg = 'BTech'
-                else:
-                    deg = "BTech"
-                
-                target_group_id = f"{deg}_{sem}_{g_name}"
-                
+                target_group_id = f"{self.clean_str(d_raw)}_{self.clean_str(s_raw)}_{self.clean_str(g_raw)}"
                 if target_group_id not in self.groups:
-                    continue
+                    if 'degree' not in row: # Try fallback
+                         target_group_id = f"btech_{self.clean_str(s_raw)}_{self.clean_str(g_raw)}"
+                    if target_group_id not in self.groups: continue
 
                 hours = int(row['no_of_hours'])
-                is_practical = str(row['is_there_a_practical']).lower().strip() == 'yes'
-                dept = row['department']
-                virtual_teacher_id = f"Fac_{c_code}_{target_group_id}"
-
+                is_practical = self.clean_str(row['is_there_a_practical']) == 'yes'
+                c_dept = self.groups[target_group_id]['dept']
+                if 'department' in row and pd.notna(row['department']): c_dept = self.clean_str(row['department'])
+                
                 # Lectures
                 for _ in range(hours):
                     self.classes_to_schedule.append({
-                        'type': 'Lecture',
-                        'course': c_code,
-                        'group': target_group_id,
-                        'teacher_id': virtual_teacher_id, 
-                        'dept': dept,
-                        'slots_required': 1
+                        'type': 'lecture', 'course': c_code, 'group': target_group_id,
+                        'sub_batch': 'All', 'dept': c_dept, 'slots_required': 1, 'forced_room_idx': None
                     })
 
                 # Practicals
                 if is_practical:
-                    slots_needed = math.ceil(2.0 / SLOT_DURATION_HOURS)
-                    self.classes_to_schedule.append({
-                        'type': 'Practical',
-                        'course': c_code,
-                        'group': target_group_id,
-                        'teacher_id': virtual_teacher_id,
-                        'dept': dept,
-                        'slots_required': slots_needed
-                    })
-            print(f" - Loaded {len(self.classes_to_schedule)} sessions to schedule.")
-            
-        except FileNotFoundError:
-            print(" [Error] courses.csv not found.")
+                    forced_idx = None
+                    if prac_room_col and pd.notna(row.get(prac_room_col)):
+                        req_room_clean = self.clean_str(row[prac_room_col])
+                        if req_room_clean in self.room_indices: forced_idx = self.room_indices[req_room_clean]
 
-        # E. Load Constraints (ADDED BACK)
-        print("[Loading] constraints.csv...")
+                    num_batches = self.groups[target_group_id]['num_batches']
+                    slots_needed = math.ceil(2.0 / SLOT_DURATION_HOURS)
+                    for b_idx in range(1, num_batches + 1):
+                        self.classes_to_schedule.append({
+                            'type': 'practical', 'course': c_code, 'group': target_group_id,
+                            'sub_batch': f"B{b_idx}", 'dept': c_dept, 
+                            'slots_required': slots_needed, 'forced_room_idx': forced_idx
+                        })
+            print(f" - Loaded {len(self.classes_to_schedule)} sessions.")
+        except FileNotFoundError: pass
+
+        # --- CONSTRAINTS ---
         if os.path.exists('constraints.csv'):
             try:
                 df_cons = read_excel_csv('constraints.csv')
-                # Expected columns: constraint_level, entity_name, group_name, preferred_time, preferred_room
+                df_cons.columns = [c.strip().lower() for c in df_cons.columns]
                 self.constraints = df_cons.to_dict('records')
-                print(f" - Loaded {len(self.constraints)} user constraints.")
-            except Exception as e:
-                print(f" [Warning] Could not load constraints: {e}")
-        else:
-            print(" [Info] No constraints.csv found (Skipping).")
+            except: pass
+
+    # --- VALID ROOM FINDER ---
+    def get_valid_rooms(self, c_info):
+        if c_info['forced_room_idx'] is not None: return [c_info['forced_room_idx']]
+            
+        c_type = c_info['type']
+        c_dept = c_info['dept']
+        g_id = c_info['group']
+        needed = self.groups[g_id]['strength'] if c_info['sub_batch'] == 'All' else self.groups[g_id]['batch_strength']
+        
+        valid = []
+        for i, r in enumerate(self.rooms):
+            if r['capacity'] < needed: continue
+            if c_type == 'practical':
+                if r['type'] != 'lab': continue
+                if r['dept'] != 'general' and r['dept'] != c_dept: continue
+            else:
+                if r['type'] == 'lab': continue
+            valid.append(i)
+            
+        if not valid: valid = [i for i, r in enumerate(self.rooms) if r['capacity'] >= needed]
+        return valid
 
 # ==========================================
 # 3. GENETIC ALGORITHM
@@ -166,203 +198,203 @@ creator.create("FitnessMin", base.Fitness, weights=(-1.0, -1.0))
 creator.create("Individual", list, fitness=creator.FitnessMin)
 toolbox = base.Toolbox()
 
-def create_individual(classes, n_slots, n_rooms):
-    gene_list = [ (random.randint(0, n_slots - 1), random.randint(0, n_rooms - 1)) for _ in classes]
-    return creator.Individual(gene_list)
+def create_individual(classes, n_slots, data):
+    gene = []
+    for c in classes:
+        slot = random.randint(0, n_slots - 1)
+        valid = data.get_valid_rooms(c)
+        room = random.choice(valid) if valid else random.randint(0, len(data.rooms)-1)
+        gene.append((slot, room))
+    return creator.Individual(gene)
 
-def mutate_individual(individual, indpb, n_slots, n_rooms):
+def mutate_individual(individual, indpb, n_slots, data):
     for i in range(len(individual)):
         if random.random() < indpb:
-            old_slot, old_room = individual[i]
-            new_slot = random.randint(0, n_slots - 1) if random.random() < 0.5 else old_slot
-            new_room = random.randint(0, n_rooms - 1) if random.random() < 0.5 else old_room
+            c = data.classes_to_schedule[i]
+            if c['forced_room_idx']:
+                new_room = c['forced_room_idx']
+            else:
+                valid = data.get_valid_rooms(c)
+                new_room = random.choice(valid) if valid else individual[i][1]
+            new_slot = random.randint(0, n_slots - 1)
             individual[i] = (new_slot, new_room)
     return individual,
+
+def check_constraints(individual, data, report_mode=False):
+    hard = 0
+    soft = 0
+    group_occ = {} 
+    room_occ = {}
+    report_lines = []
+    
+    for idx, (slot_idx, room_idx) in enumerate(individual):
+        c = data.classes_to_schedule[idx]
+        
+        # 1. Bounds
+        if slot_idx + c['slots_required'] > NUM_SLOTS:
+            hard += PENALTY_HARD
+            if report_mode: report_lines.append(f"Hard: {c['course']} exceeds day bounds.")
+            continue 
+            
+        time_range = range(slot_idx, slot_idx + c['slots_required'])
+        day = data.slots[slot_idx][0]
+        
+        # User Time Constraint Check
+        has_time_constraint = False
+        for constr in data.constraints:
+             if str(constr.get('constraint_level', '')).strip().lower() == 'course' and \
+                str(constr.get('entity_name', '')).strip() == c['course']:
+                     if pd.notna(constr.get('preferred_time')): has_time_constraint = True
+
+        # 2. Lunch
+        if data.lunch_slot_index in time_range and not has_time_constraint:
+             hard += PENALTY_HARD
+
+        # 3. Group Conflicts
+        g_id = c['group']
+        batch = c['sub_batch']
+        t_keys = [(day, t) for t in time_range]
+        
+        if g_id not in group_occ: group_occ[g_id] = {'All': set(), 'Batches': {}}
+        
+        for t_key in t_keys:
+            if batch == 'All':
+                if t_key in group_occ[g_id]['All']: hard += PENALTY_HARD
+                for b_set in group_occ[g_id]['Batches'].values():
+                    if t_key in b_set: hard += PENALTY_HARD
+                group_occ[g_id]['All'].add(t_key)
+            else:
+                if t_key in group_occ[g_id]['All']: hard += PENALTY_HARD
+                if batch not in group_occ[g_id]['Batches']: group_occ[g_id]['Batches'][batch] = set()
+                if t_key in group_occ[g_id]['Batches'][batch]: hard += PENALTY_HARD
+                group_occ[g_id]['Batches'][batch].add(t_key)
+
+        # 4. Room Conflicts
+        r_id = room_idx
+        if r_id not in room_occ: room_occ[r_id] = set()
+        for t_key in t_keys:
+            if t_key in room_occ[r_id]: hard += PENALTY_HARD
+            room_occ[r_id].add(t_key)
+            
+        # 5. Lock Verification
+        if c['forced_room_idx'] is not None:
+            if room_idx != c['forced_room_idx']:
+                hard += PENALTY_HARD
+                if report_mode: report_lines.append(f"Hard: {c['course']} not in locked room.")
+
+        # Constraints
+        current_time_str = get_time_str(slot_idx, c['slots_required'])
+        for constr in data.constraints:
+            if str(constr.get('constraint_level', '')).lower() == 'course' and str(constr.get('entity_name', '')).strip() == c['course']:
+                pref_time = str(constr.get('preferred_time', ''))
+                if pd.notna(constr.get('preferred_time')) and pref_time.strip() != "":
+                    if pref_time.lower() not in day.lower() and pref_time not in current_time_str:
+                         hard += PENALTY_HARD
+
+    if report_mode: return hard, soft, report_lines
+    return hard, soft
 
 def get_time_str(slot_num, slots_req=1):
     start_h = START_TIME + (slot_num * SLOT_DURATION_HOURS)
     end_h = start_h + (slots_req * SLOT_DURATION_HOURS)
     return f"{int(start_h):02d}:{int((start_h%1)*60):02d} - {int(end_h):02d}:{int((end_h%1)*60):02d}"
 
-def check_constraints(individual, data):
-    hard = 0
-    soft = 0
-    
-    group_schedule = {}   
-    room_schedule = {}    
-    lab_course_schedule = {} 
-
-    for idx, (slot_idx, room_idx) in enumerate(individual):
-        if slot_idx >= len(data.slots): continue
-        
-        c_info = data.classes_to_schedule[idx]
-        day, start_slot = data.slots[slot_idx]
-        room = data.rooms[room_idx]
-        
-        slots_req = c_info['slots_required']
-        if start_slot + slots_req > NUM_SLOTS:
-            hard += 5 
-        
-        occupied = []
-        for s in range(slots_req):
-            s_num = start_slot + s
-            if s_num < NUM_SLOTS:
-                occupied.append((day, s_num))
-        
-        current_time_str = get_time_str(start_slot, slots_req)
-
-        for (d, s_num) in occupied:
-            t_key = (d, s_num)
-            
-            # 1. LUNCH
-            if s_num == data.lunch_slot_index: hard += 10
-            
-            # 2. GROUP CONFLICT
-            g_name = c_info['group']
-            if g_name not in group_schedule: group_schedule[g_name] = []
-            if t_key in group_schedule[g_name]: hard += 1
-            group_schedule[g_name].append(t_key)
-            
-            # 3. LOCATION
-            if c_info['type'] == 'Practical':
-                lab_key = (c_info['course'], d, s_num)
-                if lab_key in lab_course_schedule: hard += 1 
-                lab_course_schedule[lab_key] = True
-            else:
-                r_id = room['id']
-                if r_id not in room_schedule: room_schedule[r_id] = []
-                if t_key in room_schedule[r_id]: hard += 1
-                room_schedule[r_id].append(t_key)
-                
-                if data.groups[c_info['group']]['strength'] > room['capacity']: hard += 1
-                if room['dept'] != 'General' and room['dept'] != c_info['dept']: soft += 1
-
-        # 4. USER CONSTRAINTS (The New Logic)
-        for constr in data.constraints:
-            # Check Level (Course or Teacher)
-            # Since we removed teachers, we focus on Course
-            if str(constr.get('constraint_level', '')).strip().lower() == 'course':
-                if str(constr.get('entity_name', '')).strip() == c_info['course']:
-                    
-                    # Optional: Check Group Specificity
-                    c_grp = str(constr.get('group_name', ''))
-                    if pd.notna(c_grp) and c_grp.strip() != "" and c_grp.strip() != c_info['group']:
-                        continue # Constraint applies to a different group of this course
-
-                    # Check Room Preference
-                    pref_room = str(constr.get('preferred_room', ''))
-                    if pd.notna(constr.get('preferred_room')) and pref_room.strip() != "":
-                         if pref_room.strip() != str(room['id']):
-                             soft += 5 # Heavy penalty for missing room preference
-                    
-                    # Check Time Preference (String Matching)
-                    # e.g. "Monday" or "09:00"
-                    pref_time = str(constr.get('preferred_time', ''))
-                    if pd.notna(constr.get('preferred_time')) and pref_time.strip() != "":
-                        # Check if Day matches
-                        if pref_time.lower() in day.lower():
-                            pass # Good
-                        # Check if Time matches
-                        elif pref_time in current_time_str:
-                            pass # Good
-                        else:
-                            soft += 5 # Penalty for missing time preference
-
-    return hard, soft
-
 # ==========================================
-# 4. OUTPUT
+# 4. RUNNER
 # ==========================================
-
-def generate_csvs(best_ind, data):
-    master = []
-    
-    # Grid Headers
-    time_headers = []
-    for i in range(NUM_SLOTS):
-        time_headers.append(get_time_str(i, 1))
-
-    for idx, (slot_idx, room_idx) in enumerate(best_ind):
-        if slot_idx >= len(data.slots): continue
-        c = data.classes_to_schedule[idx]
-        day, s_num = data.slots[slot_idx]
-        
-        if c['type'] == 'Practical':
-            final_room = f"LAB ({c['dept']})"
-        else:
-            final_room = data.rooms[room_idx]['id']
-
-        master.append({
-            'Day': day,
-            'StartSlot': s_num,
-            'Duration': c['slots_required'],
-            'Time': get_time_str(s_num, c['slots_required']),
-            'Course': c['course'],
-            'Group': c['group'],
-            'Room': final_room,
-            'Type': c['type'],
-            'Department': c['dept']
-        })
-        
-    df = pd.DataFrame(master)
-    df.to_csv('Master_Flat_List.csv', index=False)
-    print("\n[Success] Master_Flat_List.csv created.")
-    
-    if not df.empty:
-        print("Generating readable grids...")
-        unique_groups = df['Group'].unique()
-        
-        for g in unique_groups:
-            grid_df = pd.DataFrame(index=WORKING_DAYS, columns=time_headers)
-            grid_df = grid_df.fillna("")
-            
-            subset = df[df['Group'] == g]
-            
-            for _, row in subset.iterrows():
-                day = row['Day']
-                start_slot = row['StartSlot']
-                duration = row['Duration']
-                
-                cell_content = f"{row['Course']}\n{row['Room']}"
-                if row['Type'] == 'Practical':
-                    cell_content += " (Prac)"
-                
-                for i in range(duration):
-                    current_slot_idx = start_slot + i
-                    if 0 <= current_slot_idx < len(time_headers):
-                        col_name = time_headers[current_slot_idx]
-                        if grid_df.at[day, col_name] == "":
-                            grid_df.at[day, col_name] = cell_content
-                        else:
-                            grid_df.at[day, col_name] += f" / {cell_content}"
-
-            safe_g = "".join([c for c in g if c.isalnum() or c in ('_','-')])
-            grid_df.to_csv(f"Grid_Group_{safe_g}.csv")
-            
-        print(f"[Success] Generated {len(unique_groups)} Group Grid files.")
-
 if __name__ == "__main__":
     data = SchedulerData()
     data.load_data()
     
     if not data.classes_to_schedule:
-        print("No classes to schedule.")
+        print("No classes loaded.")
         exit()
-
-    toolbox.register("individual", create_individual, data.classes_to_schedule, len(data.slots), len(data.rooms))
+        
+    toolbox.register("individual", create_individual, data.classes_to_schedule, len(data.slots), data)
     toolbox.register("population", tools.initRepeat, list, toolbox.individual)
     toolbox.register("evaluate", check_constraints, data=data)
     toolbox.register("mate", tools.cxTwoPoint)
-    toolbox.register("mutate", mutate_individual, indpb=0.1, n_slots=len(data.slots), n_rooms=len(data.rooms))
+    toolbox.register("mutate", mutate_individual, indpb=0.1, n_slots=len(data.slots), data=data)
     toolbox.register("select", tools.selTournament, tournsize=3)
 
-    print("\n[Algorithm] Optimizing Schedule...")
-    pop = toolbox.population(n=50) 
-    stats = tools.Statistics(lambda ind: ind.fitness.values)
-    stats.register("min", np.min, axis=0)
+    print("\n[Algorithm] Optimizing (Single Run - 500 Gens)...")
     
-    algorithms.eaSimple(pop, toolbox, cxpb=0.7, mutpb=0.2, ngen=50, stats=stats, verbose=True)
+    # SINGLE ITERATION CONFIG
+    MAX_ATTEMPTS = 1
+    GENERATIONS = 500
     
-    best = tools.selBest(pop, 1)[0]
-    print(f"\n[Result] Best Conflicts: Hard={best.fitness.values[0]}, Soft={best.fitness.values[1]}")
-    generate_csvs(best, data)
+    best_overall = None
+    
+    for attempt in range(1, MAX_ATTEMPTS + 1):
+        print(f" Attempt {attempt}...", end="\r")
+        pop = toolbox.population(n=300)
+        
+        # Use simple EA loop or custom? Using algorithms.eaSimple for standard approach
+        pop, log = algorithms.eaSimple(pop, toolbox, cxpb=0.7, mutpb=0.3, ngen=GENERATIONS, verbose=True)
+        
+        best = tools.selBest(pop, 1)[0]
+        score = best.fitness.values[0]
+        best_overall = best
+        
+        if score == 0:
+            print(f"\n[Success] 0-Conflict Schedule Found!")
+            break
+        else:
+            print(f"\n[Finished] Run completed with {int(score/PENALTY_HARD)} hard conflicts.")
+
+    # Export
+    # Generate CSVs
+    h, s, logs = check_constraints(best_overall, data, report_mode=True)
+    with open("Conflicts_Report.txt", "w") as f:
+        if h == 0: f.write("SUCCESS.\n")
+        else:
+            f.write(f"FAILURE: {int(h/PENALTY_HARD)} Conflicts.\n")
+            for line in logs: f.write(line + "\n")
+    
+    master = []
+    for idx, (slot, room_idx) in enumerate(best_overall):
+        c = data.classes_to_schedule[idx]
+        if slot >= len(data.slots): continue
+        
+        day = data.slots[slot][0]
+        s_num = data.slots[slot][1]
+        
+        room_obj = data.rooms[room_idx]
+        c_name = c['course']
+        if c['sub_batch'] != 'All': c_name += f" ({c['sub_batch']})"
+        
+        master.append({
+            'Day': day, 'Time': get_time_str(s_num, c['slots_required']),
+            'Course': c_name, 'Group': c['group'].split('_')[-1], 
+            'Room': room_obj['id'], 'Type': c['type'], 'StartSlot': s_num, 'Duration': c['slots_required']
+        })
+        
+    df = pd.DataFrame(master)
+    df.to_csv('Master_Schedule.csv', index=False)
+    
+    time_headers = [get_time_str(i, 1) for i in range(NUM_SLOTS)]
+    grid_map = {g: pd.DataFrame(index=WORKING_DAYS, columns=time_headers).fillna("") for g in data.groups}
+    
+    for _, row in df.iterrows():
+        g_id = list(data.groups.keys())[0] # Need correct full group ID for map key
+        # Find matching group key based on simple name in row?
+        # Actually, let's just loop through groups and match
+        for k in grid_map:
+            if k.endswith(f"_{row['Group'].lower()}") or k.endswith(f"_{row['Group'].upper()}"):
+                g_id = k
+                break
+        
+        if g_id in grid_map:
+            t_df = grid_map[g_id]
+            content = f"{row['Course']} [{row['Room']}]"
+            for i in range(row['Duration']):
+                c_idx = row['StartSlot'] + i
+                if c_idx < len(time_headers):
+                    col = time_headers[c_idx]
+                    if t_df.at[row['Day'], col] == "": t_df.at[row['Day'], col] = content
+                    else: t_df.at[row['Day'], col] += f" / {content}"
+    
+    for g, df in grid_map.items():
+        safe = "".join([x for x in g if x.isalnum() or x in ('_','-')])
+        df.to_csv(f"Grid_{safe}.csv")
+    print("Files Generated.") 
