@@ -1,0 +1,7 @@
+,08:00,09:00,10:00,11:00,12:00,13:00,14:00,15:00,16:00,17:00
+Monday,CEN11101 [SEW7],,,CEN11102 [SEW10],,,MAN11101 [FN1],,CEN11102 [FE17],
+Tuesday,,,CEN11102 (J1) [pss lab],CEN11102 (J1) [pss lab] / EG3D (J2) [EG3D],EG3D (J2) [EG3D],,,MAN11101 [FE17],CYN11504 [SMS2],
+Wednesday,,HSN11600 [SEW7],CEN11101 (J1) [survey lab],CEN11101 (J1) [survey lab],CYN11504 [SEW7],,,,MAN11101 [SMS1],
+Thursday,,MAN11101 [SEW10],,,,,,CYN11504 (J2) [chemistry lab],CYN11504 (J2) [chemistry lab],
+Friday,CEN11101 [SMS3],EG3D [GS4],,,,,HSN11600 (J2) [comm lab],HSN11600 (J2) [comm lab],HSN11600 [SMS2],
+Saturday,HSN11600 (J1) [comm lab] / CEN11101 (J2) [survey lab],HSN11600 (J1) [comm lab] / CEN11101 (J2) [survey lab],CEN11102 (J2) [pss lab] / EG3D (J1) [EG3D],CEN11102 (J2) [pss lab] / EG3D (J1) [EG3D],,,,CYN11504 (J1) [chemistry lab],CYN11504 (J1) [chemistry lab],CYN11504 [SEW9]

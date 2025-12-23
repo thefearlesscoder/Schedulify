@@ -1,0 +1,1562 @@
+Day,Time,Course,Group_ID,Group,Room,StartSlot,Duration
+Monday,12:00 - 13:00,PHM11501,btech_1_a,a,SEW7,4,1
+Monday,11:00 - 12:00,PHM11501,btech_1_a,a,CSNB2,3,1
+Friday,14:00 - 15:00,PHM11501,btech_1_a,a,SEW7,6,1
+Friday,11:00 - 13:00,PHM11501 (A1),btech_1_a,a,physics lab,3,2
+Wednesday,11:00 - 13:00,PHM11501 (A2),btech_1_a,a,physics lab,3,2
+Tuesday,11:00 - 13:00,PHM11501 (A3),btech_1_a,a,physics lab,3,2
+Tuesday,16:00 - 17:00,MAN11101,btech_1_a,a,GS7,8,1
+Monday,09:00 - 10:00,MAN11101,btech_1_a,a,CSNB2,1,1
+Wednesday,17:00 - 18:00,MAN11101,btech_1_a,a,SEW7,9,1
+Wednesday,09:00 - 10:00,MAN11101,btech_1_a,a,FE16,1,1
+Saturday,14:00 - 15:00,CSN11601,btech_1_a,a,SEW1,6,1
+Tuesday,17:00 - 18:00,CSN11601,btech_1_a,a,SEW7,9,1
+Saturday,11:00 - 13:00,CSN11601 (A1),btech_1_a,a,CCSF,3,2
+Thursday,14:00 - 16:00,CSN11601 (A2),btech_1_a,a,CCSF,6,2
+Thursday,16:00 - 18:00,CSN11601 (A3),btech_1_a,a,CCSF,8,2
+Monday,08:00 - 09:00,CSN11101,btech_1_a,a,CSNB1,0,1
+Saturday,09:00 - 10:00,CSN11101,btech_1_a,a,GS7,1,1
+Tuesday,08:00 - 09:00,CSN11101,btech_1_a,a,SEW8,0,1
+Thursday,14:00 - 16:00,CSN11101 (A1),btech_1_a,a,CSED - L1,6,2
+Friday,08:00 - 10:00,CSN11101 (A2),btech_1_a,a,CSED - L1,0,2
+Friday,11:00 - 13:00,CSN11101 (A3),btech_1_a,a,CSED - L1,3,2
+Friday,17:00 - 18:00,CSN11102,btech_1_a,a,FEW15,9,1
+Monday,16:00 - 17:00,CSN11102,btech_1_a,a,NLH1,8,1
+Tuesday,10:00 - 11:00,CSN11102,btech_1_a,a,GS4,2,1
+Thursday,08:00 - 09:00,CSN11103,btech_1_a,a,GS6,0,1
+Wednesday,15:00 - 16:00,CSN11103,btech_1_a,a,FC5,7,1
+Tuesday,16:00 - 17:00,PHM11501,btech_1_b,b,FN3,8,1
+Wednesday,10:00 - 11:00,PHM11501,btech_1_b,b,NLH1,2,1
+Wednesday,08:00 - 09:00,PHM11501,btech_1_b,b,GS3,0,1
+Thursday,08:00 - 10:00,PHM11501 (B1),btech_1_b,b,physics lab,0,2
+Thursday,10:00 - 12:00,PHM11501 (B2),btech_1_b,b,physics lab,2,2
+Thursday,16:00 - 18:00,PHM11501 (B3),btech_1_b,b,physics lab,8,2
+Monday,11:00 - 12:00,MAN11101,btech_1_b,b,FN3,3,1
+Wednesday,12:00 - 13:00,MAN11101,btech_1_b,b,GS6,4,1
+Wednesday,14:00 - 15:00,MAN11101,btech_1_b,b,FC5,6,1
+Monday,14:00 - 15:00,MAN11101,btech_1_b,b,CSNB1,6,1
+Tuesday,17:00 - 18:00,CSN11601,btech_1_b,b,FN4,9,1
+Friday,12:00 - 13:00,CSN11601,btech_1_b,b,CSNB2,4,1
+Thursday,11:00 - 13:00,CSN11601 (B1),btech_1_b,b,CCSF,3,2
+Saturday,16:00 - 18:00,CSN11601 (B2),btech_1_b,b,CCSF,8,2
+Tuesday,08:00 - 10:00,CSN11601 (B3),btech_1_b,b,CCSF,0,2
+Friday,16:00 - 17:00,CSN11101,btech_1_b,b,FC5,8,1
+Tuesday,15:00 - 16:00,CSN11101,btech_1_b,b,CSNB1,7,1
+Monday,10:00 - 11:00,CSN11101,btech_1_b,b,SMS3,2,1
+Saturday,15:00 - 17:00,CSN11101 (B1),btech_1_b,b,CSED - L1,7,2
+Saturday,10:00 - 12:00,CSN11101 (B2),btech_1_b,b,CSED - L1,2,2
+Saturday,08:00 - 10:00,CSN11101 (B3),btech_1_b,b,CSED - L1,0,2
+Wednesday,11:00 - 12:00,CSN11102,btech_1_b,b,FN4,3,1
+Tuesday,12:00 - 13:00,CSN11102,btech_1_b,b,SEW7,4,1
+Saturday,14:00 - 15:00,CSN11102,btech_1_b,b,SMS3,6,1
+Monday,08:00 - 09:00,CSN11103,btech_1_b,b,FN4,0,1
+Monday,12:00 - 13:00,CSN11103,btech_1_b,b,FN1,4,1
+Saturday,12:00 - 13:00,PHM11501,btech_1_c,c,FN3,4,1
+Monday,11:00 - 12:00,PHM11501,btech_1_c,c,SEW8,3,1
+Saturday,10:00 - 11:00,PHM11501,btech_1_c,c,SEW7,2,1
+Tuesday,15:00 - 17:00,PHM11501 (C1),btech_1_c,c,physics lab,7,2
+Monday,14:00 - 16:00,PHM11501 (C2),btech_1_c,c,physics lab,6,2
+Monday,16:00 - 18:00,PHM11501 (C3),btech_1_c,c,physics lab,8,2
+Thursday,12:00 - 13:00,MAN11101,btech_1_c,c,FEW15,4,1
+Tuesday,11:00 - 12:00,MAN11101,btech_1_c,c,GS8,3,1
+Saturday,08:00 - 09:00,MAN11101,btech_1_c,c,SEW8,0,1
+Tuesday,17:00 - 18:00,MAN11101,btech_1_c,c,FE17,9,1
+Friday,16:00 - 17:00,CSN11601,btech_1_c,c,FN1,8,1
+Friday,10:00 - 11:00,CSN11601,btech_1_c,c,FE18,2,1
+Wednesday,14:00 - 16:00,CSN11601 (C1),btech_1_c,c,CCSF,6,2
+Friday,08:00 - 10:00,CSN11601 (C2),btech_1_c,c,CCSF,0,2
+Wednesday,16:00 - 18:00,CSN11601 (C3),btech_1_c,c,CCSF,8,2
+Thursday,17:00 - 18:00,CSN11101,btech_1_c,c,GS5,9,1
+Thursday,09:00 - 10:00,CSN11101,btech_1_c,c,GS8,1,1
+Thursday,14:00 - 15:00,CSN11101,btech_1_c,c,FEW15,6,1
+Friday,14:00 - 16:00,CSN11101 (C1),btech_1_c,c,CSED - L1,6,2
+Monday,09:00 - 11:00,CSN11101 (C2),btech_1_c,c,CSED - L1,1,2
+Wednesday,10:00 - 12:00,CSN11101 (C3),btech_1_c,c,CSED - L1,2,2
+Saturday,15:00 - 16:00,CSN11102,btech_1_c,c,FEW1,7,1
+Wednesday,08:00 - 09:00,CSN11102,btech_1_c,c,SEW8,0,1
+Saturday,11:00 - 12:00,CSN11102,btech_1_c,c,FEW1,3,1
+Thursday,08:00 - 09:00,CSN11103,btech_1_c,c,FEW15,0,1
+Thursday,10:00 - 11:00,CSN11103,btech_1_c,c,FN3,2,1
+Thursday,15:00 - 16:00,PHM11501,btech_1_d,d,FEW1,7,1
+Wednesday,08:00 - 09:00,PHM11501,btech_1_d,d,FE16,0,1
+Wednesday,16:00 - 17:00,PHM11501,btech_1_d,d,NLH1,8,1
+Friday,09:00 - 11:00,PHM11501 (D1),btech_1_d,d,physics lab,1,2
+Friday,16:00 - 18:00,PHM11501 (D2),btech_1_d,d,physics lab,8,2
+Friday,14:00 - 16:00,PHM11501 (D3),btech_1_d,d,physics lab,6,2
+Thursday,10:00 - 11:00,MAN11101,btech_1_d,d,GS5,2,1
+Wednesday,10:00 - 11:00,MAN11101,btech_1_d,d,CSNB2,2,1
+Wednesday,09:00 - 10:00,MAN11101,btech_1_d,d,GS5,1,1
+Tuesday,14:00 - 15:00,MAN11101,btech_1_d,d,GS3,6,1
+Tuesday,15:00 - 16:00,CSN11601,btech_1_d,d,GS7,7,1
+Thursday,11:00 - 12:00,CSN11601,btech_1_d,d,SEW8,3,1
+Saturday,09:00 - 11:00,CSN11601 (D1),btech_1_d,d,CCSF,1,2
+Monday,15:00 - 17:00,CSN11601 (D2),btech_1_d,d,CCSF,7,2
+Tuesday,16:00 - 18:00,CSN11601 (D3),btech_1_d,d,CCSF,8,2
+Saturday,15:00 - 16:00,CSN11101,btech_1_d,d,GS3,7,1
+Tuesday,09:00 - 10:00,CSN11101,btech_1_d,d,GS7,1,1
+Monday,14:00 - 15:00,CSN11101,btech_1_d,d,SEW10,6,1
+Monday,16:00 - 18:00,CSN11101 (D1),btech_1_d,d,CSED - L1,8,2
+Wednesday,14:00 - 16:00,CSN11101 (D2),btech_1_d,d,CSED - L1,6,2
+Friday,16:00 - 18:00,CSN11101 (D3),btech_1_d,d,CSED - L1,8,2
+Wednesday,12:00 - 13:00,CSN11102,btech_1_d,d,FN3,4,1
+Wednesday,17:00 - 18:00,CSN11102,btech_1_d,d,NLH2,9,1
+Friday,11:00 - 12:00,CSN11102,btech_1_d,d,SEW8,3,1
+Monday,10:00 - 11:00,CSN11103,btech_1_d,d,FEW1,2,1
+Thursday,14:00 - 15:00,CSN11103,btech_1_d,d,GS6,6,1
+Monday,12:00 - 13:00,PHM11501,btech_1_e,e,FN4,4,1
+Friday,17:00 - 18:00,PHM11501,btech_1_e,e,FE16,9,1
+Tuesday,17:00 - 18:00,PHM11501,btech_1_e,e,NLH2,9,1
+Saturday,16:00 - 18:00,PHM11501 (E1),btech_1_e,e,physics lab,8,2
+Saturday,10:00 - 12:00,PHM11501 (E2),btech_1_e,e,physics lab,2,2
+Wednesday,16:00 - 18:00,PHM11501 (E3),btech_1_e,e,physics lab,8,2
+Tuesday,08:00 - 09:00,MAN11101,btech_1_e,e,GS8,0,1
+Thursday,14:00 - 15:00,MAN11101,btech_1_e,e,SEW8,6,1
+Thursday,17:00 - 18:00,MAN11101,btech_1_e,e,SEW10,9,1
+Thursday,12:00 - 13:00,MAN11101,btech_1_e,e,FE18,4,1
+Saturday,12:00 - 13:00,CSN11601,btech_1_e,e,FE16,4,1
+Tuesday,16:00 - 17:00,CSN11601,btech_1_e,e,SEW7,8,1
+Wednesday,10:00 - 12:00,CSN11601 (E1),btech_1_e,e,CCTF,2,2
+Friday,14:00 - 16:00,CSN11601 (E2),btech_1_e,e,CCTF,6,2
+Saturday,08:00 - 10:00,CSN11601 (E3),btech_1_e,e,CCTF,0,2
+Monday,17:00 - 18:00,ECN11102,btech_1_e,e,NLH2,9,1
+Tuesday,14:00 - 15:00,ECN11102,btech_1_e,e,GS8,6,1
+Tuesday,11:00 - 13:00,ECN11102 (E1),btech_1_e,e,ECE1,3,2
+Monday,09:00 - 11:00,ECN11102 (E2),btech_1_e,e,ECE1,1,2
+Wednesday,11:00 - 13:00,ECN11102 (E3),btech_1_e,e,ECE1,3,2
+Tuesday,15:00 - 16:00,ECN11101,btech_1_e,e,SEW1,7,1
+Wednesday,09:00 - 10:00,ECN11101,btech_1_e,e,SEW10,1,1
+Saturday,10:00 - 12:00,ECN11101 (E1),btech_1_e,e,ECE2,2,2
+Thursday,08:00 - 10:00,ECN11101 (E2),btech_1_e,e,ECE2,0,2
+Tuesday,11:00 - 13:00,ECN11101 (E3),btech_1_e,e,ECE2,3,2
+Friday,11:00 - 12:00,ECN11103,btech_1_e,e,FN3,3,1
+Tuesday,09:00 - 11:00,ECN11103 (E1),btech_1_e,e,ECE3,1,2
+Tuesday,11:00 - 13:00,ECN11103 (E2),btech_1_e,e,ECE3,3,2
+Monday,08:00 - 10:00,ECN11103 (E3),btech_1_e,e,ECE3,0,2
+Thursday,08:00 - 09:00,PHM11501,btech_1_f,f,FN3,0,1
+Saturday,14:00 - 15:00,PHM11501,btech_1_f,f,FE16,6,1
+Tuesday,11:00 - 12:00,PHM11501,btech_1_f,f,NLH1,3,1
+Saturday,08:00 - 10:00,PHM11501 (F1),btech_1_f,f,physics lab,0,2
+Tuesday,09:00 - 11:00,PHM11501 (F2),btech_1_f,f,physics lab,1,2
+Wednesday,14:00 - 16:00,PHM11501 (F3),btech_1_f,f,physics lab,6,2
+Saturday,10:00 - 11:00,MAN11101,btech_1_f,f,GS5,2,1
+Thursday,09:00 - 10:00,MAN11101,btech_1_f,f,NLH1,1,1
+Monday,12:00 - 13:00,MAN11101,btech_1_f,f,SMS3,4,1
+Monday,16:00 - 17:00,MAN11101,btech_1_f,f,FC5,8,1
+Monday,17:00 - 18:00,CSN11601,btech_1_f,f,SEW7,9,1
+Monday,11:00 - 12:00,CSN11601,btech_1_f,f,CSNB1,3,1
+Wednesday,14:00 - 16:00,CSN11601 (F1),btech_1_f,f,CCTF,6,2
+Wednesday,08:00 - 10:00,CSN11601 (F2),btech_1_f,f,CCTF,0,2
+Tuesday,14:00 - 16:00,CSN11601 (F3),btech_1_f,f,CCTF,6,2
+Friday,17:00 - 18:00,ECN11102,btech_1_f,f,GS7,9,1
+Monday,08:00 - 09:00,ECN11102,btech_1_f,f,SEW1,0,1
+Monday,14:00 - 16:00,ECN11102 (F1),btech_1_f,f,ECE1,6,2
+Wednesday,15:00 - 17:00,ECN11102 (F2),btech_1_f,f,ECE1,7,2
+Friday,11:00 - 13:00,ECN11102 (F3),btech_1_f,f,ECE1,3,2
+Friday,10:00 - 11:00,ECN11101,btech_1_f,f,CSNB1,2,1
+Wednesday,11:00 - 12:00,ECN11101,btech_1_f,f,FN3,3,1
+Saturday,16:00 - 18:00,ECN11101 (F1),btech_1_f,f,ECE2,8,2
+Friday,11:00 - 13:00,ECN11101 (F2),btech_1_f,f,ECE2,3,2
+Friday,14:00 - 16:00,ECN11101 (F3),btech_1_f,f,ECE2,6,2
+Wednesday,10:00 - 11:00,ECN11103,btech_1_f,f,FEW15,2,1
+Wednesday,08:00 - 10:00,ECN11103 (F1),btech_1_f,f,ECE3,0,2
+Saturday,15:00 - 17:00,ECN11103 (F2),btech_1_f,f,ECE3,7,2
+Monday,14:00 - 16:00,ECN11103 (F3),btech_1_f,f,ECE3,6,2
+Saturday,14:00 - 15:00,CYN11502,btech_1_g,g,FE18,6,1
+Tuesday,12:00 - 13:00,CYN11502,btech_1_g,g,GS5,4,1
+Tuesday,10:00 - 11:00,CYN11502,btech_1_g,g,NLH2,2,1
+Tuesday,15:00 - 17:00,CYN11502 (G1),btech_1_g,g,chemistry lab,7,2
+Wednesday,16:00 - 18:00,CYN11502 (G2),btech_1_g,g,chemistry lab,8,2
+Monday,09:00 - 11:00,CYN11502 (G3),btech_1_g,g,chemistry lab,1,2
+Friday,08:00 - 09:00,MAN11101,btech_1_g,g,FN3,0,1
+Saturday,08:00 - 09:00,MAN11101,btech_1_g,g,SMS2,0,1
+Friday,14:00 - 15:00,MAN11101,btech_1_g,g,GS6,6,1
+Friday,12:00 - 13:00,MAN11101,btech_1_g,g,GS3,4,1
+Wednesday,10:00 - 11:00,HSN11600,btech_1_g,g,FE16,2,1
+Friday,16:00 - 17:00,HSN11600,btech_1_g,g,CSNB2,8,1
+Wednesday,08:00 - 10:00,HSN11600 (G1),btech_1_g,g,comm lab,0,2
+Thursday,16:00 - 18:00,HSN11600 (G2),btech_1_g,g,comm lab,8,2
+Saturday,15:00 - 17:00,HSN11600 (G3),btech_1_g,g,comm lab,7,2
+Wednesday,14:00 - 15:00,MEN11101,btech_1_g,g,SEW10,6,1
+Thursday,10:00 - 11:00,MEN11101,btech_1_g,g,FC5,2,1
+Friday,15:00 - 16:00,MEN11101,btech_1_g,g,CSNB2,7,1
+Monday,15:00 - 16:00,AMN11101,btech_1_g,g,NLH2,7,1
+Monday,12:00 - 13:00,AMN11101,btech_1_g,g,SMS1,4,1
+Friday,10:00 - 11:00,AMN11101,btech_1_g,g,GS5,2,1
+Wednesday,15:00 - 16:00,MEN11602,btech_1_g,g,CSNB1,7,1
+Thursday,16:00 - 18:00,MEN11602 (G1),btech_1_g,g,mechanical workshop,8,2
+Tuesday,08:00 - 10:00,MEN11602 (G2),btech_1_g,g,mechanical workshop,0,2
+Thursday,08:00 - 10:00,MEN11602 (G3),btech_1_g,g,mechanical workshop,0,2
+Saturday,14:00 - 15:00,CYN11502,btech_1_h,h,FE17,6,1
+Tuesday,16:00 - 17:00,CYN11502,btech_1_h,h,GS4,8,1
+Saturday,09:00 - 10:00,CYN11502,btech_1_h,h,SEW1,1,1
+Friday,16:00 - 18:00,CYN11502 (H1),btech_1_h,h,chemistry lab,8,2
+Thursday,11:00 - 13:00,CYN11502 (H2),btech_1_h,h,chemistry lab,3,2
+Wednesday,09:00 - 11:00,CYN11502 (H3),btech_1_h,h,chemistry lab,1,2
+Wednesday,08:00 - 09:00,MAN11101,btech_1_h,h,GS8,0,1
+Friday,11:00 - 12:00,MAN11101,btech_1_h,h,FE17,3,1
+Monday,12:00 - 13:00,MAN11101,btech_1_h,h,GS5,4,1
+Monday,08:00 - 09:00,MAN11101,btech_1_h,h,SMS1,0,1
+Tuesday,14:00 - 15:00,HSN11600,btech_1_h,h,GS7,6,1
+Wednesday,12:00 - 13:00,HSN11600,btech_1_h,h,GS3,4,1
+Tuesday,10:00 - 12:00,HSN11600 (H1),btech_1_h,h,comm lab,2,2
+Wednesday,16:00 - 18:00,HSN11600 (H2),btech_1_h,h,comm lab,8,2
+Monday,09:00 - 11:00,HSN11600 (H3),btech_1_h,h,comm lab,1,2
+Thursday,14:00 - 15:00,MEN11101,btech_1_h,h,CSNB2,6,1
+Thursday,15:00 - 16:00,MEN11101,btech_1_h,h,SEW8,7,1
+Tuesday,12:00 - 13:00,MEN11101,btech_1_h,h,GS6,4,1
+Thursday,16:00 - 17:00,AMN11101,btech_1_h,h,SMS3,8,1
+Saturday,12:00 - 13:00,AMN11101,btech_1_h,h,FC5,4,1
+Wednesday,15:00 - 16:00,AMN11101,btech_1_h,h,FE16,7,1
+Saturday,11:00 - 12:00,MEN11602,btech_1_h,h,FN1,3,1
+Friday,14:00 - 16:00,MEN11602 (H1),btech_1_h,h,mechanical workshop,6,2
+Saturday,16:00 - 18:00,MEN11602 (H2),btech_1_h,h,mechanical workshop,8,2
+Friday,16:00 - 18:00,MEN11602 (H3),btech_1_h,h,mechanical workshop,8,2
+Saturday,11:00 - 12:00,CYN11504,btech_1_i,i,FN3,3,1
+Thursday,17:00 - 18:00,CYN11504,btech_1_i,i,GS8,9,1
+Saturday,12:00 - 13:00,CYN11504,btech_1_i,i,FE18,4,1
+Saturday,08:00 - 10:00,CYN11504 (I1),btech_1_i,i,chemistry lab,0,2
+Friday,08:00 - 10:00,CYN11504 (I2),btech_1_i,i,chemistry lab,0,2
+Wednesday,12:00 - 13:00,MAN11101,btech_1_i,i,LH3,4,1
+Tuesday,11:00 - 12:00,MAN11101,btech_1_i,i,GS7,3,1
+Monday,17:00 - 18:00,MAN11101,btech_1_i,i,SEW9,9,1
+Wednesday,08:00 - 09:00,MAN11101,btech_1_i,i,SEW7,0,1
+Friday,16:00 - 17:00,HSN11600,btech_1_i,i,SMS1,8,1
+Saturday,16:00 - 17:00,HSN11600,btech_1_i,i,FE17,8,1
+Tuesday,14:00 - 16:00,HSN11600 (I1),btech_1_i,i,comm lab,6,2
+Wednesday,14:00 - 16:00,HSN11600 (I2),btech_1_i,i,comm lab,6,2
+Thursday,10:00 - 11:00,CEN11101,btech_1_i,i,CSNB2,2,1
+Saturday,17:00 - 18:00,CEN11101,btech_1_i,i,FE17,9,1
+Thursday,11:00 - 13:00,CEN11101 (I1),btech_1_i,i,survey lab,3,2
+Tuesday,14:00 - 16:00,CEN11101 (I2),btech_1_i,i,survey lab,6,2
+Wednesday,16:00 - 17:00,CEN11102,btech_1_i,i,FE16,8,1
+Thursday,08:00 - 09:00,CEN11102,btech_1_i,i,LH4,0,1
+Thursday,15:00 - 17:00,CEN11102 (I1),btech_1_i,i,pss lab,7,2
+Saturday,08:00 - 10:00,CEN11102 (I2),btech_1_i,i,pss lab,0,2
+Monday,11:00 - 12:00,EG3D,btech_1_i,i,LH3,3,1
+Friday,11:00 - 13:00,EG3D (I1),btech_1_i,i,EG3D,3,2
+Tuesday,16:00 - 18:00,EG3D (I2),btech_1_i,i,EG3D,8,2
+Saturday,17:00 - 18:00,CYN11504,btech_1_j,j,SEW9,9,1
+Tuesday,16:00 - 17:00,CYN11504,btech_1_j,j,SMS2,8,1
+Wednesday,12:00 - 13:00,CYN11504,btech_1_j,j,SEW7,4,1
+Saturday,15:00 - 17:00,CYN11504 (J1),btech_1_j,j,chemistry lab,7,2
+Thursday,15:00 - 17:00,CYN11504 (J2),btech_1_j,j,chemistry lab,7,2
+Tuesday,15:00 - 16:00,MAN11101,btech_1_j,j,FE17,7,1
+Thursday,09:00 - 10:00,MAN11101,btech_1_j,j,SEW10,1,1
+Monday,14:00 - 15:00,MAN11101,btech_1_j,j,FN1,6,1
+Wednesday,16:00 - 17:00,MAN11101,btech_1_j,j,SMS1,8,1
+Friday,16:00 - 17:00,HSN11600,btech_1_j,j,SMS2,8,1
+Wednesday,09:00 - 10:00,HSN11600,btech_1_j,j,SEW7,1,1
+Saturday,08:00 - 10:00,HSN11600 (J1),btech_1_j,j,comm lab,0,2
+Friday,14:00 - 16:00,HSN11600 (J2),btech_1_j,j,comm lab,6,2
+Monday,08:00 - 09:00,CEN11101,btech_1_j,j,SEW7,0,1
+Friday,08:00 - 09:00,CEN11101,btech_1_j,j,SMS3,0,1
+Wednesday,10:00 - 12:00,CEN11101 (J1),btech_1_j,j,survey lab,2,2
+Saturday,08:00 - 10:00,CEN11101 (J2),btech_1_j,j,survey lab,0,2
+Monday,11:00 - 12:00,CEN11102,btech_1_j,j,SEW10,3,1
+Monday,16:00 - 17:00,CEN11102,btech_1_j,j,FE17,8,1
+Tuesday,10:00 - 12:00,CEN11102 (J1),btech_1_j,j,pss lab,2,2
+Saturday,10:00 - 12:00,CEN11102 (J2),btech_1_j,j,pss lab,2,2
+Friday,09:00 - 10:00,EG3D,btech_1_j,j,GS4,1,1
+Saturday,10:00 - 12:00,EG3D (J1),btech_1_j,j,EG3D,2,2
+Tuesday,11:00 - 13:00,EG3D (J2),btech_1_j,j,EG3D,3,2
+Tuesday,16:00 - 17:00,CYN11503,btech_1_k,k,SEW8,8,1
+Monday,14:00 - 15:00,CYN11503,btech_1_k,k,SEW9,6,1
+Saturday,09:00 - 10:00,CYN11503,btech_1_k,k,GS6,1,1
+Saturday,10:00 - 12:00,CYN11503 (K1),btech_1_k,k,chemistry lab,2,2
+Friday,10:00 - 12:00,CYN11503 (K2),btech_1_k,k,chemistry lab,2,2
+Wednesday,16:00 - 17:00,MAN11101,btech_1_k,k,FN1,8,1
+Tuesday,08:00 - 09:00,MAN11101,btech_1_k,k,FE17,0,1
+Friday,16:00 - 17:00,MAN11101,btech_1_k,k,GS8,8,1
+Thursday,14:00 - 15:00,MAN11101,btech_1_k,k,GS4,6,1
+Wednesday,08:00 - 09:00,BTN11101,btech_1_k,k,SMS2,0,1
+Monday,16:00 - 17:00,BTN11101,btech_1_k,k,GS5,8,1
+Saturday,14:00 - 16:00,BTN11101 (K1),btech_1_k,k,bio lab,6,2
+Friday,08:00 - 10:00,BTN11101 (K2),btech_1_k,k,bio lab,0,2
+Tuesday,12:00 - 13:00,BTN11102,btech_1_k,k,SMS3,4,1
+Friday,14:00 - 15:00,BTN11102,btech_1_k,k,SMS1,6,1
+Thursday,17:00 - 18:00,BTN11102,btech_1_k,k,FE18,9,1
+Tuesday,10:00 - 11:00,CYN11503,btech_1_l,l,SMS1,2,1
+Wednesday,11:00 - 12:00,CYN11503,btech_1_l,l,LH4,3,1
+Monday,17:00 - 18:00,CYN11503,btech_1_l,l,SMS2,9,1
+Tuesday,11:00 - 13:00,CYN11503 (L1),btech_1_l,l,chemistry lab,3,2
+Wednesday,14:00 - 16:00,CYN11503 (L2),btech_1_l,l,chemistry lab,6,2
+Tuesday,09:00 - 10:00,MAN11101,btech_1_l,l,GS8,1,1
+Wednesday,09:00 - 10:00,MAN11101,btech_1_l,l,CSNB2,1,1
+Wednesday,16:00 - 17:00,MAN11101,btech_1_l,l,FEW1,8,1
+Thursday,12:00 - 13:00,MAN11101,btech_1_l,l,FN4,4,1
+Thursday,09:00 - 10:00,HSN11600,btech_1_l,l,NLH2,1,1
+Friday,08:00 - 09:00,HSN11600,btech_1_l,l,FEW1,0,1
+Monday,15:00 - 17:00,HSN11600 (L1),btech_1_l,l,comm lab,7,2
+Saturday,10:00 - 12:00,HSN11600 (L2),btech_1_l,l,comm lab,2,2
+Friday,16:00 - 17:00,CHN11101,btech_1_l,l,GS7,8,1
+Monday,14:00 - 15:00,CHN11101,btech_1_l,l,SEW7,6,1
+Thursday,11:00 - 12:00,CHN11101,btech_1_l,l,SMS2,3,1
+Friday,12:00 - 13:00,MEN11101,btech_1_l,l,LH3,4,1
+Thursday,16:00 - 17:00,MEN11101,btech_1_l,l,SEW7,8,1
+Thursday,17:00 - 18:00,MEN11101,btech_1_l,l,SEW1,9,1
+Thursday,16:00 - 17:00,CYN11502,btech_1_m,m,FN4,8,1
+Friday,09:00 - 10:00,CYN11502,btech_1_m,m,GS3,1,1
+Monday,10:00 - 11:00,CYN11502,btech_1_m,m,SMS1,2,1
+Thursday,08:00 - 10:00,CYN11502 (M1),btech_1_m,m,chemistry lab,0,2
+Monday,11:00 - 13:00,CYN11502 (M2),btech_1_m,m,chemistry lab,3,2
+Saturday,08:00 - 09:00,MAN11101,btech_1_m,m,FN4,0,1
+Monday,14:00 - 15:00,MAN11101,btech_1_m,m,FEW1,6,1
+Monday,08:00 - 09:00,MAN11101,btech_1_m,m,LH3,0,1
+Monday,15:00 - 16:00,MAN11101,btech_1_m,m,GS4,7,1
+Tuesday,14:00 - 15:00,HSN11600,btech_1_m,m,FEW1,6,1
+Friday,15:00 - 16:00,HSN11600,btech_1_m,m,SEW10,7,1
+Wednesday,11:00 - 13:00,HSN11600 (M1),btech_1_m,m,comm lab,3,2
+Thursday,10:00 - 12:00,HSN11600 (M2),btech_1_m,m,comm lab,2,2
+Monday,17:00 - 18:00,AMN11101,btech_1_m,m,LH3,9,1
+Tuesday,11:00 - 12:00,AMN11101,btech_1_m,m,FN4,3,1
+Saturday,10:00 - 11:00,AMN11101,btech_1_m,m,GS7,2,1
+Tuesday,09:00 - 10:00,PIN11101,btech_1_m,m,GS5,1,1
+Saturday,15:00 - 16:00,PIN11101,btech_1_m,m,CSNB2,7,1
+Saturday,11:00 - 12:00,PIN11101,btech_1_m,m,SEW9,3,1
+Tuesday,14:00 - 15:00,CYN11501,btech_1_n,n,GS4,6,1
+Saturday,09:00 - 10:00,CYN11501,btech_1_n,n,SEW10,1,1
+Monday,11:00 - 12:00,CYN11501,btech_1_n,n,SEW9,3,1
+Tuesday,08:00 - 10:00,CYN11501 (N1),btech_1_n,n,chemistry lab,0,2
+Friday,14:00 - 16:00,CYN11501 (N2),btech_1_n,n,chemistry lab,6,2
+Monday,15:00 - 17:00,CYN11501 (N3),btech_1_n,n,chemistry lab,7,2
+Wednesday,09:00 - 10:00,MAN11101,btech_1_n,n,FEW15,1,1
+Saturday,14:00 - 15:00,MAN11101,btech_1_n,n,GS3,6,1
+Wednesday,14:00 - 15:00,MAN11101,btech_1_n,n,SEW7,6,1
+Thursday,17:00 - 18:00,MAN11101,btech_1_n,n,SEW8,9,1
+Saturday,16:00 - 17:00,HSN11600,btech_1_n,n,FN4,8,1
+Monday,09:00 - 10:00,HSN11600,btech_1_n,n,FN1,1,1
+Friday,10:00 - 12:00,HSN11600 (N1),btech_1_n,n,comm lab,2,2
+Thursday,14:00 - 16:00,HSN11600 (N2),btech_1_n,n,comm lab,6,2
+Tuesday,16:00 - 18:00,HSN11600 (N3),btech_1_n,n,comm lab,8,2
+Saturday,10:00 - 11:00,EEN11101,btech_1_n,n,FEW1,2,1
+Wednesday,16:00 - 17:00,EEN11101,btech_1_n,n,SEW10,8,1
+Friday,15:00 - 17:00,EEN11101 (N1),btech_1_n,n,EE-lab1,7,2
+Monday,16:00 - 18:00,EEN11101 (N2),btech_1_n,n,EE-lab1,8,2
+Thursday,15:00 - 17:00,EEN11101 (N3),btech_1_n,n,EE-lab1,7,2
+Monday,08:00 - 09:00,EEN11102,btech_1_n,n,FE17,0,1
+Tuesday,12:00 - 13:00,EEN11102,btech_1_n,n,FN4,4,1
+Thursday,11:00 - 13:00,EEN11102 (N1),btech_1_n,n,EE-lab2,3,2
+Friday,11:00 - 13:00,EEN11102 (N2),btech_1_n,n,EE-lab2,3,2
+Tuesday,09:00 - 11:00,EEN11102 (N3),btech_1_n,n,EE-lab2,1,2
+Saturday,15:00 - 16:00,MEN11602,btech_1_n,n,FN3,7,1
+Wednesday,11:00 - 13:00,MEN11602 (N1),btech_1_n,n,mechanical workshop,3,2
+Thursday,11:00 - 13:00,MEN11602 (N2),btech_1_n,n,mechanical workshop,3,2
+Saturday,11:00 - 13:00,MEN11602 (N3),btech_1_n,n,mechanical workshop,3,2
+Friday,09:00 - 10:00,BTN13101,btech_3_k,k,FC5,1,1
+Tuesday,11:00 - 12:00,BTN13101,btech_3_k,k,FN1,3,1
+Wednesday,12:00 - 13:00,BTN13101,btech_3_k,k,GS5,4,1
+Saturday,16:00 - 18:00,BTN13101 (K1),btech_3_k,k,bio lab,8,2
+Monday,11:00 - 13:00,BTN13101 (K2),btech_3_k,k,bio lab,3,2
+Tuesday,12:00 - 13:00,BTN13102,btech_3_k,k,CSNB2,4,1
+Friday,16:00 - 17:00,BTN13102,btech_3_k,k,SMS3,8,1
+Thursday,10:00 - 11:00,BTN13102,btech_3_k,k,NLH1,2,1
+Wednesday,16:00 - 18:00,BTN13102 (K1),btech_3_k,k,bio lab,8,2
+Friday,11:00 - 13:00,BTN13102 (K2),btech_3_k,k,bio lab,3,2
+Tuesday,09:00 - 10:00,BTN13103,btech_3_k,k,SMS1,1,1
+Thursday,08:00 - 09:00,BTN13103,btech_3_k,k,SEW10,0,1
+Wednesday,14:00 - 15:00,BTN13103,btech_3_k,k,NLH2,6,1
+Thursday,17:00 - 18:00,BTN13103,btech_3_k,k,NLH2,9,1
+Friday,14:00 - 15:00,MAN13102,btech_3_k,k,FN4,6,1
+Monday,09:00 - 10:00,MAN13102,btech_3_k,k,FC5,1,1
+Thursday,11:00 - 12:00,MAN13102,btech_3_k,k,FN4,3,1
+Saturday,10:00 - 11:00,MAN13102,btech_3_k,k,FE17,2,1
+Friday,08:00 - 09:00,HSN13601,btech_3_k,k,LH4,0,1
+Wednesday,10:00 - 11:00,HSN13601,btech_3_k,k,GS6,2,1
+Wednesday,15:00 - 16:00,HSN13601,btech_3_k,k,FEW1,7,1
+Monday,14:00 - 15:00,BTN13250,btech_3_k,k,LH3,6,1
+Saturday,14:00 - 15:00,BTN13250,btech_3_k,k,FEW15,6,1
+Saturday,08:00 - 09:00,BTN13250,btech_3_k,k,SMS3,0,1
+Thursday,09:00 - 10:00,BTN13251,btech_3_k,k,FN4,1,1
+Wednesday,11:00 - 12:00,BTN13251,btech_3_k,k,SMS2,3,1
+Monday,16:00 - 17:00,BTN13251,btech_3_k,k,FEW1,8,1
+Thursday,12:00 - 13:00,CSN13400,btech_3_a,a,NLH1,4,1
+Friday,14:00 - 15:00,CSN13400,btech_3_a,a,SMS3,6,1
+Monday,17:00 - 18:00,CSN13400,btech_3_a,a,FEW15,9,1
+Wednesday,12:00 - 13:00,CSN13400,btech_3_a,a,SMS3,4,1
+Friday,09:00 - 11:00,CSN13400 (A1),btech_3_a,a,CCTF,1,2
+Saturday,10:00 - 12:00,CSN13400 (A2),btech_3_a,a,CCTF,2,2
+Monday,09:00 - 11:00,CSN13400 (A3),btech_3_a,a,CCTF,1,2
+Thursday,09:00 - 10:00,CSN13401,btech_3_a,a,FE18,1,1
+Wednesday,08:00 - 09:00,CSN13401,btech_3_a,a,CSNB1,0,1
+Monday,14:00 - 15:00,CSN13401,btech_3_a,a,GS3,6,1
+Tuesday,15:00 - 16:00,CSN13401,btech_3_a,a,SEW10,7,1
+Wednesday,14:00 - 15:00,CSN13402,btech_3_a,a,FN1,6,1
+Friday,08:00 - 09:00,CSN13402,btech_3_a,a,FE18,0,1
+Saturday,16:00 - 17:00,CSN13402,btech_3_a,a,FE18,8,1
+Saturday,17:00 - 18:00,CSN13250,btech_3_a,a,FEW15,9,1
+Tuesday,08:00 - 09:00,CSN13250,btech_3_a,a,GS5,0,1
+Thursday,14:00 - 16:00,CSN13250 (A1),btech_3_a,a,CCTF,6,2
+Tuesday,09:00 - 11:00,CSN13250 (A2),btech_3_a,a,CCTF,1,2
+Friday,11:00 - 13:00,CSN13250 (A3),btech_3_a,a,CCTF,3,2
+Monday,16:00 - 17:00,CSN13403,btech_3_a,a,CSNB2,8,1
+Monday,11:00 - 12:00,CSN13403,btech_3_a,a,FEW15,3,1
+Tuesday,11:00 - 12:00,CSN13403,btech_3_a,a,FC5,3,1
+Thursday,17:00 - 18:00,CSN13400,btech_3_b,b,FEW1,9,1
+Wednesday,15:00 - 16:00,CSN13400,btech_3_b,b,SEW1,7,1
+Saturday,08:00 - 09:00,CSN13400,btech_3_b,b,FN1,0,1
+Thursday,08:00 - 09:00,CSN13400,btech_3_b,b,FEW1,0,1
+Monday,14:00 - 16:00,CSN13400 (B1),btech_3_b,b,CCFF,6,2
+Thursday,10:00 - 12:00,CSN13400 (B2),btech_3_b,b,CCFF,2,2
+Saturday,14:00 - 16:00,CSN13400 (B3),btech_3_b,b,CCFF,6,2
+Wednesday,16:00 - 17:00,CSN13401,btech_3_b,b,SEW9,8,1
+Saturday,11:00 - 12:00,CSN13401,btech_3_b,b,FN4,3,1
+Saturday,09:00 - 10:00,CSN13401,btech_3_b,b,NLH1,1,1
+Monday,16:00 - 17:00,CSN13401,btech_3_b,b,FN1,8,1
+Monday,12:00 - 13:00,CSN13402,btech_3_b,b,SEW9,4,1
+Wednesday,17:00 - 18:00,CSN13402,btech_3_b,b,SEW10,9,1
+Tuesday,12:00 - 13:00,CSN13402,btech_3_b,b,NLH2,4,1
+Wednesday,09:00 - 10:00,CSN13250,btech_3_b,b,GS6,1,1
+Wednesday,14:00 - 15:00,CSN13250,btech_3_b,b,FN3,6,1
+Monday,08:00 - 10:00,CSN13250 (B1),btech_3_b,b,CCFF,0,2
+Friday,16:00 - 18:00,CSN13250 (B2),btech_3_b,b,CCFF,8,2
+Tuesday,08:00 - 10:00,CSN13250 (B3),btech_3_b,b,CCFF,0,2
+Thursday,14:00 - 15:00,CSN13403,btech_3_b,b,SEW1,6,1
+Tuesday,10:00 - 11:00,CSN13403,btech_3_b,b,SEW9,2,1
+Thursday,15:00 - 16:00,CSN13403,btech_3_b,b,GS6,7,1
+Friday,11:00 - 12:00,CSN13400,btech_3_c,c,SEW7,3,1
+Wednesday,11:00 - 12:00,CSN13400,btech_3_c,c,SEW9,3,1
+Monday,08:00 - 09:00,CSN13400,btech_3_c,c,GS5,0,1
+Saturday,11:00 - 12:00,CSN13400,btech_3_c,c,FE18,3,1
+Saturday,09:00 - 11:00,CSN13400 (C1),btech_3_c,c,CCFF,1,2
+Friday,09:00 - 11:00,CSN13400 (C2),btech_3_c,c,CCFF,1,2
+Thursday,08:00 - 10:00,CSN13400 (C3),btech_3_c,c,CCFF,0,2
+Tuesday,12:00 - 13:00,CSN13401,btech_3_c,c,GS7,4,1
+Saturday,14:00 - 15:00,CSN13401,btech_3_c,c,NLH2,6,1
+Saturday,16:00 - 17:00,CSN13401,btech_3_c,c,GS5,8,1
+Friday,12:00 - 13:00,CSN13401,btech_3_c,c,FC5,4,1
+Saturday,08:00 - 09:00,CSN13402,btech_3_c,c,CSNB2,0,1
+Wednesday,16:00 - 17:00,CSN13402,btech_3_c,c,NLH2,8,1
+Tuesday,14:00 - 15:00,CSN13402,btech_3_c,c,FE17,6,1
+Wednesday,15:00 - 16:00,CSN13250,btech_3_c,c,GS6,7,1
+Thursday,15:00 - 16:00,CSN13250,btech_3_c,c,NLH1,7,1
+Tuesday,10:00 - 12:00,CSN13250 (C1),btech_3_c,c,CCFF,2,2
+Wednesday,09:00 - 11:00,CSN13250 (C2),btech_3_c,c,CCFF,1,2
+Friday,14:00 - 16:00,CSN13250 (C3),btech_3_c,c,CCFF,6,2
+Thursday,17:00 - 18:00,CSN13403,btech_3_c,c,SEW9,9,1
+Monday,10:00 - 11:00,CSN13403,btech_3_c,c,FEW15,2,1
+Monday,15:00 - 16:00,CSN13403,btech_3_c,c,FEW1,7,1
+Thursday,09:00 - 10:00,CSN13400,btech_3_d,d,FE17,1,1
+Monday,09:00 - 10:00,CSN13400,btech_3_d,d,SMS3,1,1
+Tuesday,08:00 - 09:00,CSN13400,btech_3_d,d,GS7,0,1
+Saturday,17:00 - 18:00,CSN13400,btech_3_d,d,SEW7,9,1
+Friday,16:00 - 18:00,CSN13400 (D1),btech_3_d,d,CCTF,8,2
+Monday,15:00 - 17:00,CSN13400 (D2),btech_3_d,d,CCTF,7,2
+Saturday,15:00 - 17:00,CSN13400 (D3),btech_3_d,d,CCTF,7,2
+Wednesday,12:00 - 13:00,CSN13401,btech_3_d,d,FE18,4,1
+Tuesday,09:00 - 10:00,CSN13401,btech_3_d,d,FN3,1,1
+Thursday,16:00 - 17:00,CSN13401,btech_3_d,d,FEW15,8,1
+Saturday,14:00 - 15:00,CSN13401,btech_3_d,d,GS5,6,1
+Friday,15:00 - 16:00,CSN13402,btech_3_d,d,NLH2,7,1
+Tuesday,17:00 - 18:00,CSN13402,btech_3_d,d,SEW10,9,1
+Friday,09:00 - 10:00,CSN13402,btech_3_d,d,SEW8,1,1
+Tuesday,10:00 - 11:00,CSN13250,btech_3_d,d,FE18,2,1
+Friday,12:00 - 13:00,CSN13250,btech_3_d,d,SEW7,4,1
+Monday,11:00 - 13:00,CSN13250 (D1),btech_3_d,d,CCTF,3,2
+Wednesday,16:00 - 18:00,CSN13250 (D2),btech_3_d,d,CCTF,8,2
+Thursday,10:00 - 12:00,CSN13250 (D3),btech_3_d,d,CCTF,2,2
+Monday,08:00 - 09:00,CSN13403,btech_3_d,d,NLH1,0,1
+Friday,11:00 - 12:00,CSN13403,btech_3_d,d,GS8,3,1
+Thursday,15:00 - 16:00,CSN13403,btech_3_d,d,GS3,7,1
+Thursday,11:00 - 12:00,CEN13101,btech_3_i,i,SEW9,3,1
+Wednesday,12:00 - 13:00,CEN13101,btech_3_i,i,LH4,4,1
+Thursday,16:00 - 17:00,CEN13101,btech_3_i,i,NLH2,8,1
+Friday,14:00 - 16:00,CEN13101 (I1),btech_3_i,i,concrete lab,6,2
+Friday,10:00 - 12:00,CEN13101 (I2),btech_3_i,i,concrete lab,2,2
+Thursday,14:00 - 15:00,CEN13102,btech_3_i,i,FE17,6,1
+Wednesday,11:00 - 12:00,CEN13102,btech_3_i,i,GS3,3,1
+Thursday,08:00 - 10:00,CEN13102 (I1),btech_3_i,i,geology lab,0,2
+Monday,14:00 - 16:00,CEN13102 (I2),btech_3_i,i,geology lab,6,2
+Saturday,15:00 - 16:00,CEN13103,btech_3_i,i,SMS2,7,1
+Wednesday,14:00 - 15:00,CEN13103,btech_3_i,i,FN4,6,1
+Monday,10:00 - 11:00,CEN13103,btech_3_i,i,NLH1,2,1
+Saturday,16:00 - 17:00,CEN13103,btech_3_i,i,FN3,8,1
+Monday,14:00 - 16:00,CEN13103 (I1),btech_3_i,i,survey lab,6,2
+Monday,08:00 - 10:00,CEN13103 (I2),btech_3_i,i,survey lab,0,2
+Wednesday,17:00 - 18:00,AMN13103,btech_3_i,i,SEW1,9,1
+Thursday,10:00 - 11:00,AMN13103,btech_3_i,i,LH4,2,1
+Wednesday,08:00 - 09:00,AMN13103,btech_3_i,i,FE18,0,1
+Friday,17:00 - 18:00,AMN13103,btech_3_i,i,SEW10,9,1
+Wednesday,15:00 - 17:00,AMN13103 (I1),btech_3_i,i,fluid mech,7,2
+Thursday,08:00 - 10:00,AMN13103 (I2),btech_3_i,i,fluid mech,0,2
+Tuesday,15:00 - 16:00,AMN13102,btech_3_i,i,FN4,7,1
+Monday,11:00 - 12:00,AMN13102,btech_3_i,i,SMS1,3,1
+Saturday,08:00 - 09:00,AMN13102,btech_3_i,i,NLH1,0,1
+Tuesday,11:00 - 12:00,AMN13102,btech_3_i,i,FEW15,3,1
+Friday,11:00 - 13:00,AMN13102 (I1),btech_3_i,i,solid mech,3,2
+Friday,08:00 - 10:00,AMN13102 (I2),btech_3_i,i,solid mech,0,2
+Wednesday,10:00 - 11:00,HSN13601,btech_3_i,i,CSNB1,2,1
+Monday,12:00 - 13:00,HSN13601,btech_3_i,i,GS4,4,1
+Tuesday,09:00 - 10:00,HSN13601,btech_3_i,i,GS3,1,1
+Monday,10:00 - 11:00,CEN13101,btech_3_j,j,GS8,2,1
+Thursday,16:00 - 17:00,CEN13101,btech_3_j,j,GS4,8,1
+Friday,08:00 - 09:00,CEN13101,btech_3_j,j,NLH2,0,1
+Thursday,08:00 - 10:00,CEN13101 (J1),btech_3_j,j,concrete lab,0,2
+Saturday,16:00 - 18:00,CEN13101 (J2),btech_3_j,j,concrete lab,8,2
+Thursday,15:00 - 16:00,CEN13102,btech_3_j,j,SMS1,7,1
+Friday,16:00 - 17:00,CEN13102,btech_3_j,j,NLH2,8,1
+Saturday,16:00 - 18:00,CEN13102 (J1),btech_3_j,j,geology lab,8,2
+Thursday,11:00 - 13:00,CEN13102 (J2),btech_3_j,j,geology lab,3,2
+Tuesday,17:00 - 18:00,CEN13103,btech_3_j,j,GS5,9,1
+Monday,12:00 - 13:00,CEN13103,btech_3_j,j,CSNB2,4,1
+Saturday,11:00 - 12:00,CEN13103,btech_3_j,j,GS4,3,1
+Tuesday,09:00 - 10:00,CEN13103,btech_3_j,j,FEW1,1,1
+Saturday,14:00 - 16:00,CEN13103 (J1),btech_3_j,j,survey lab,6,2
+Friday,14:00 - 16:00,CEN13103 (J2),btech_3_j,j,survey lab,6,2
+Saturday,08:00 - 09:00,AMN13103,btech_3_j,j,FE17,0,1
+Saturday,09:00 - 10:00,AMN13103,btech_3_j,j,SMS3,1,1
+Friday,12:00 - 13:00,AMN13103,btech_3_j,j,SMS2,4,1
+Monday,16:00 - 17:00,AMN13103,btech_3_j,j,SEW1,8,1
+Monday,08:00 - 10:00,AMN13103 (J1),btech_3_j,j,fluid mech,0,2
+Tuesday,14:00 - 16:00,AMN13103 (J2),btech_3_j,j,fluid mech,6,2
+Wednesday,11:00 - 12:00,AMN13102,btech_3_j,j,NLH1,3,1
+Tuesday,16:00 - 17:00,AMN13102,btech_3_j,j,LH4,8,1
+Monday,14:00 - 15:00,AMN13102,btech_3_j,j,CSNB2,6,1
+Thursday,14:00 - 15:00,AMN13102,btech_3_j,j,GS7,6,1
+Wednesday,14:00 - 16:00,AMN13102 (J1),btech_3_j,j,solid mech,6,2
+Tuesday,11:00 - 13:00,AMN13102 (J2),btech_3_j,j,solid mech,3,2
+Wednesday,08:00 - 09:00,HSN13601,btech_3_j,j,SEW9,0,1
+Thursday,10:00 - 11:00,HSN13601,btech_3_j,j,SEW9,2,1
+Wednesday,16:00 - 17:00,HSN13601,btech_3_j,j,GS8,8,1
+Thursday,12:00 - 13:00,ECN13401,btech_3_n,n,FN3,4,1
+Monday,12:00 - 13:00,ECN13401,btech_3_n,n,NLH1,4,1
+Friday,09:00 - 10:00,ECN13401,btech_3_n,n,SEW9,1,1
+Wednesday,10:00 - 12:00,ECN13401 (N1),btech_3_n,n,ECE4,2,2
+Tuesday,14:00 - 16:00,ECN13401 (N2),btech_3_n,n,ECE4,6,2
+Thursday,14:00 - 16:00,ECN13401 (N3),btech_3_n,n,ECE4,6,2
+Saturday,16:00 - 17:00,CSN13101,btech_3_n,n,GS7,8,1
+Saturday,11:00 - 12:00,CSN13101,btech_3_n,n,SMS2,3,1
+Monday,10:00 - 11:00,CSN13101,btech_3_n,n,GS6,2,1
+Wednesday,14:00 - 15:00,EEN13101,btech_3_n,n,SMS2,6,1
+Tuesday,12:00 - 13:00,EEN13101,btech_3_n,n,FN3,4,1
+Friday,14:00 - 15:00,EEN13101,btech_3_n,n,FN1,6,1
+Tuesday,09:00 - 10:00,EEN13101,btech_3_n,n,NLH2,1,1
+Wednesday,12:00 - 13:00,HSN13602,btech_3_n,n,FC5,4,1
+Thursday,08:00 - 09:00,HSN13602,btech_3_n,n,SMS1,0,1
+Saturday,10:00 - 11:00,HSN13602,btech_3_n,n,GS4,2,1
+Friday,10:00 - 11:00,HSN13602,btech_3_n,n,SEW8,2,1
+Thursday,10:00 - 11:00,AMN13250,btech_3_n,n,GS8,2,1
+Wednesday,16:00 - 17:00,AMN13250,btech_3_n,n,FE17,8,1
+Monday,16:00 - 17:00,AMN13250,btech_3_n,n,SMS1,8,1
+Monday,15:00 - 16:00,AMN13250,btech_3_n,n,FE16,7,1
+Friday,12:00 - 13:00,EEN13250,btech_3_n,n,GS6,4,1
+Tuesday,11:00 - 12:00,EEN13250,btech_3_n,n,SMS1,3,1
+Thursday,17:00 - 18:00,EEN13250,btech_3_n,n,FN1,9,1
+Monday,14:00 - 15:00,EEN13250,btech_3_n,n,FE16,6,1
+Wednesday,15:00 - 16:00,EEN13102,btech_3_n,n,FN3,7,1
+Tuesday,17:00 - 18:00,EEN13102,btech_3_n,n,GS8,9,1
+Wednesday,17:00 - 18:00,EEN13102,btech_3_n,n,SMS2,9,1
+Saturday,14:00 - 16:00,EEN13102 (N1),btech_3_n,n,EE-lab3,6,2
+Wednesday,10:00 - 12:00,EEN13102 (N2),btech_3_n,n,EE-lab3,2,2
+Friday,16:00 - 18:00,EEN13102 (N3),btech_3_n,n,EE-lab3,8,2
+Friday,14:00 - 15:00,ECN13101,btech_3_e,e,FN3,6,1
+Tuesday,15:00 - 16:00,ECN13101,btech_3_e,e,GS5,7,1
+Wednesday,09:00 - 10:00,ECN13101,btech_3_e,e,SEW8,1,1
+Tuesday,10:00 - 11:00,ECN13102,btech_3_e,e,FE17,2,1
+Wednesday,08:00 - 09:00,ECN13102,btech_3_e,e,SEW1,0,1
+Thursday,14:00 - 15:00,ECN13102,btech_3_e,e,FC5,6,1
+Monday,16:00 - 17:00,CSN13404,btech_3_e,e,FE18,8,1
+Tuesday,17:00 - 18:00,CSN13404,btech_3_e,e,FE16,9,1
+Saturday,08:00 - 09:00,CSN13404,btech_3_e,e,FE16,0,1
+Monday,09:00 - 11:00,CSN13404 (E1),btech_3_e,e,CCSF,1,2
+Friday,15:00 - 17:00,CSN13404 (E2),btech_3_e,e,CCSF,7,2
+Tuesday,11:00 - 13:00,CSN13404 (E3),btech_3_e,e,CCSF,3,2
+Friday,09:00 - 10:00,EEN13401,btech_3_e,e,FN4,1,1
+Tuesday,09:00 - 10:00,EEN13401,btech_3_e,e,FC5,1,1
+Friday,08:00 - 09:00,EEN13401,btech_3_e,e,GS3,0,1
+Wednesday,14:00 - 15:00,ECN13103,btech_3_e,e,SMS3,6,1
+Monday,11:00 - 12:00,ECN13103,btech_3_e,e,SMS3,3,1
+Monday,08:00 - 09:00,ECN13103,btech_3_e,e,FE16,0,1
+Monday,14:00 - 16:00,ECN13103 (E1),btech_3_e,e,ECE5,6,2
+Tuesday,11:00 - 13:00,ECN13103 (E2),btech_3_e,e,ECE5,3,2
+Thursday,09:00 - 11:00,ECN13103 (E3),btech_3_e,e,ECE5,1,2
+Wednesday,17:00 - 18:00,ECN13104,btech_3_e,e,SMS3,9,1
+Saturday,17:00 - 18:00,ECN13104,btech_3_e,e,FN3,9,1
+Saturday,14:00 - 15:00,ECN13104,btech_3_e,e,FC5,6,1
+Wednesday,15:00 - 17:00,ECN13104 (E1),btech_3_e,e,ECE4,7,2
+Saturday,10:00 - 12:00,ECN13104 (E2),btech_3_e,e,ECE4,2,2
+Friday,11:00 - 13:00,ECN13104 (E3),btech_3_e,e,ECE4,3,2
+Wednesday,12:00 - 13:00,HSN13602,btech_3_e,e,SEW10,4,1
+Wednesday,11:00 - 12:00,HSN13602,btech_3_e,e,FC5,3,1
+Friday,10:00 - 11:00,HSN13602,btech_3_e,e,FE16,2,1
+Thursday,17:00 - 18:00,EAN13700,btech_3_e,e,FN3,9,1
+Tuesday,14:00 - 15:00,EAN13700,btech_3_e,e,CSNB1,6,1
+Monday,14:00 - 15:00,ECN13101,btech_3_f,f,GS5,6,1
+Wednesday,11:00 - 12:00,ECN13101,btech_3_f,f,FE16,3,1
+Tuesday,09:00 - 10:00,ECN13101,btech_3_f,f,SMS3,1,1
+Thursday,12:00 - 13:00,ECN13102,btech_3_f,f,GS4,4,1
+Wednesday,10:00 - 11:00,ECN13102,btech_3_f,f,GS3,2,1
+Thursday,15:00 - 16:00,ECN13102,btech_3_f,f,GS7,7,1
+Wednesday,09:00 - 10:00,CSN13404,btech_3_f,f,SMS3,1,1
+Wednesday,12:00 - 13:00,CSN13404,btech_3_f,f,NLH1,4,1
+Tuesday,08:00 - 09:00,CSN13404,btech_3_f,f,FE16,0,1
+Saturday,14:00 - 16:00,CSN13404 (F1),btech_3_f,f,CCSF,6,2
+Thursday,09:00 - 11:00,CSN13404 (F2),btech_3_f,f,CCSF,1,2
+Tuesday,14:00 - 16:00,CSN13404 (F3),btech_3_f,f,CCSF,6,2
+Monday,15:00 - 16:00,EEN13401,btech_3_f,f,SEW1,7,1
+Thursday,08:00 - 09:00,EEN13401,btech_3_f,f,CSNB2,0,1
+Tuesday,11:00 - 12:00,EEN13401,btech_3_f,f,GS5,3,1
+Monday,09:00 - 10:00,ECN13103,btech_3_f,f,GS6,1,1
+Monday,16:00 - 17:00,ECN13103,btech_3_f,f,GS4,8,1
+Saturday,10:00 - 11:00,ECN13103,btech_3_f,f,FN4,2,1
+Saturday,08:00 - 10:00,ECN13103 (F1),btech_3_f,f,ECE5,0,2
+Friday,08:00 - 10:00,ECN13103 (F2),btech_3_f,f,ECE5,0,2
+Wednesday,16:00 - 18:00,ECN13103 (F3),btech_3_f,f,ECE5,8,2
+Friday,12:00 - 13:00,ECN13104,btech_3_f,f,FN4,4,1
+Monday,10:00 - 11:00,ECN13104,btech_3_f,f,GS4,2,1
+Friday,11:00 - 12:00,ECN13104,btech_3_f,f,FEW1,3,1
+Thursday,16:00 - 18:00,ECN13104 (F1),btech_3_f,f,ECE4,8,2
+Saturday,08:00 - 10:00,ECN13104 (F2),btech_3_f,f,ECE4,0,2
+Friday,16:00 - 18:00,ECN13104 (F3),btech_3_f,f,ECE4,8,2
+Wednesday,08:00 - 09:00,HSN13602,btech_3_f,f,FEW1,0,1
+Friday,10:00 - 11:00,HSN13602,btech_3_f,f,FC5,2,1
+Saturday,16:00 - 17:00,HSN13602,btech_3_f,f,NLH2,8,1
+Saturday,11:00 - 12:00,EAN13700,btech_3_f,f,GS5,3,1
+Monday,12:00 - 13:00,EAN13700,btech_3_f,f,FEW15,4,1
+Monday,12:00 - 13:00,CHN13103,btech_3_l,l,SEW10,4,1
+Thursday,15:00 - 16:00,CHN13103,btech_3_l,l,FN3,7,1
+Thursday,17:00 - 18:00,CHN13103,btech_3_l,l,CSNB1,9,1
+Friday,12:00 - 13:00,CHN13103,btech_3_l,l,FEW1,4,1
+Monday,08:00 - 09:00,CHN13104,btech_3_l,l,FE18,0,1
+Friday,10:00 - 11:00,CHN13104,btech_3_l,l,GS8,2,1
+Friday,09:00 - 10:00,CHN13104,btech_3_l,l,LH4,1,1
+Wednesday,15:00 - 16:00,CHN13104,btech_3_l,l,SMS1,7,1
+Tuesday,15:00 - 17:00,CHN13104 (L1),btech_3_l,l,chem lab6,7,2
+Tuesday,10:00 - 12:00,CHN13104 (L2),btech_3_l,l,chem lab6,2,2
+Saturday,15:00 - 16:00,CHN13105,btech_3_l,l,SEW1,7,1
+Friday,08:00 - 09:00,CHN13105,btech_3_l,l,CSNB2,0,1
+Tuesday,08:00 - 09:00,CHN13105,btech_3_l,l,LH3,0,1
+Saturday,08:00 - 09:00,CHN13105,btech_3_l,l,SEW1,0,1
+Friday,15:00 - 17:00,CHN13105 (L1),btech_3_l,l,chem lab5,7,2
+Wednesday,10:00 - 12:00,CHN13105 (L2),btech_3_l,l,chem lab5,2,2
+Friday,14:00 - 15:00,MAN13101,btech_3_l,l,FE16,6,1
+Monday,09:00 - 10:00,MAN13101,btech_3_l,l,NLH2,1,1
+Saturday,16:00 - 17:00,MAN13101,btech_3_l,l,SMS3,8,1
+Saturday,09:00 - 10:00,HSN13601,btech_3_l,l,LH3,1,1
+Wednesday,17:00 - 18:00,HSN13601,btech_3_l,l,CSNB1,9,1
+Tuesday,14:00 - 15:00,HSN13601,btech_3_l,l,SEW7,6,1
+Thursday,12:00 - 13:00,AMN13101,btech_3_m,m,SMS1,4,1
+Monday,10:00 - 11:00,AMN13101,btech_3_m,m,SEW1,2,1
+Thursday,10:00 - 11:00,AMN13101,btech_3_m,m,NLH2,2,1
+Wednesday,09:00 - 11:00,AMN13101 (M1),btech_3_m,m,SOM,1,2
+Monday,08:00 - 10:00,AMN13101 (M2),btech_3_m,m,SOM,0,2
+Wednesday,17:00 - 18:00,PIN13101,btech_3_m,m,FN4,9,1
+Saturday,09:00 - 10:00,PIN13101,btech_3_m,m,FC5,1,1
+Thursday,16:00 - 17:00,PIN13101,btech_3_m,m,GS8,8,1
+Friday,09:00 - 11:00,PIN13101 (M1),btech_3_m,m,industry lab,1,2
+Friday,16:00 - 18:00,PIN13101 (M2),btech_3_m,m,industry lab,8,2
+Wednesday,08:00 - 09:00,AMN13106,btech_3_m,m,LH4,0,1
+Monday,15:00 - 16:00,AMN13106,btech_3_m,m,FN3,7,1
+Saturday,16:00 - 17:00,AMN13106,btech_3_m,m,LH4,8,1
+Friday,15:00 - 16:00,EEN13200,btech_3_m,m,FN4,7,1
+Tuesday,11:00 - 12:00,EEN13200,btech_3_m,m,SEW8,3,1
+Tuesday,14:00 - 16:00,EEN13200 (M1),btech_3_m,m,EE-lab3,6,2
+Friday,09:00 - 11:00,EEN13200 (M2),btech_3_m,m,EE-lab3,1,2
+Friday,08:00 - 09:00,PIN13102,btech_3_m,m,SEW10,0,1
+Saturday,12:00 - 13:00,PIN13102,btech_3_m,m,SMS1,4,1
+Wednesday,16:00 - 17:00,PIN13102,btech_3_m,m,GS4,8,1
+Friday,16:00 - 18:00,PIN13102 (M1),btech_3_m,m,prod lab 1,8,2
+Friday,11:00 - 13:00,PIN13102 (M2),btech_3_m,m,prod lab 1,3,2
+Thursday,15:00 - 16:00,PIN13103,btech_3_m,m,NLH2,7,1
+Tuesday,12:00 - 13:00,PIN13103,btech_3_m,m,CSNB1,4,1
+Saturday,17:00 - 18:00,PIN13103,btech_3_m,m,GS3,9,1
+Thursday,11:00 - 12:00,AMN13101,btech_3_g,g,GS6,3,1
+Thursday,09:00 - 10:00,AMN13101,btech_3_g,g,GS4,1,1
+Wednesday,16:00 - 17:00,AMN13101,btech_3_g,g,GS6,8,1
+Saturday,08:00 - 10:00,AMN13101 (G1),btech_3_g,g,mat test,0,2
+Monday,08:00 - 10:00,AMN13101 (G2),btech_3_g,g,mat test,0,2
+Thursday,15:00 - 17:00,AMN13101 (G3),btech_3_g,g,mat test,7,2
+Wednesday,08:00 - 09:00,MEN13101,btech_3_g,g,FN1,0,1
+Thursday,14:00 - 15:00,MEN13101,btech_3_g,g,FEW1,6,1
+Saturday,12:00 - 13:00,MEN13101,btech_3_g,g,FEW15,4,1
+Tuesday,14:00 - 16:00,MEN13101 (G1),btech_3_g,g,mech lab4,6,2
+Saturday,10:00 - 12:00,MEN13101 (G2),btech_3_g,g,mech lab4,2,2
+Monday,16:00 - 18:00,MEN13101 (G3),btech_3_g,g,mech lab4,8,2
+Tuesday,16:00 - 17:00,AMN13104,btech_3_g,g,FE18,8,1
+Wednesday,14:00 - 15:00,AMN13104,btech_3_g,g,FE16,6,1
+Friday,12:00 - 13:00,AMN13104,btech_3_g,g,FE16,4,1
+Saturday,10:00 - 12:00,AMN13104 (G1),btech_3_g,g,fluid mech,2,2
+Monday,16:00 - 18:00,AMN13104 (G2),btech_3_g,g,fluid mech,8,2
+Friday,08:00 - 10:00,AMN13104 (G3),btech_3_g,g,fluid mech,0,2
+Wednesday,12:00 - 13:00,EEN13200,btech_3_g,g,SEW8,4,1
+Tuesday,11:00 - 12:00,EEN13200,btech_3_g,g,SEW10,3,1
+Monday,08:00 - 10:00,EEN13200 (G1),btech_3_g,g,EE-lab3,0,2
+Tuesday,09:00 - 11:00,EEN13200 (G2),btech_3_g,g,EE-lab3,1,2
+Saturday,16:00 - 18:00,EEN13200 (G3),btech_3_g,g,EE-lab3,8,2
+Monday,10:00 - 11:00,MEN13103,btech_3_g,g,FE18,2,1
+Friday,10:00 - 11:00,MEN13103,btech_3_g,g,FN4,2,1
+Tuesday,12:00 - 13:00,MEN13103,btech_3_g,g,FC5,4,1
+Monday,12:00 - 13:00,MEN13102,btech_3_g,g,FC5,4,1
+Tuesday,17:00 - 18:00,MEN13102,btech_3_g,g,FC5,9,1
+Friday,15:00 - 16:00,MEN13102,btech_3_g,g,SEW9,7,1
+Monday,16:00 - 18:00,MEN13102 (G1),btech_3_g,g,heat engine,8,2
+Thursday,15:00 - 17:00,MEN13102 (G2),btech_3_g,g,heat engine,7,2
+Monday,14:00 - 16:00,MEN13102 (G3),btech_3_g,g,heat engine,6,2
+Friday,17:00 - 18:00,AMN13101,btech_3_h,h,FN1,9,1
+Tuesday,15:00 - 16:00,AMN13101,btech_3_h,h,FN3,7,1
+Tuesday,12:00 - 13:00,AMN13101,btech_3_h,h,GS8,4,1
+Saturday,11:00 - 13:00,AMN13101 (H1),btech_3_h,h,mat test,3,2
+Wednesday,15:00 - 17:00,AMN13101 (H2),btech_3_h,h,mat test,7,2
+Wednesday,09:00 - 11:00,AMN13101 (H3),btech_3_h,h,mat test,1,2
+Saturday,10:00 - 11:00,MEN13101,btech_3_h,h,SEW1,2,1
+Wednesday,11:00 - 12:00,MEN13101,btech_3_h,h,FE17,3,1
+Tuesday,16:00 - 17:00,MEN13101,btech_3_h,h,FC5,8,1
+Wednesday,16:00 - 18:00,MEN13101 (H1),btech_3_h,h,mech lab4,8,2
+Friday,14:00 - 16:00,MEN13101 (H2),btech_3_h,h,mech lab4,6,2
+Friday,09:00 - 11:00,MEN13101 (H3),btech_3_h,h,mech lab4,1,2
+Monday,16:00 - 17:00,AMN13104,btech_3_h,h,SEW7,8,1
+Monday,17:00 - 18:00,AMN13104,btech_3_h,h,GS7,9,1
+Monday,08:00 - 09:00,AMN13104,btech_3_h,h,FN1,0,1
+Thursday,10:00 - 12:00,AMN13104 (H1),btech_3_h,h,fluid mech,2,2
+Friday,10:00 - 12:00,AMN13104 (H2),btech_3_h,h,fluid mech,2,2
+Friday,15:00 - 17:00,AMN13104 (H3),btech_3_h,h,fluid mech,7,2
+Monday,12:00 - 13:00,EEN13200,btech_3_h,h,GS7,4,1
+Wednesday,12:00 - 13:00,EEN13200,btech_3_h,h,CSNB2,4,1
+Monday,10:00 - 12:00,EEN13200 (H1),btech_3_h,h,EE-lab3,2,2
+Monday,14:00 - 16:00,EEN13200 (H2),btech_3_h,h,EE-lab3,6,2
+Wednesday,16:00 - 18:00,EEN13200 (H3),btech_3_h,h,EE-lab3,8,2
+Saturday,15:00 - 16:00,MEN13103,btech_3_h,h,SEW8,7,1
+Thursday,12:00 - 13:00,MEN13103,btech_3_h,h,FE16,4,1
+Thursday,15:00 - 16:00,MEN13103,btech_3_h,h,GS5,7,1
+Saturday,14:00 - 15:00,MEN13102,btech_3_h,h,SEW10,6,1
+Friday,12:00 - 13:00,MEN13102,btech_3_h,h,SEW10,4,1
+Thursday,17:00 - 18:00,MEN13102,btech_3_h,h,FE16,9,1
+Tuesday,08:00 - 10:00,MEN13102 (H1),btech_3_h,h,heat engine,0,2
+Monday,09:00 - 11:00,MEN13102 (H2),btech_3_h,h,heat engine,1,2
+Thursday,09:00 - 11:00,MEN13102 (H3),btech_3_h,h,heat engine,1,2
+Monday,09:00 - 10:00,BT15110,btech_5_k,k,FN3,1,1
+Saturday,09:00 - 10:00,BT15110,btech_5_k,k,FEW1,1,1
+Thursday,11:00 - 12:00,BT15110,btech_5_k,k,FC5,3,1
+Friday,15:00 - 16:00,BT15110,btech_5_k,k,GS7,7,1
+Wednesday,09:00 - 11:00,BT15110 (K1),btech_5_k,k,bio lab,1,2
+Saturday,10:00 - 12:00,BT15110 (K2),btech_5_k,k,bio lab,2,2
+Tuesday,08:00 - 09:00,BT15111,btech_5_k,k,SEW10,0,1
+Saturday,08:00 - 09:00,BT15111,btech_5_k,k,FE18,0,1
+Monday,16:00 - 17:00,BT15111,btech_5_k,k,GS6,8,1
+Friday,08:00 - 09:00,BT15111,btech_5_k,k,FEW15,0,1
+Wednesday,14:00 - 16:00,BT15111 (K1),btech_5_k,k,bio lab,6,2
+Thursday,08:00 - 10:00,BT15111 (K2),btech_5_k,k,bio lab,0,2
+Saturday,16:00 - 17:00,BT15112,btech_5_k,k,CSNB1,8,1
+Thursday,10:00 - 11:00,BT15112,btech_5_k,k,CSNB1,2,1
+Tuesday,12:00 - 13:00,BT15112,btech_5_k,k,GS3,4,1
+Tuesday,09:00 - 11:00,BT15112 (K1),btech_5_k,k,bio lab,1,2
+Thursday,16:00 - 18:00,BT15112 (K2),btech_5_k,k,bio lab,8,2
+Tuesday,17:00 - 18:00,BT15113,btech_5_k,k,CSNB2,9,1
+Tuesday,15:00 - 16:00,BT15113,btech_5_k,k,GS3,7,1
+Friday,16:00 - 17:00,BT15113,btech_5_k,k,LH4,8,1
+Friday,10:00 - 11:00,BT15113,btech_5_k,k,SEW10,2,1
+Monday,15:00 - 16:00,HS15101,btech_5_k,k,FE18,7,1
+Monday,17:00 - 18:00,HS15101,btech_5_k,k,FE16,9,1
+Monday,14:00 - 15:00,HS15101,btech_5_k,k,SMS2,6,1
+Saturday,17:00 - 18:00,MA15101,btech_5_k,k,CSNB2,9,1
+Friday,17:00 - 18:00,MA15101,btech_5_k,k,FE17,9,1
+Monday,08:00 - 09:00,MA15101,btech_5_k,k,FEW1,0,1
+Tuesday,16:00 - 17:00,MA15101,btech_5_k,k,SEW9,8,1
+Friday,16:00 - 17:00,AM15101,btech_5_i,i,FEW1,8,1
+Tuesday,09:00 - 10:00,AM15101,btech_5_i,i,FN1,1,1
+Saturday,11:00 - 12:00,AM15101,btech_5_i,i,NLH1,3,1
+Saturday,16:00 - 17:00,AM15101,btech_5_i,i,LH3,8,1
+Wednesday,08:00 - 10:00,AM15101 (I1),btech_5_i,i,structure lab,0,2
+Saturday,09:00 - 11:00,AM15101 (I2),btech_5_i,i,structure lab,1,2
+Monday,11:00 - 12:00,CE15101,btech_5_i,i,FE16,3,1
+Wednesday,17:00 - 18:00,CE15101,btech_5_i,i,GS8,9,1
+Friday,10:00 - 11:00,CE15101,btech_5_i,i,FEW15,2,1
+Friday,09:00 - 10:00,CE15101,btech_5_i,i,SEW10,1,1
+Wednesday,14:00 - 16:00,CE15101 (I1),btech_5_i,i,geotech,6,2
+Thursday,08:00 - 10:00,CE15101 (I2),btech_5_i,i,geotech,0,2
+Friday,11:00 - 12:00,CE15102,btech_5_i,i,FE18,3,1
+Friday,17:00 - 18:00,CE15102,btech_5_i,i,SEW1,9,1
+Monday,15:00 - 16:00,CE15102,btech_5_i,i,NLH1,7,1
+Thursday,17:00 - 18:00,CE15102,btech_5_i,i,SMS2,9,1
+Tuesday,11:00 - 13:00,CE15102 (I1),btech_5_i,i,transportation,3,2
+Monday,08:00 - 10:00,CE15102 (I2),btech_5_i,i,transportation,0,2
+Monday,17:00 - 18:00,CE15103,btech_5_i,i,FN1,9,1
+Friday,15:00 - 16:00,CE15103,btech_5_i,i,GS8,7,1
+Thursday,11:00 - 12:00,CE15103,btech_5_i,i,GS3,3,1
+Thursday,14:00 - 15:00,CE15103,btech_5_i,i,FN4,6,1
+Wednesday,16:00 - 17:00,CE15104,btech_5_i,i,GS5,8,1
+Tuesday,17:00 - 18:00,CE15104,btech_5_i,i,GS6,9,1
+Tuesday,15:00 - 16:00,CE15104,btech_5_i,i,NLH1,7,1
+Tuesday,16:00 - 17:00,CE15104,btech_5_i,i,FN4,8,1
+Monday,16:00 - 17:00,CE15105,btech_5_i,i,LH4,8,1
+Tuesday,14:00 - 15:00,CE15105,btech_5_i,i,FE18,6,1
+Saturday,14:00 - 15:00,CE15105,btech_5_i,i,GS4,6,1
+Friday,08:00 - 09:00,CE15105,btech_5_i,i,FE16,0,1
+Tuesday,09:00 - 10:00,AM15101,btech_5_j,j,CSNB2,1,1
+Wednesday,16:00 - 17:00,AM15101,btech_5_j,j,SEW8,8,1
+Saturday,12:00 - 13:00,AM15101,btech_5_j,j,FN4,4,1
+Wednesday,17:00 - 18:00,AM15101,btech_5_j,j,FEW15,9,1
+Saturday,14:00 - 16:00,AM15101 (J1),btech_5_j,j,structure lab,6,2
+Saturday,16:00 - 18:00,AM15101 (J2),btech_5_j,j,structure lab,8,2
+Wednesday,11:00 - 12:00,CE15101,btech_5_j,j,LH3,3,1
+Wednesday,09:00 - 10:00,CE15101,btech_5_j,j,NLH1,1,1
+Wednesday,10:00 - 11:00,CE15101,btech_5_j,j,FE17,2,1
+Monday,16:00 - 17:00,CE15101,btech_5_j,j,FN3,8,1
+Thursday,10:00 - 12:00,CE15101 (J1),btech_5_j,j,geotech,2,2
+Monday,14:00 - 16:00,CE15101 (J2),btech_5_j,j,geotech,6,2
+Saturday,11:00 - 12:00,CE15102,btech_5_j,j,FEW15,3,1
+Saturday,10:00 - 11:00,CE15102,btech_5_j,j,SEW9,2,1
+Friday,10:00 - 11:00,CE15102,btech_5_j,j,CSNB2,2,1
+Friday,14:00 - 15:00,CE15102,btech_5_j,j,SEW8,6,1
+Monday,14:00 - 16:00,CE15102 (J1),btech_5_j,j,transportation,6,2
+Thursday,09:00 - 11:00,CE15102 (J2),btech_5_j,j,transportation,1,2
+Wednesday,15:00 - 16:00,CE15103,btech_5_j,j,SMS3,7,1
+Friday,11:00 - 12:00,CE15103,btech_5_j,j,GS3,3,1
+Tuesday,11:00 - 12:00,CE15103,btech_5_j,j,FE16,3,1
+Tuesday,17:00 - 18:00,CE15103,btech_5_j,j,FEW15,9,1
+Tuesday,12:00 - 13:00,CE15104,btech_5_j,j,SEW10,4,1
+Monday,17:00 - 18:00,CE15104,btech_5_j,j,FN4,9,1
+Thursday,08:00 - 09:00,CE15104,btech_5_j,j,GS8,0,1
+Monday,11:00 - 12:00,CE15104,btech_5_j,j,GS3,3,1
+Saturday,09:00 - 10:00,CE15105,btech_5_j,j,CSNB1,1,1
+Friday,09:00 - 10:00,CE15105,btech_5_j,j,SEW1,1,1
+Friday,12:00 - 13:00,CE15105,btech_5_j,j,GS8,4,1
+Thursday,12:00 - 13:00,CE15105,btech_5_j,j,FE17,4,1
+Saturday,15:00 - 16:00,CS15101,btech_5_a,a,FE16,7,1
+Monday,17:00 - 18:00,CS15101,btech_5_a,a,FE17,9,1
+Thursday,11:00 - 12:00,CS15101,btech_5_a,a,GS7,3,1
+Saturday,08:00 - 10:00,CS15101 (A1),btech_5_a,a,micro lab,0,2
+Friday,15:00 - 17:00,CS15101 (A2),btech_5_a,a,micro lab,7,2
+Tuesday,08:00 - 10:00,CS15101 (A3),btech_5_a,a,micro lab,0,2
+Tuesday,15:00 - 16:00,CS15102,btech_5_a,a,FEW15,7,1
+Wednesday,17:00 - 18:00,CS15102,btech_5_a,a,FN1,9,1
+Monday,14:00 - 15:00,CS15102,btech_5_a,a,FE18,6,1
+Tuesday,12:00 - 13:00,CS15102,btech_5_a,a,FN1,4,1
+Tuesday,08:00 - 10:00,CS15102 (A1),btech_5_a,a,CSED - L3,0,2
+Tuesday,16:00 - 18:00,CS15102 (A2),btech_5_a,a,CSED - L3,8,2
+Thursday,09:00 - 11:00,CS15102 (A3),btech_5_a,a,CSED - L3,1,2
+Tuesday,10:00 - 11:00,CS15103,btech_5_a,a,SEW1,2,1
+Tuesday,14:00 - 15:00,CS15103,btech_5_a,a,FE16,6,1
+Thursday,16:00 - 17:00,CS15103,btech_5_a,a,FC5,8,1
+Monday,12:00 - 13:00,CS15103,btech_5_a,a,FEW1,4,1
+Wednesday,08:00 - 10:00,CS15103 (A1),btech_5_a,a,CSED - L3,0,2
+Wednesday,11:00 - 13:00,CS15103 (A2),btech_5_a,a,CSED - L3,3,2
+Saturday,11:00 - 13:00,CS15103 (A3),btech_5_a,a,CSED - L3,3,2
+Friday,10:00 - 11:00,CS15104,btech_5_a,a,FEW1,2,1
+Saturday,17:00 - 18:00,CS15104,btech_5_a,a,SEW8,9,1
+Thursday,17:00 - 18:00,CS15104,btech_5_a,a,NLH1,9,1
+Monday,15:00 - 16:00,CS15104,btech_5_a,a,SEW9,7,1
+Saturday,16:00 - 17:00,CS15105,btech_5_a,a,FEW1,8,1
+Wednesday,15:00 - 16:00,CS15105,btech_5_a,a,GS7,7,1
+Friday,08:00 - 09:00,CS15105,btech_5_a,a,GS7,0,1
+Wednesday,14:00 - 15:00,CS15106,btech_5_a,a,SEW8,6,1
+Friday,12:00 - 13:00,CS15106,btech_5_a,a,NLH2,4,1
+Monday,09:00 - 10:00,CS15106,btech_5_a,a,FEW1,1,1
+Saturday,08:00 - 09:00,CS15101,btech_5_b,b,SEW10,0,1
+Friday,16:00 - 17:00,CS15101,btech_5_b,b,SEW9,8,1
+Monday,08:00 - 09:00,CS15101,btech_5_b,b,SEW9,0,1
+Monday,11:00 - 13:00,CS15101 (B1),btech_5_b,b,micro lab,3,2
+Wednesday,09:00 - 11:00,CS15101 (B2),btech_5_b,b,micro lab,1,2
+Saturday,10:00 - 12:00,CS15101 (B3),btech_5_b,b,micro lab,2,2
+Saturday,15:00 - 16:00,CS15102,btech_5_b,b,FN4,7,1
+Saturday,09:00 - 10:00,CS15102,btech_5_b,b,FE17,1,1
+Wednesday,15:00 - 16:00,CS15102,btech_5_b,b,GS8,7,1
+Tuesday,16:00 - 17:00,CS15102,btech_5_b,b,FE17,8,1
+Thursday,11:00 - 13:00,CS15102 (B1),btech_5_b,b,CSED - L3,3,2
+Friday,08:00 - 10:00,CS15102 (B2),btech_5_b,b,CSED - L3,0,2
+Thursday,16:00 - 18:00,CS15102 (B3),btech_5_b,b,CSED - L3,8,2
+Friday,17:00 - 18:00,CS15103,btech_5_b,b,FEW1,9,1
+Friday,11:00 - 12:00,CS15103,btech_5_b,b,NLH1,3,1
+Wednesday,08:00 - 09:00,CS15103,btech_5_b,b,SEW10,0,1
+Wednesday,11:00 - 12:00,CS15103,btech_5_b,b,SEW10,3,1
+Saturday,16:00 - 18:00,CS15103 (B1),btech_5_b,b,CSED - L3,8,2
+Wednesday,16:00 - 18:00,CS15103 (B2),btech_5_b,b,CSED - L3,8,2
+Tuesday,10:00 - 12:00,CS15103 (B3),btech_5_b,b,CSED - L3,2,2
+Thursday,09:00 - 10:00,CS15104,btech_5_b,b,FEW1,1,1
+Thursday,10:00 - 11:00,CS15104,btech_5_b,b,SMS3,2,1
+Monday,15:00 - 16:00,CS15104,btech_5_b,b,GS3,7,1
+Monday,14:00 - 15:00,CS15104,btech_5_b,b,SMS3,6,1
+Friday,15:00 - 16:00,CS15105,btech_5_b,b,FE17,7,1
+Wednesday,12:00 - 13:00,CS15105,btech_5_b,b,SEW1,4,1
+Thursday,08:00 - 09:00,CS15105,btech_5_b,b,FE18,0,1
+Thursday,14:00 - 15:00,CS15106,btech_5_b,b,FE18,6,1
+Tuesday,08:00 - 09:00,CS15106,btech_5_b,b,GS3,0,1
+Monday,17:00 - 18:00,CS15106,btech_5_b,b,GS6,9,1
+Tuesday,15:00 - 16:00,CS15101,btech_5_c,c,FE18,7,1
+Tuesday,17:00 - 18:00,CS15101,btech_5_c,c,SEW8,9,1
+Thursday,12:00 - 13:00,CS15101,btech_5_c,c,SMS3,4,1
+Wednesday,11:00 - 13:00,CS15101 (C1),btech_5_c,c,micro lab,3,2
+Wednesday,14:00 - 16:00,CS15101 (C2),btech_5_c,c,micro lab,6,2
+Tuesday,11:00 - 13:00,CS15101 (C3),btech_5_c,c,micro lab,3,2
+Monday,15:00 - 16:00,CS15102,btech_5_c,c,FC5,7,1
+Thursday,11:00 - 12:00,CS15102,btech_5_c,c,FEW1,3,1
+Thursday,16:00 - 17:00,CS15102,btech_5_c,c,SEW9,8,1
+Monday,14:00 - 15:00,CS15102,btech_5_c,c,FN4,6,1
+Wednesday,14:00 - 16:00,CS15102 (C1),btech_5_c,c,CSED - L3,6,2
+Saturday,14:00 - 16:00,CS15102 (C2),btech_5_c,c,CSED - L3,6,2
+Monday,11:00 - 13:00,CS15102 (C3),btech_5_c,c,CSED - L3,3,2
+Thursday,10:00 - 11:00,CS15103,btech_5_c,c,FEW1,2,1
+Saturday,16:00 - 17:00,CS15103,btech_5_c,c,SEW8,8,1
+Wednesday,17:00 - 18:00,CS15103,btech_5_c,c,NLH1,9,1
+Tuesday,16:00 - 17:00,CS15103,btech_5_c,c,FEW1,8,1
+Monday,16:00 - 18:00,CS15103 (C1),btech_5_c,c,CSED - L3,8,2
+Monday,08:00 - 10:00,CS15103 (C2),btech_5_c,c,CSED - L3,0,2
+Friday,10:00 - 12:00,CS15103 (C3),btech_5_c,c,CSED - L3,2,2
+Friday,09:00 - 10:00,CS15104,btech_5_c,c,GS5,1,1
+Thursday,09:00 - 10:00,CS15104,btech_5_c,c,FN1,1,1
+Wednesday,09:00 - 10:00,CS15104,btech_5_c,c,FN4,1,1
+Wednesday,10:00 - 11:00,CS15104,btech_5_c,c,GS4,2,1
+Friday,16:00 - 17:00,CS15105,btech_5_c,c,GS6,8,1
+Saturday,12:00 - 13:00,CS15105,btech_5_c,c,CSNB1,4,1
+Saturday,08:00 - 09:00,CS15105,btech_5_c,c,FN3,0,1
+Friday,14:00 - 15:00,CS15106,btech_5_c,c,GS3,6,1
+Thursday,17:00 - 18:00,CS15106,btech_5_c,c,SMS3,9,1
+Tuesday,10:00 - 11:00,CS15106,btech_5_c,c,SEW10,2,1
+Thursday,11:00 - 12:00,CS15101,btech_5_d,d,SEW7,3,1
+Wednesday,16:00 - 17:00,CS15101,btech_5_d,d,GS3,8,1
+Thursday,08:00 - 09:00,CS15101,btech_5_d,d,SEW7,0,1
+Monday,14:00 - 16:00,CS15101 (D1),btech_5_d,d,micro lab,6,2
+Thursday,09:00 - 11:00,CS15101 (D2),btech_5_d,d,micro lab,1,2
+Thursday,15:00 - 17:00,CS15101 (D3),btech_5_d,d,micro lab,7,2
+Wednesday,14:00 - 15:00,CS15102,btech_5_d,d,GS8,6,1
+Tuesday,09:00 - 10:00,CS15102,btech_5_d,d,FE17,1,1
+Tuesday,11:00 - 12:00,CS15102,btech_5_d,d,NLH2,3,1
+Monday,16:00 - 17:00,CS15102,btech_5_d,d,SEW9,8,1
+Friday,16:00 - 18:00,CS15102 (D1),btech_5_d,d,CSED - L3,8,2
+Saturday,08:00 - 10:00,CS15102 (D2),btech_5_d,d,CSED - L3,0,2
+Friday,14:00 - 16:00,CS15102 (D3),btech_5_d,d,CSED - L3,6,2
+Tuesday,08:00 - 09:00,CS15103,btech_5_d,d,CSNB2,0,1
+Friday,10:00 - 11:00,CS15103,btech_5_d,d,FN1,2,1
+Tuesday,10:00 - 11:00,CS15103,btech_5_d,d,FN4,2,1
+Tuesday,17:00 - 18:00,CS15103,btech_5_d,d,CSNB1,9,1
+Tuesday,14:00 - 16:00,CS15103 (D1),btech_5_d,d,CSED - L3,6,2
+Thursday,14:00 - 16:00,CS15103 (D2),btech_5_d,d,CSED - L3,6,2
+Monday,14:00 - 16:00,CS15103 (D3),btech_5_d,d,CSED - L3,6,2
+Saturday,17:00 - 18:00,CS15104,btech_5_d,d,FC5,9,1
+Friday,09:00 - 10:00,CS15104,btech_5_d,d,FN3,1,1
+Saturday,12:00 - 13:00,CS15104,btech_5_d,d,SEW10,4,1
+Saturday,16:00 - 17:00,CS15104,btech_5_d,d,SEW9,8,1
+Wednesday,09:00 - 10:00,CS15105,btech_5_d,d,FE18,1,1
+Wednesday,17:00 - 18:00,CS15105,btech_5_d,d,CSNB2,9,1
+Saturday,10:00 - 11:00,CS15105,btech_5_d,d,FC5,2,1
+Friday,08:00 - 09:00,CS15106,btech_5_d,d,FN4,0,1
+Monday,09:00 - 10:00,CS15106,btech_5_d,d,GS3,1,1
+Monday,11:00 - 12:00,CS15106,btech_5_d,d,FN4,3,1
+Wednesday,09:00 - 10:00,EE15101,btech_5_n,n,FC5,1,1
+Monday,17:00 - 18:00,EE15101,btech_5_n,n,GS8,9,1
+Wednesday,17:00 - 18:00,EE15101,btech_5_n,n,SEW8,9,1
+Thursday,16:00 - 17:00,EE15101,btech_5_n,n,SEW10,8,1
+Tuesday,08:00 - 10:00,EE15101 (N1),btech_5_n,n,EE-lab1,0,2
+Tuesday,11:00 - 13:00,EE15101 (N2),btech_5_n,n,EE-lab1,3,2
+Monday,11:00 - 13:00,EE15101 (N3),btech_5_n,n,EE-lab1,3,2
+Saturday,12:00 - 13:00,EE15102,btech_5_n,n,SEW1,4,1
+Friday,10:00 - 11:00,EE15102,btech_5_n,n,SEW7,2,1
+Thursday,11:00 - 12:00,EE15102,btech_5_n,n,SMS3,3,1
+Wednesday,15:00 - 16:00,EE15102,btech_5_n,n,GS5,7,1
+Monday,10:00 - 12:00,EE15102 (N1),btech_5_n,n,EE-lab2,2,2
+Monday,15:00 - 17:00,EE15102 (N2),btech_5_n,n,EE-lab2,7,2
+Saturday,15:00 - 17:00,EE15102 (N3),btech_5_n,n,EE-lab2,7,2
+Saturday,09:00 - 10:00,EE15103,btech_5_n,n,GS4,1,1
+Tuesday,16:00 - 17:00,EE15103,btech_5_n,n,SEW1,8,1
+Tuesday,14:00 - 15:00,EE15103,btech_5_n,n,FN1,6,1
+Friday,17:00 - 18:00,EE15103,btech_5_n,n,NLH2,9,1
+Friday,14:00 - 16:00,EE15103 (N1),btech_5_n,n,EE-lab3,6,2
+Saturday,10:00 - 12:00,EE15103 (N2),btech_5_n,n,EE-lab3,2,2
+Tuesday,11:00 - 13:00,EE15103 (N3),btech_5_n,n,EE-lab3,3,2
+Wednesday,08:00 - 09:00,EE15104,btech_5_n,n,SMS1,0,1
+Wednesday,10:00 - 11:00,EE15104,btech_5_n,n,GS7,2,1
+Friday,08:00 - 09:00,EE15104,btech_5_n,n,SEW8,0,1
+Friday,09:00 - 10:00,EE15104,btech_5_n,n,GS7,1,1
+Saturday,15:00 - 17:00,EE15104 (N1),btech_5_n,n,EE-lab4,7,2
+Tuesday,09:00 - 11:00,EE15104 (N2),btech_5_n,n,EE-lab4,1,2
+Friday,14:00 - 16:00,EE15104 (N3),btech_5_n,n,EE-lab4,6,2
+Friday,11:00 - 12:00,HS15101,btech_5_n,n,FN4,3,1
+Thursday,15:00 - 16:00,HS15101,btech_5_n,n,SEW9,7,1
+Thursday,09:00 - 10:00,HS15101,btech_5_n,n,SEW1,1,1
+Saturday,08:00 - 09:00,EC15101,btech_5_e,e,GS5,0,1
+Friday,08:00 - 09:00,EC15101,btech_5_e,e,SEW7,0,1
+Saturday,09:00 - 10:00,EC15101,btech_5_e,e,NLH2,1,1
+Saturday,17:00 - 18:00,EC15102,btech_5_e,e,FN1,9,1
+Tuesday,12:00 - 13:00,EC15102,btech_5_e,e,FE16,4,1
+Tuesday,08:00 - 09:00,EC15102,btech_5_e,e,CSNB1,0,1
+Friday,09:00 - 11:00,EC15102 (E1),btech_5_e,e,ECE1,1,2
+Saturday,14:00 - 16:00,EC15102 (E2),btech_5_e,e,ECE1,6,2
+Friday,16:00 - 18:00,EC15102 (E3),btech_5_e,e,ECE1,8,2
+Saturday,10:00 - 11:00,EC15103,btech_5_e,e,SEW10,2,1
+Friday,15:00 - 16:00,EC15103,btech_5_e,e,GS3,7,1
+Monday,09:00 - 10:00,EC15103,btech_5_e,e,GS4,1,1
+Tuesday,11:00 - 12:00,EC15104,btech_5_e,e,GS3,3,1
+Thursday,14:00 - 15:00,EC15104,btech_5_e,e,NLH2,6,1
+Wednesday,16:00 - 17:00,EC15104,btech_5_e,e,CSNB2,8,1
+Thursday,17:00 - 18:00,EC15104,btech_5_e,e,FE17,9,1
+Tuesday,15:00 - 17:00,EC15104 (E1),btech_5_e,e,ECE2,7,2
+Thursday,10:00 - 12:00,EC15104 (E2),btech_5_e,e,ECE2,2,2
+Saturday,14:00 - 16:00,EC15104 (E3),btech_5_e,e,ECE2,6,2
+Monday,17:00 - 18:00,EE15111,btech_5_e,e,GS5,9,1
+Saturday,16:00 - 17:00,EE15111,btech_5_e,e,GS3,8,1
+Thursday,16:00 - 17:00,EE15111,btech_5_e,e,FN3,8,1
+Thursday,11:00 - 13:00,EE15111 (E1),btech_5_e,e,ECE3,3,2
+Tuesday,15:00 - 17:00,EE15111 (E2),btech_5_e,e,ECE3,7,2
+Saturday,11:00 - 13:00,EE15111 (E3),btech_5_e,e,ECE3,3,2
+Wednesday,17:00 - 18:00,EC15105,btech_5_e,e,GS4,9,1
+Monday,11:00 - 12:00,EC15105,btech_5_e,e,NLH2,3,1
+Wednesday,11:00 - 12:00,EC15105,btech_5_e,e,FEW15,3,1
+Monday,15:00 - 17:00,EC15105 (E1),btech_5_e,e,ECE4,7,2
+Wednesday,08:00 - 10:00,EC15105 (E2),btech_5_e,e,ECE4,0,2
+Tuesday,16:00 - 18:00,EC15105 (E3),btech_5_e,e,ECE4,8,2
+Saturday,10:00 - 11:00,EC15101,btech_5_f,f,FE16,2,1
+Tuesday,11:00 - 12:00,EC15101,btech_5_f,f,SEW1,3,1
+Thursday,09:00 - 10:00,EC15101,btech_5_f,f,FEW15,1,1
+Friday,14:00 - 15:00,EC15102,btech_5_f,f,GS5,6,1
+Thursday,11:00 - 12:00,EC15102,btech_5_f,f,GS8,3,1
+Friday,12:00 - 13:00,EC15102,btech_5_f,f,FE17,4,1
+Thursday,14:00 - 16:00,EC15102 (F1),btech_5_f,f,ECE1,6,2
+Monday,16:00 - 18:00,EC15102 (F2),btech_5_f,f,ECE1,8,2
+Wednesday,08:00 - 10:00,EC15102 (F3),btech_5_f,f,ECE1,0,2
+Thursday,10:00 - 11:00,EC15103,btech_5_f,f,GS6,2,1
+Saturday,16:00 - 17:00,EC15103,btech_5_f,f,FE16,8,1
+Wednesday,11:00 - 12:00,EC15103,btech_5_f,f,SEW7,3,1
+Friday,09:00 - 10:00,EC15104,btech_5_f,f,FE16,1,1
+Tuesday,15:00 - 16:00,EC15104,btech_5_f,f,FC5,7,1
+Saturday,15:00 - 16:00,EC15104,btech_5_f,f,SMS3,7,1
+Thursday,12:00 - 13:00,EC15104,btech_5_f,f,GS8,4,1
+Monday,14:00 - 16:00,EC15104 (F1),btech_5_f,f,ECE2,6,2
+Tuesday,08:00 - 10:00,EC15104 (F2),btech_5_f,f,ECE2,0,2
+Wednesday,16:00 - 18:00,EC15104 (F3),btech_5_f,f,ECE2,8,2
+Wednesday,10:00 - 11:00,EE15111,btech_5_f,f,GS5,2,1
+Wednesday,12:00 - 13:00,EE15111,btech_5_f,f,CSNB1,4,1
+Thursday,08:00 - 09:00,EE15111,btech_5_f,f,SEW8,0,1
+Friday,16:00 - 18:00,EE15111 (F1),btech_5_f,f,ECE3,8,2
+Wednesday,15:00 - 17:00,EE15111 (F2),btech_5_f,f,ECE3,7,2
+Monday,16:00 - 18:00,EE15111 (F3),btech_5_f,f,ECE3,8,2
+Thursday,16:00 - 17:00,EC15105,btech_5_f,f,SEW8,8,1
+Saturday,12:00 - 13:00,EC15105,btech_5_f,f,SMS3,4,1
+Tuesday,17:00 - 18:00,EC15105,btech_5_f,f,GS4,9,1
+Monday,08:00 - 10:00,EC15105 (F1),btech_5_f,f,ECE4,0,2
+Monday,11:00 - 13:00,EC15105 (F2),btech_5_f,f,ECE4,3,2
+Tuesday,09:00 - 11:00,EC15105 (F3),btech_5_f,f,ECE4,1,2
+Friday,09:00 - 10:00,ME15101,btech_5_g,g,FE17,1,1
+Friday,12:00 - 13:00,ME15101,btech_5_g,g,SEW9,4,1
+Tuesday,08:00 - 09:00,ME15101,btech_5_g,g,FEW1,0,1
+Tuesday,16:00 - 17:00,ME15101,btech_5_g,g,SEW10,8,1
+Saturday,08:00 - 10:00,ME15101 (G1),btech_5_g,g,CAD,0,2
+Tuesday,09:00 - 11:00,ME15101 (G2),btech_5_g,g,CAD,1,2
+Friday,14:00 - 16:00,ME15101 (G3),btech_5_g,g,CAD,6,2
+Saturday,15:00 - 16:00,ME15102,btech_5_g,g,FE17,7,1
+Friday,10:00 - 11:00,ME15102,btech_5_g,g,GS3,2,1
+Wednesday,17:00 - 18:00,ME15102,btech_5_g,g,SMS1,9,1
+Monday,15:00 - 16:00,ME15102,btech_5_g,g,CSNB1,7,1
+Thursday,10:00 - 12:00,ME15102 (G1),btech_5_g,g,CAD,2,2
+Friday,16:00 - 18:00,ME15102 (G2),btech_5_g,g,CAD,8,2
+Thursday,15:00 - 17:00,ME15102 (G3),btech_5_g,g,CAD,7,2
+Wednesday,11:00 - 12:00,ME15103,btech_5_g,g,GS5,3,1
+Monday,14:00 - 15:00,ME15103,btech_5_g,g,NLH2,6,1
+Wednesday,14:00 - 15:00,ME15103,btech_5_g,g,GS7,6,1
+Saturday,10:00 - 11:00,ME15103,btech_5_g,g,NLH1,2,1
+Tuesday,14:00 - 16:00,ME15103 (G1),btech_5_g,g,mechanical workshop,6,2
+Monday,10:00 - 12:00,ME15103 (G2),btech_5_g,g,mechanical workshop,2,2
+Tuesday,11:00 - 13:00,ME15103 (G3),btech_5_g,g,mechanical workshop,3,2
+Monday,17:00 - 18:00,ME15104,btech_5_g,g,FEW1,9,1
+Wednesday,10:00 - 11:00,ME15104,btech_5_g,g,GS8,2,1
+Monday,09:00 - 10:00,ME15104,btech_5_g,g,SMS2,1,1
+Wednesday,16:00 - 17:00,ME15104,btech_5_g,g,SMS3,8,1
+Saturday,16:00 - 18:00,ME15104 (G1),btech_5_g,g,heat engine,8,2
+Saturday,08:00 - 10:00,ME15104 (G2),btech_5_g,g,heat engine,0,2
+Thursday,11:00 - 13:00,ME15104 (G3),btech_5_g,g,heat engine,3,2
+Thursday,14:00 - 15:00,HS15101,btech_5_g,g,GS3,6,1
+Wednesday,09:00 - 10:00,HS15101,btech_5_g,g,NLH2,1,1
+Friday,11:00 - 12:00,HS15101,btech_5_g,g,CSNB1,3,1
+Thursday,12:00 - 13:00,ME15101,btech_5_h,h,GS3,4,1
+Tuesday,10:00 - 11:00,ME15101,btech_5_h,h,CSNB1,2,1
+Friday,11:00 - 12:00,ME15101,btech_5_h,h,FEW15,3,1
+Wednesday,17:00 - 18:00,ME15101,btech_5_h,h,GS3,9,1
+Monday,11:00 - 13:00,ME15101 (H1),btech_5_h,h,CAD,3,2
+Tuesday,11:00 - 13:00,ME15101 (H2),btech_5_h,h,CAD,3,2
+Monday,09:00 - 11:00,ME15101 (H3),btech_5_h,h,CAD,1,2
+Thursday,16:00 - 17:00,ME15102,btech_5_h,h,GS7,8,1
+Tuesday,09:00 - 10:00,ME15102,btech_5_h,h,GS4,1,1
+Thursday,15:00 - 16:00,ME15102,btech_5_h,h,SEW7,7,1
+Saturday,09:00 - 10:00,ME15102,btech_5_h,h,SMS1,1,1
+Thursday,08:00 - 10:00,ME15102 (H1),btech_5_h,h,CAD,0,2
+Wednesday,09:00 - 11:00,ME15102 (H2),btech_5_h,h,CAD,1,2
+Saturday,10:00 - 12:00,ME15102 (H3),btech_5_h,h,CAD,2,2
+Monday,15:00 - 16:00,ME15103,btech_5_h,h,FN4,7,1
+Friday,14:00 - 15:00,ME15103,btech_5_h,h,FE18,6,1
+Friday,12:00 - 13:00,ME15103,btech_5_h,h,FN3,4,1
+Saturday,12:00 - 13:00,ME15103,btech_5_h,h,FN1,4,1
+Wednesday,08:00 - 10:00,ME15103 (H1),btech_5_h,h,mechanical workshop,0,2
+Wednesday,15:00 - 17:00,ME15103 (H2),btech_5_h,h,mechanical workshop,7,2
+Monday,16:00 - 18:00,ME15103 (H3),btech_5_h,h,mechanical workshop,8,2
+Wednesday,11:00 - 12:00,ME15104,btech_5_h,h,GS6,3,1
+Saturday,15:00 - 16:00,ME15104,btech_5_h,h,SEW10,7,1
+Saturday,14:00 - 15:00,ME15104,btech_5_h,h,FEW1,6,1
+Friday,15:00 - 16:00,ME15104,btech_5_h,h,SEW7,7,1
+Wednesday,15:00 - 17:00,ME15104 (H1),btech_5_h,h,heat engine,7,2
+Tuesday,15:00 - 17:00,ME15104 (H2),btech_5_h,h,heat engine,7,2
+Wednesday,09:00 - 11:00,ME15104 (H3),btech_5_h,h,heat engine,1,2
+Thursday,11:00 - 12:00,HS15101,btech_5_h,h,FE18,3,1
+Friday,16:00 - 17:00,HS15101,btech_5_h,h,NLH1,8,1
+Wednesday,14:00 - 15:00,HS15101,btech_5_h,h,CSNB2,6,1
+Friday,08:00 - 09:00,ME15101,btech_5_m,m,SEW1,0,1
+Saturday,09:00 - 10:00,ME15101,btech_5_m,m,FE18,1,1
+Wednesday,16:00 - 17:00,ME15101,btech_5_m,m,FC5,8,1
+Monday,12:00 - 13:00,ME15101,btech_5_m,m,FN3,4,1
+Tuesday,15:00 - 17:00,ME15101 (M1),btech_5_m,m,CAD,7,2
+Wednesday,14:00 - 16:00,ME15101 (M2),btech_5_m,m,CAD,6,2
+Friday,09:00 - 10:00,ME15102,btech_5_m,m,CSNB1,1,1
+Friday,15:00 - 16:00,ME15102,btech_5_m,m,FE16,7,1
+Wednesday,09:00 - 10:00,ME15102,btech_5_m,m,GS8,1,1
+Thursday,09:00 - 10:00,ME15102,btech_5_m,m,FN3,1,1
+Saturday,16:00 - 18:00,ME15102 (M1),btech_5_m,m,CAD,8,2
+Friday,10:00 - 12:00,ME15102 (M2),btech_5_m,m,CAD,2,2
+Monday,08:00 - 09:00,ME15103,btech_5_m,m,FEW15,0,1
+Monday,15:00 - 16:00,ME15103,btech_5_m,m,FEW15,7,1
+Tuesday,10:00 - 11:00,ME15103,btech_5_m,m,SEW8,2,1
+Monday,10:00 - 11:00,ME15103,btech_5_m,m,FN1,2,1
+Saturday,14:00 - 16:00,ME15103 (M1),btech_5_m,m,mechanical workshop,6,2
+Tuesday,16:00 - 18:00,ME15103 (M2),btech_5_m,m,mechanical workshop,8,2
+Saturday,11:00 - 12:00,ME15111,btech_5_m,m,CSNB2,3,1
+Thursday,11:00 - 12:00,ME15111,btech_5_m,m,FEW15,3,1
+Tuesday,08:00 - 09:00,ME15111,btech_5_m,m,FN1,0,1
+Wednesday,11:00 - 12:00,ME15111,btech_5_m,m,CSNB1,3,1
+Wednesday,10:00 - 11:00,HS15101,btech_5_m,m,SEW9,2,1
+Thursday,10:00 - 11:00,HS15101,btech_5_m,m,FN1,2,1
+Wednesday,08:00 - 09:00,HS15101,btech_5_m,m,FE17,0,1
+Thursday,09:00 - 10:00,CH15101,btech_5_l,l,LH4,1,1
+Thursday,10:00 - 11:00,CH15101,btech_5_l,l,FE16,2,1
+Wednesday,11:00 - 12:00,CH15101,btech_5_l,l,FE18,3,1
+Tuesday,16:00 - 17:00,CH15101,btech_5_l,l,GS5,8,1
+Friday,15:00 - 16:00,CH15102,btech_5_l,l,FE18,7,1
+Wednesday,12:00 - 13:00,CH15102,btech_5_l,l,FE16,4,1
+Wednesday,08:00 - 09:00,CH15102,btech_5_l,l,FC5,0,1
+Thursday,16:00 - 17:00,CH15102,btech_5_l,l,FE17,8,1
+Wednesday,15:00 - 17:00,CH15102 (L1),btech_5_l,l,mass transfer,7,2
+Thursday,11:00 - 13:00,CH15102 (L2),btech_5_l,l,mass transfer,3,2
+Friday,17:00 - 18:00,CH15103,btech_5_l,l,GS6,9,1
+Tuesday,15:00 - 16:00,CH15103,btech_5_l,l,LH4,7,1
+Tuesday,09:00 - 10:00,CH15103,btech_5_l,l,GS6,1,1
+Saturday,11:00 - 12:00,CH15103,btech_5_l,l,NLH2,3,1
+Saturday,16:00 - 18:00,CH15103 (L1),btech_5_l,l,chem lab3,8,2
+Wednesday,14:00 - 16:00,CH15103 (L2),btech_5_l,l,chem lab3,6,2
+Friday,12:00 - 13:00,CH15104,btech_5_l,l,LH4,4,1
+Saturday,12:00 - 13:00,CH15104,btech_5_l,l,SEW9,4,1
+Wednesday,17:00 - 18:00,CH15104,btech_5_l,l,GS6,9,1
+Saturday,09:00 - 10:00,CH15104,btech_5_l,l,SMS2,1,1
+Thursday,17:00 - 18:00,HS15101,btech_5_l,l,CSNB2,9,1
+Monday,10:00 - 11:00,HS15101,btech_5_l,l,FE17,2,1
+Thursday,08:00 - 09:00,HS15101,btech_5_l,l,GS5,0,1
+Wednesday,09:00 - 10:00,BT17301,btech_7_k,k,CSNB1,1,1
+Friday,17:00 - 18:00,BT17301,btech_7_k,k,LH3,9,1
+Tuesday,11:00 - 12:00,BT17301,btech_7_k,k,GS6,3,1
+Tuesday,15:00 - 17:00,BT17301 (K1),btech_7_k,k,bio lab,7,2
+Wednesday,11:00 - 13:00,BT17301 (K2),btech_7_k,k,bio lab,3,2
+Thursday,12:00 - 13:00,BT17303,btech_7_k,k,SEW9,4,1
+Tuesday,09:00 - 10:00,BT17303,btech_7_k,k,SEW7,1,1
+Thursday,11:00 - 12:00,BT17303,btech_7_k,k,SEW1,3,1
+Thursday,14:00 - 16:00,BT17303 (K1),btech_7_k,k,bio lab,6,2
+Monday,15:00 - 17:00,BT17303 (K2),btech_7_k,k,bio lab,7,2
+Wednesday,10:00 - 11:00,BT17304,btech_7_k,k,FE18,2,1
+Saturday,08:00 - 09:00,BT17304,btech_7_k,k,SEW7,0,1
+Monday,08:00 - 09:00,BT17304,btech_7_k,k,SEW8,0,1
+Tuesday,17:00 - 18:00,BT17305,btech_7_k,k,LH3,9,1
+Tuesday,10:00 - 11:00,BT17305,btech_7_k,k,NLH1,2,1
+Friday,16:00 - 17:00,BT17305,btech_7_k,k,FEW15,8,1
+Saturday,12:00 - 13:00,OE17501,btech_7_k,k,GS7,4,1
+Saturday,11:00 - 12:00,OE17501,btech_7_k,k,SMS1,3,1
+Tuesday,14:00 - 15:00,OE17501,btech_7_k,k,SMS1,6,1
+Tuesday,09:00 - 10:00,CE17101,btech_7_i,i,LH4,1,1
+Tuesday,08:00 - 09:00,CE17101,btech_7_i,i,GS4,0,1
+Wednesday,10:00 - 11:00,CE17101,btech_7_i,i,SMS3,2,1
+Thursday,16:00 - 18:00,CE17101 (I1),btech_7_i,i,concrete lab,8,2
+Monday,10:00 - 12:00,CE17101 (I2),btech_7_i,i,concrete lab,2,2
+Monday,12:00 - 13:00,CE17102,btech_7_i,i,LH3,4,1
+Monday,09:00 - 10:00,CE17102,btech_7_i,i,SEW7,1,1
+Friday,09:00 - 10:00,CE17102,btech_7_i,i,FN1,1,1
+Thursday,10:00 - 11:00,CE17103,btech_7_i,i,GS3,2,1
+Friday,15:00 - 16:00,CE17103,btech_7_i,i,SEW1,7,1
+Friday,14:00 - 15:00,CE17103,btech_7_i,i,LH4,6,1
+Friday,16:00 - 17:00,OE17501,btech_7_i,i,FE17,8,1
+Monday,14:00 - 15:00,OE17501,btech_7_i,i,SMS1,6,1
+Monday,15:00 - 16:00,OE17501,btech_7_i,i,GS5,7,1
+Wednesday,16:00 - 17:00,CE17302,btech_7_i,i,FN3,8,1
+Wednesday,11:00 - 12:00,CE17302,btech_7_i,i,GS7,3,1
+Friday,17:00 - 18:00,CE17302,btech_7_i,i,GS3,9,1
+Saturday,08:00 - 09:00,CE17302,btech_7_i,i,SMS1,0,1
+Saturday,16:00 - 17:00,CE17305,btech_7_i,i,GS8,8,1
+Friday,10:00 - 11:00,CE17305,btech_7_i,i,GS6,2,1
+Wednesday,09:00 - 10:00,CE17305,btech_7_i,i,FN3,1,1
+Saturday,15:00 - 16:00,CE17305,btech_7_i,i,GS6,7,1
+Tuesday,10:00 - 11:00,CE17101,btech_7_j,j,SMS2,2,1
+Saturday,11:00 - 12:00,CE17101,btech_7_j,j,SEW7,3,1
+Friday,11:00 - 12:00,CE17101,btech_7_j,j,CSNB2,3,1
+Saturday,09:00 - 11:00,CE17101 (J1),btech_7_j,j,concrete lab,1,2
+Tuesday,14:00 - 16:00,CE17101 (J2),btech_7_j,j,concrete lab,6,2
+Wednesday,10:00 - 11:00,CE17102,btech_7_j,j,FC5,2,1
+Friday,15:00 - 16:00,CE17102,btech_7_j,j,FN3,7,1
+Monday,16:00 - 17:00,CE17102,btech_7_j,j,GS7,8,1
+Saturday,14:00 - 15:00,CE17103,btech_7_j,j,FN4,6,1
+Monday,10:00 - 11:00,CE17103,btech_7_j,j,FC5,2,1
+Monday,15:00 - 16:00,CE17103,btech_7_j,j,GS8,7,1
+Wednesday,14:00 - 15:00,OE17501,btech_7_j,j,LH3,6,1
+Monday,08:00 - 09:00,OE17501,btech_7_j,j,GS6,0,1
+Thursday,15:00 - 16:00,OE17501,btech_7_j,j,FC5,7,1
+Thursday,08:00 - 09:00,CE17302,btech_7_j,j,FN4,0,1
+Friday,14:00 - 15:00,CE17302,btech_7_j,j,LH3,6,1
+Tuesday,11:00 - 12:00,CE17302,btech_7_j,j,LH4,3,1
+Saturday,15:00 - 16:00,CE17302,btech_7_j,j,GS5,7,1
+Tuesday,08:00 - 09:00,CE17305,btech_7_j,j,FEW15,0,1
+Friday,17:00 - 18:00,CE17305,btech_7_j,j,NLH1,9,1
+Thursday,09:00 - 10:00,CE17305,btech_7_j,j,CSNB2,1,1
+Monday,14:00 - 15:00,CE17305,btech_7_j,j,GS6,6,1
+Wednesday,16:00 - 17:00,CS17101,btech_7_a,a,SEW1,8,1
+Tuesday,11:00 - 12:00,CS17101,btech_7_a,a,CSNB2,3,1
+Friday,17:00 - 18:00,CS17101,btech_7_a,a,GS8,9,1
+Monday,11:00 - 12:00,CS17101,btech_7_a,a,GS5,3,1
+Monday,09:00 - 11:00,CS17101 (A1),btech_7_a,a,CSED - L2,1,2
+Tuesday,14:00 - 16:00,CS17101 (A2),btech_7_a,a,CSED - L2,6,2
+Friday,11:00 - 13:00,CS17101 (A3),btech_7_a,a,CSED - L2,3,2
+Thursday,15:00 - 16:00,CS17102,btech_7_a,a,CSNB2,7,1
+Wednesday,08:00 - 09:00,CS17102,btech_7_a,a,GS6,0,1
+Saturday,12:00 - 13:00,CS17102,btech_7_a,a,SEW7,4,1
+Saturday,09:00 - 10:00,CS17301,btech_7_a,a,GS3,1,1
+Saturday,15:00 - 16:00,CS17301,btech_7_a,a,FEW15,7,1
+Thursday,12:00 - 13:00,CS17301,btech_7_a,a,NLH2,4,1
+Friday,14:00 - 15:00,CS17311,btech_7_a,a,FC5,6,1
+Wednesday,12:00 - 13:00,CS17311,btech_7_a,a,FEW1,4,1
+Wednesday,17:00 - 18:00,CS17311,btech_7_a,a,GS5,9,1
+Monday,14:00 - 15:00,OE17501,btech_7_a,a,GS8,6,1
+Tuesday,17:00 - 18:00,OE17501,btech_7_a,a,SEW9,9,1
+Thursday,16:00 - 17:00,OE17501,btech_7_a,a,CSNB2,8,1
+Monday,12:00 - 13:00,CS17101,btech_7_b,b,GS3,4,1
+Wednesday,09:00 - 10:00,CS17101,btech_7_b,b,GS3,1,1
+Friday,11:00 - 12:00,CS17101,btech_7_b,b,FN1,3,1
+Saturday,09:00 - 10:00,CS17101,btech_7_b,b,SEW7,1,1
+Thursday,14:00 - 16:00,CS17101 (B1),btech_7_b,b,CSED - L2,6,2
+Thursday,16:00 - 18:00,CS17101 (B2),btech_7_b,b,CSED - L2,8,2
+Wednesday,14:00 - 16:00,CS17101 (B3),btech_7_b,b,CSED - L2,6,2
+Saturday,14:00 - 15:00,CS17102,btech_7_b,b,SEW8,6,1
+Tuesday,11:00 - 12:00,CS17102,btech_7_b,b,FN3,3,1
+Monday,09:00 - 10:00,CS17102,btech_7_b,b,FN4,1,1
+Saturday,10:00 - 11:00,CS17301,btech_7_b,b,GS3,2,1
+Thursday,10:00 - 11:00,CS17301,btech_7_b,b,SEW10,2,1
+Saturday,15:00 - 16:00,CS17301,btech_7_b,b,FC5,7,1
+Tuesday,16:00 - 17:00,CS17311,btech_7_b,b,GS3,8,1
+Tuesday,09:00 - 10:00,CS17311,btech_7_b,b,SEW10,1,1
+Tuesday,17:00 - 18:00,CS17311,btech_7_b,b,GS3,9,1
+Wednesday,16:00 - 17:00,OE17501,btech_7_b,b,SEW7,8,1
+Friday,15:00 - 16:00,OE17501,btech_7_b,b,SMS3,7,1
+Friday,14:00 - 15:00,OE17501,btech_7_b,b,CSNB1,6,1
+Tuesday,12:00 - 13:00,CS17101,btech_7_c,c,SEW1,4,1
+Saturday,16:00 - 17:00,CS17101,btech_7_c,c,CSNB2,8,1
+Tuesday,09:00 - 10:00,CS17101,btech_7_c,c,SEW1,1,1
+Tuesday,10:00 - 11:00,CS17101,btech_7_c,c,FEW1,2,1
+Friday,08:00 - 10:00,CS17101 (C1),btech_7_c,c,CSED - L2,0,2
+Thursday,11:00 - 13:00,CS17101 (C2),btech_7_c,c,CSED - L2,3,2
+Wednesday,08:00 - 10:00,CS17101 (C3),btech_7_c,c,CSED - L2,0,2
+Saturday,17:00 - 18:00,CS17102,btech_7_c,c,SMS3,9,1
+Friday,12:00 - 13:00,CS17102,btech_7_c,c,CSNB1,4,1
+Tuesday,15:00 - 16:00,CS17102,btech_7_c,c,SEW7,7,1
+Saturday,14:00 - 15:00,CS17301,btech_7_c,c,GS8,6,1
+Monday,15:00 - 16:00,CS17301,btech_7_c,c,SEW10,7,1
+Friday,16:00 - 17:00,CS17301,btech_7_c,c,CSNB1,8,1
+Saturday,10:00 - 11:00,CS17311,btech_7_c,c,NLH2,2,1
+Monday,12:00 - 13:00,CS17311,btech_7_c,c,GS6,4,1
+Tuesday,16:00 - 17:00,CS17311,btech_7_c,c,FN1,8,1
+Monday,16:00 - 17:00,OE17501,btech_7_c,c,FE16,8,1
+Friday,10:00 - 11:00,OE17501,btech_7_c,c,GS7,2,1
+Wednesday,14:00 - 15:00,OE17501,btech_7_c,c,GS6,6,1
+Wednesday,11:00 - 12:00,CS17101,btech_7_d,d,NLH2,3,1
+Saturday,08:00 - 09:00,CS17101,btech_7_d,d,GS8,0,1
+Tuesday,17:00 - 18:00,CS17101,btech_7_d,d,NLH1,9,1
+Friday,11:00 - 12:00,CS17101,btech_7_d,d,FE16,3,1
+Monday,11:00 - 13:00,CS17101 (D1),btech_7_d,d,CSED - L2,3,2
+Wednesday,16:00 - 18:00,CS17101 (D2),btech_7_d,d,CSED - L2,8,2
+Thursday,09:00 - 11:00,CS17101 (D3),btech_7_d,d,CSED - L2,1,2
+Saturday,09:00 - 10:00,CS17102,btech_7_d,d,GS8,1,1
+Tuesday,14:00 - 15:00,CS17102,btech_7_d,d,GS5,6,1
+Saturday,12:00 - 13:00,CS17102,btech_7_d,d,GS6,4,1
+Wednesday,15:00 - 16:00,CS17301,btech_7_d,d,SEW8,7,1
+Monday,14:00 - 15:00,CS17301,btech_7_d,d,FC5,6,1
+Tuesday,10:00 - 11:00,CS17301,btech_7_d,d,FN1,2,1
+Monday,10:00 - 11:00,CS17311,btech_7_d,d,SEW7,2,1
+Thursday,15:00 - 16:00,CS17311,btech_7_d,d,CSNB1,7,1
+Monday,09:00 - 10:00,CS17311,btech_7_d,d,NLH1,1,1
+Friday,16:00 - 17:00,OE17501,btech_7_d,d,FN4,8,1
+Wednesday,14:00 - 15:00,OE17501,btech_7_d,d,FE17,6,1
+Thursday,14:00 - 15:00,OE17501,btech_7_d,d,FN3,6,1
+Tuesday,15:00 - 16:00,EE17101,btech_7_n,n,FEW1,7,1
+Monday,17:00 - 18:00,EE17101,btech_7_n,n,GS4,9,1
+Tuesday,09:00 - 10:00,EE17101,btech_7_n,n,SEW9,1,1
+Saturday,16:00 - 17:00,EE17101,btech_7_n,n,SEW1,8,1
+Tuesday,11:00 - 13:00,EE17101 (N1),btech_7_n,n,EE-lab2,3,2
+Thursday,14:00 - 16:00,EE17101 (N2),btech_7_n,n,EE-lab2,6,2
+Friday,08:00 - 10:00,EE17101 (N3),btech_7_n,n,EE-lab2,0,2
+Friday,17:00 - 18:00,EE17102,btech_7_n,n,CSNB1,9,1
+Saturday,11:00 - 12:00,EE17102,btech_7_n,n,CSNB1,3,1
+Tuesday,10:00 - 11:00,EE17102,btech_7_n,n,FEW15,2,1
+Wednesday,14:00 - 15:00,EE17102,btech_7_n,n,NLH1,6,1
+Wednesday,10:00 - 11:00,EE17301,btech_7_n,n,SEW1,2,1
+Monday,11:00 - 12:00,EE17301,btech_7_n,n,NLH1,3,1
+Monday,09:00 - 10:00,EE17301,btech_7_n,n,GS7,1,1
+Saturday,17:00 - 18:00,EE17301,btech_7_n,n,NLH2,9,1
+Thursday,16:00 - 17:00,EE17305,btech_7_n,n,FE16,8,1
+Monday,10:00 - 11:00,EE17305,btech_7_n,n,FN3,2,1
+Wednesday,16:00 - 17:00,EE17305,btech_7_n,n,GS7,8,1
+Saturday,14:00 - 15:00,EE17305,btech_7_n,n,CSNB1,6,1
+Thursday,10:00 - 11:00,OE17501,btech_7_n,n,GS4,2,1
+Thursday,09:00 - 10:00,OE17501,btech_7_n,n,SEW8,1,1
+Thursday,11:00 - 12:00,OE17501,btech_7_n,n,CSNB1,3,1
+Tuesday,16:00 - 17:00,OE17501,btech_7_n,n,GS8,8,1
+Monday,14:00 - 15:00,EC17101,btech_7_e,e,FE17,6,1
+Wednesday,10:00 - 11:00,EC17101,btech_7_e,e,SEW10,2,1
+Thursday,15:00 - 16:00,EC17101,btech_7_e,e,FN1,7,1
+Monday,08:00 - 09:00,EC17301,btech_7_e,e,GS7,0,1
+Tuesday,08:00 - 09:00,EC17301,btech_7_e,e,SEW7,0,1
+Tuesday,11:00 - 12:00,EC17301,btech_7_e,e,SMS3,3,1
+Saturday,12:00 - 13:00,EC17301,btech_7_e,e,GS3,4,1
+Friday,11:00 - 12:00,EC17302,btech_7_e,e,SMS3,3,1
+Saturday,16:00 - 17:00,EC17302,btech_7_e,e,SEW7,8,1
+Tuesday,15:00 - 16:00,EC17302,btech_7_e,e,FE16,7,1
+Thursday,09:00 - 10:00,EC17302,btech_7_e,e,FC5,1,1
+Saturday,08:00 - 09:00,EC17304,btech_7_e,e,FC5,0,1
+Friday,08:00 - 09:00,EC17304,btech_7_e,e,CSNB1,0,1
+Tuesday,16:00 - 17:00,EC17304,btech_7_e,e,SMS3,8,1
+Thursday,10:00 - 11:00,EC17304,btech_7_e,e,FE18,2,1
+Friday,09:00 - 10:00,EC17311,btech_7_e,e,GS8,1,1
+Saturday,15:00 - 16:00,EC17311,btech_7_e,e,SEW7,7,1
+Friday,17:00 - 18:00,EC17311,btech_7_e,e,SEW9,9,1
+Saturday,11:00 - 12:00,EC17311,btech_7_e,e,SMS3,3,1
+Thursday,16:00 - 17:00,EC17314,btech_7_e,e,FEW1,8,1
+Saturday,14:00 - 15:00,EC17314,btech_7_e,e,NLH1,6,1
+Monday,17:00 - 18:00,EC17314,btech_7_e,e,FC5,9,1
+Thursday,08:00 - 09:00,EC17314,btech_7_e,e,NLH1,0,1
+Saturday,09:00 - 10:00,EC17313,btech_7_e,e,FN4,1,1
+Friday,14:00 - 15:00,EC17313,btech_7_e,e,SEW10,6,1
+Friday,16:00 - 17:00,EC17313,btech_7_e,e,SEW8,8,1
+Thursday,17:00 - 18:00,EC17313,btech_7_e,e,GS6,9,1
+Wednesday,14:00 - 15:00,OE17501,btech_7_e,e,SEW9,6,1
+Thursday,12:00 - 13:00,OE17501,btech_7_e,e,SEW8,4,1
+Monday,16:00 - 17:00,OE17501,btech_7_e,e,GS3,8,1
+Tuesday,16:00 - 17:00,EC17101,btech_7_f,f,FEW15,8,1
+Saturday,14:00 - 15:00,EC17101,btech_7_f,f,FN1,6,1
+Tuesday,15:00 - 16:00,EC17101,btech_7_f,f,FN1,7,1
+Wednesday,12:00 - 13:00,EC17301,btech_7_f,f,GS7,4,1
+Wednesday,17:00 - 18:00,EC17301,btech_7_f,f,GS7,9,1
+Wednesday,15:00 - 16:00,EC17301,btech_7_f,f,FN1,7,1
+Saturday,16:00 - 17:00,EC17301,btech_7_f,f,GS6,8,1
+Tuesday,11:00 - 12:00,EC17302,btech_7_f,f,FE17,3,1
+Wednesday,08:00 - 09:00,EC17302,btech_7_f,f,NLH2,0,1
+Friday,08:00 - 09:00,EC17302,btech_7_f,f,NLH1,0,1
+Friday,14:00 - 15:00,EC17302,btech_7_f,f,FEW15,6,1
+Friday,16:00 - 17:00,EC17304,btech_7_f,f,SEW7,8,1
+Monday,11:00 - 12:00,EC17304,btech_7_f,f,GS7,3,1
+Friday,17:00 - 18:00,EC17304,btech_7_f,f,SEW7,9,1
+Saturday,08:00 - 09:00,EC17304,btech_7_f,f,FEW15,0,1
+Monday,08:00 - 09:00,EC17311,btech_7_f,f,CSNB2,0,1
+Thursday,12:00 - 13:00,EC17311,btech_7_f,f,GS5,4,1
+Saturday,15:00 - 16:00,EC17311,btech_7_f,f,NLH1,7,1
+Thursday,16:00 - 17:00,EC17311,btech_7_f,f,FE18,8,1
+Thursday,17:00 - 18:00,EC17314,btech_7_f,f,FEW15,9,1
+Tuesday,10:00 - 11:00,EC17314,btech_7_f,f,GS5,2,1
+Wednesday,09:00 - 10:00,EC17314,btech_7_f,f,FN1,1,1
+Thursday,11:00 - 12:00,EC17314,btech_7_f,f,GS4,3,1
+Wednesday,11:00 - 12:00,EC17313,btech_7_f,f,FEW1,3,1
+Tuesday,14:00 - 15:00,EC17313,btech_7_f,f,FC5,6,1
+Friday,15:00 - 16:00,EC17313,btech_7_f,f,GS6,7,1
+Saturday,11:00 - 12:00,EC17313,btech_7_f,f,GS8,3,1
+Wednesday,10:00 - 11:00,OE17501,btech_7_f,f,FN1,2,1
+Thursday,14:00 - 15:00,OE17501,btech_7_f,f,SMS3,6,1
+Thursday,09:00 - 10:00,OE17501,btech_7_f,f,SEW9,1,1
+Saturday,09:00 - 10:00,ME17101,btech_7_g,g,CSNB2,1,1
+Monday,11:00 - 12:00,ME17101,btech_7_g,g,GS4,3,1
+Friday,14:00 - 15:00,ME17101,btech_7_g,g,GS4,6,1
+Friday,08:00 - 09:00,ME17101,btech_7_g,g,GS5,0,1
+Saturday,14:00 - 15:00,ME17301,btech_7_g,g,GS7,6,1
+Saturday,10:00 - 11:00,ME17301,btech_7_g,g,CSNB1,2,1
+Monday,16:00 - 17:00,ME17301,btech_7_g,g,CSNB1,8,1
+Friday,16:00 - 17:00,ME17301,btech_7_g,g,FE16,8,1
+Thursday,08:00 - 09:00,ME17304,btech_7_g,g,GS7,0,1
+Thursday,10:00 - 11:00,ME17304,btech_7_g,g,FN4,2,1
+Wednesday,12:00 - 13:00,ME17304,btech_7_g,g,FEW15,4,1
+Monday,10:00 - 11:00,ME17304,btech_7_g,g,GS5,2,1
+Saturday,11:00 - 12:00,ME17308,btech_7_g,g,FE16,3,1
+Monday,17:00 - 18:00,ME17308,btech_7_g,g,CSNB2,9,1
+Friday,17:00 - 18:00,ME17308,btech_7_g,g,FC5,9,1
+Saturday,16:00 - 17:00,ME17308,btech_7_g,g,FEW15,8,1
+Friday,12:00 - 13:00,ME17307,btech_7_g,g,SEW1,4,1
+Saturday,12:00 - 13:00,ME17307,btech_7_g,g,FE17,4,1
+Wednesday,10:00 - 11:00,ME17307,btech_7_g,g,SEW8,2,1
+Thursday,16:00 - 17:00,ME17307,btech_7_g,g,NLH1,8,1
+Friday,15:00 - 16:00,ME17309,btech_7_g,g,NLH1,7,1
+Friday,09:00 - 10:00,ME17309,btech_7_g,g,SEW7,1,1
+Wednesday,08:00 - 09:00,ME17309,btech_7_g,g,GS7,0,1
+Monday,12:00 - 13:00,ME17309,btech_7_g,g,SMS2,4,1
+Tuesday,11:00 - 12:00,ME17101,btech_7_h,h,SEW9,3,1
+Saturday,11:00 - 12:00,ME17101,btech_7_h,h,GS7,3,1
+Saturday,09:00 - 10:00,ME17101,btech_7_h,h,SEW8,1,1
+Wednesday,09:00 - 10:00,ME17101,btech_7_h,h,FE17,1,1
+Wednesday,11:00 - 12:00,ME17301,btech_7_h,h,SMS3,3,1
+Thursday,12:00 - 13:00,ME17301,btech_7_h,h,CSNB1,4,1
+Thursday,15:00 - 16:00,ME17301,btech_7_h,h,FE16,7,1
+Wednesday,16:00 - 17:00,ME17301,btech_7_h,h,FE18,8,1
+Monday,17:00 - 18:00,ME17304,btech_7_h,h,SEW8,9,1
+Tuesday,08:00 - 09:00,ME17304,btech_7_h,h,FN3,0,1
+Tuesday,12:00 - 13:00,ME17304,btech_7_h,h,SEW9,4,1
+Saturday,14:00 - 15:00,ME17304,btech_7_h,h,GS6,6,1
+Saturday,16:00 - 17:00,ME17308,btech_7_h,h,SEW10,8,1
+Friday,08:00 - 09:00,ME17308,btech_7_h,h,GS6,0,1
+Friday,10:00 - 11:00,ME17308,btech_7_h,h,NLH1,2,1
+Thursday,11:00 - 12:00,ME17308,btech_7_h,h,NLH1,3,1
+Friday,14:00 - 15:00,ME17307,btech_7_h,h,GS7,6,1
+Monday,14:00 - 15:00,ME17307,btech_7_h,h,FEW15,6,1
+Monday,12:00 - 13:00,ME17307,btech_7_h,h,GS8,4,1
+Saturday,10:00 - 11:00,ME17307,btech_7_h,h,FN1,2,1
+Saturday,08:00 - 09:00,ME17309,btech_7_h,h,GS7,0,1
+Tuesday,17:00 - 18:00,ME17309,btech_7_h,h,FN3,9,1
+Thursday,09:00 - 10:00,ME17309,btech_7_h,h,GS6,1,1
+Monday,11:00 - 12:00,ME17309,btech_7_h,h,FE17,3,1
+Monday,14:00 - 15:00,ME17111,btech_7_m,m,GS4,6,1
+Wednesday,10:00 - 11:00,ME17111,btech_7_m,m,SEW7,2,1
+Friday,10:00 - 11:00,ME17111,btech_7_m,m,GS4,2,1
+Wednesday,08:00 - 09:00,ME17111,btech_7_m,m,GS5,0,1
+Friday,08:00 - 10:00,ME17111 (M1),btech_7_m,m,mechanical workshop,0,2
+Thursday,14:00 - 16:00,ME17111 (M2),btech_7_m,m,mechanical workshop,6,2
+Saturday,16:00 - 17:00,ME17301,btech_7_m,m,FN1,8,1
+Wednesday,16:00 - 17:00,ME17301,btech_7_m,m,CSNB1,8,1
+Thursday,11:00 - 12:00,ME17301,btech_7_m,m,CSNB2,3,1
+Friday,17:00 - 18:00,ME17301,btech_7_m,m,FN3,9,1
+Saturday,11:00 - 13:00,ME17301 (M1),btech_7_m,m,heat engine,3,2
+Friday,08:00 - 10:00,ME17301 (M2),btech_7_m,m,heat engine,0,2
+Monday,10:00 - 11:00,ME17308,btech_7_m,m,SEW10,2,1
+Friday,12:00 - 13:00,ME17308,btech_7_m,m,FEW15,4,1
+Friday,11:00 - 12:00,ME17308,btech_7_m,m,SEW10,3,1
+Saturday,15:00 - 16:00,ME17308,btech_7_m,m,GS7,7,1
+Wednesday,14:00 - 16:00,ME17308 (M1),btech_7_m,m,mech lab4,6,2
+Tuesday,11:00 - 13:00,ME17308 (M2),btech_7_m,m,mech lab4,3,2
+Wednesday,11:00 - 12:00,ME17309,btech_7_m,m,SEW8,3,1
+Thursday,16:00 - 17:00,ME17309,btech_7_m,m,CSNB1,8,1
+Saturday,09:00 - 10:00,ME17309,btech_7_m,m,GS5,1,1
+Monday,09:00 - 10:00,ME17309,btech_7_m,m,LH4,1,1
+Tuesday,15:00 - 16:00,ME17306,btech_7_m,m,GS6,7,1
+Tuesday,16:00 - 17:00,ME17306,btech_7_m,m,CSNB1,8,1
+Thursday,08:00 - 09:00,ME17306,btech_7_m,m,FE17,0,1
+Friday,15:00 - 16:00,ME17306,btech_7_m,m,SMS1,7,1
+Tuesday,10:00 - 11:00,OE17501,btech_7_m,m,GS7,2,1
+Tuesday,09:00 - 10:00,OE17501,btech_7_m,m,FE18,1,1
+Wednesday,09:00 - 10:00,OE17501,btech_7_m,m,LH3,1,1
+Saturday,12:00 - 13:00,CH17101,btech_7_l,l,NLH1,4,1
+Tuesday,14:00 - 15:00,CH17101,btech_7_l,l,FN3,6,1
+Saturday,11:00 - 12:00,CH17101,btech_7_l,l,FC5,3,1
+Tuesday,15:00 - 16:00,CH17101,btech_7_l,l,SEW8,7,1
+Saturday,10:00 - 11:00,CH17102,btech_7_l,l,GS6,2,1
+Tuesday,11:00 - 12:00,CH17102,btech_7_l,l,FEW1,3,1
+Friday,11:00 - 12:00,CH17102,btech_7_l,l,SEW9,3,1
+Thursday,08:00 - 09:00,CH17102,btech_7_l,l,GS3,0,1
+Wednesday,16:00 - 17:00,CH17334,btech_7_l,l,LH4,8,1
+Monday,17:00 - 18:00,CH17334,btech_7_l,l,LH4,9,1
+Monday,11:00 - 12:00,CH17334,btech_7_l,l,GS6,3,1
+Tuesday,16:00 - 17:00,CH17334,btech_7_l,l,NLH2,8,1
+Wednesday,10:00 - 11:00,CH17338,btech_7_l,l,FEW1,2,1
+Friday,15:00 - 16:00,CH17338,btech_7_l,l,FEW15,7,1
+Saturday,15:00 - 16:00,CH17338,btech_7_l,l,NLH2,7,1
+Thursday,17:00 - 18:00,CH17338,btech_7_l,l,GS3,9,1
+Thursday,11:00 - 12:00,CH17340,btech_7_l,l,SEW10,3,1
+Tuesday,12:00 - 13:00,CH17340,btech_7_l,l,FE18,4,1
+Monday,10:00 - 11:00,CH17340,btech_7_l,l,LH3,2,1
+Thursday,16:00 - 17:00,CH17340,btech_7_l,l,GS6,8,1
+Saturday,08:00 - 09:00,CH17342,btech_7_l,l,GS3,0,1
+Wednesday,12:00 - 13:00,CH17342,btech_7_l,l,SEW9,4,1
+Friday,09:00 - 10:00,CH17342,btech_7_l,l,CSNB2,1,1
+Saturday,09:00 - 10:00,CH17342,btech_7_l,l,FN1,1,1
+Friday,17:00 - 18:00,OE17501,btech_7_l,l,SEW8,9,1
+Wednesday,17:00 - 18:00,OE17501,btech_7_l,l,FE18,9,1
+Friday,12:00 - 13:00,OE17501,btech_7_l,l,GS5,4,1
+Thursday,12:00 - 13:00,CS31101,mca_1_mca1,mca1,FEW1,4,1
+Tuesday,16:00 - 17:00,CS31101,mca_1_mca1,mca1,GW3,8,1
+Saturday,17:00 - 18:00,CS31101,mca_1_mca1,mca1,GW6,9,1
+Thursday,17:00 - 18:00,CS31101,mca_1_mca1,mca1,LH8,9,1
+Saturday,08:00 - 09:00,CS31102,mca_1_mca1,mca1,GW9,0,1
+Thursday,16:00 - 17:00,CS31102,mca_1_mca1,mca1,GW12,8,1
+Tuesday,10:00 - 11:00,CS31102,mca_1_mca1,mca1,FC5,2,1
+Friday,14:00 - 15:00,CS31103,mca_1_mca1,mca1,GS8,6,1
+Tuesday,09:00 - 10:00,CS31103,mca_1_mca1,mca1,GW5,1,1
+Wednesday,08:00 - 09:00,CS31103,mca_1_mca1,mca1,LH3,0,1
+Tuesday,12:00 - 13:00,CS31103,mca_1_mca1,mca1,GW3,4,1
+Tuesday,08:00 - 09:00,CS31104,mca_1_mca1,mca1,GW8,0,1
+Wednesday,15:00 - 16:00,CS31104,mca_1_mca1,mca1,NLH2,7,1
+Thursday,09:00 - 10:00,CS31104,mca_1_mca1,mca1,SMS3,1,1
+Tuesday,14:00 - 16:00,CS31201 (MCA11),mca_1_mca1,mca1,CSED - L1,6,2
+Wednesday,16:00 - 18:00,CS31201 (MCA12),mca_1_mca1,mca1,CSED - L1,8,2
+Friday,16:00 - 18:00,CS31202 (MCA11),mca_1_mca1,mca1,CSED - L2,8,2
+Monday,15:00 - 17:00,CS31202 (MCA12),mca_1_mca1,mca1,CSED - L2,7,2
+Saturday,10:00 - 12:00,CS31203 (MCA11),mca_1_mca1,mca1,CSED - L2,2,2
+Saturday,15:00 - 17:00,CS31203 (MCA12),mca_1_mca1,mca1,CSED - L2,7,2
+Wednesday,17:00 - 18:00,CS33101,mca_3_mca3,mca3,FN3,9,1
+Wednesday,09:00 - 10:00,CS33101,mca_3_mca3,mca3,GW5,1,1
+Tuesday,10:00 - 11:00,CS33101,mca_3_mca3,mca3,LH2,2,1
+Thursday,09:00 - 10:00,CS33101,mca_3_mca3,mca3,CSNB1,1,1
+Monday,14:00 - 16:00,CS33101 (MCA31),mca_3_mca3,mca3,CSED - L1,6,2
+Monday,11:00 - 13:00,CS33101 (MCA32),mca_3_mca3,mca3,CSED - L1,3,2
+Tuesday,15:00 - 16:00,CS33102,mca_3_mca3,mca3,SMS3,7,1
+Thursday,12:00 - 13:00,CS33102,mca_3_mca3,mca3,GS7,4,1
+Friday,16:00 - 17:00,CS33102,mca_3_mca3,mca3,FN3,8,1
+Friday,11:00 - 12:00,CS33102,mca_3_mca3,mca3,GW8,3,1
+Friday,14:00 - 16:00,CS33102 (MCA31),mca_3_mca3,mca3,CSED - L2,6,2
+Wednesday,10:00 - 12:00,CS33102 (MCA32),mca_3_mca3,mca3,CSED - L2,2,2
+Saturday,12:00 - 13:00,CS33103,mca_3_mca3,mca3,GW3,4,1
+Wednesday,08:00 - 09:00,CS33103,mca_3_mca3,mca3,GW4,0,1
+Saturday,11:00 - 12:00,CS33103,mca_3_mca3,mca3,GS6,3,1
+Monday,08:00 - 09:00,CS33104,mca_3_mca3,mca3,GS3,0,1
+Tuesday,09:00 - 10:00,CS33104,mca_3_mca3,mca3,FEW15,1,1
+Tuesday,12:00 - 13:00,CS33104,mca_3_mca3,mca3,LH7,4,1
+Wednesday,11:00 - 13:00,CS33104 (MCA31),mca_3_mca3,mca3,CCFF,3,2
+Tuesday,16:00 - 18:00,CS33104 (MCA32),mca_3_mca3,mca3,CCFF,8,2
+Friday,10:00 - 11:00,CS33105,mca_3_mca3,mca3,FN3,2,1
+Monday,16:00 - 17:00,CS33105,mca_3_mca3,mca3,GW3,8,1
+Friday,12:00 - 13:00,CS33105,mca_3_mca3,mca3,NLH1,4,1
+Monday,10:00 - 12:00,CS33204 (MCA31),mca_3_mca3,mca3,CCFF,2,2
+Thursday,14:00 - 16:00,CS33204 (MCA32),mca_3_mca3,mca3,CCFF,6,2
+Thursday,15:00 - 16:00,CS35101,mca_5_mca5,mca5,LH5,7,1
+Wednesday,16:00 - 17:00,CS35101,mca_5_mca5,mca5,LH7,8,1
+Monday,14:00 - 15:00,CS35101,mca_5_mca5,mca5,SEW8,6,1
+Friday,10:00 - 12:00,CS35101 (MCA51),mca_5_mca5,mca5,CCSF,2,2
+Wednesday,10:00 - 12:00,CS35101 (MCA52),mca_5_mca5,mca5,CCSF,2,2
+Friday,12:00 - 13:00,CS35102,mca_5_mca5,mca5,GW4,4,1
+Thursday,12:00 - 13:00,CS35102,mca_5_mca5,mca5,GS6,4,1
+Saturday,17:00 - 18:00,CS35102,mca_5_mca5,mca5,GS4,9,1
+Wednesday,12:00 - 13:00,CS35102,mca_5_mca5,mca5,SMS1,4,1
+Thursday,08:00 - 10:00,CS35102 (MCA51),mca_5_mca5,mca5,CCTF,0,2
+Thursday,16:00 - 18:00,CS35102 (MCA52),mca_5_mca5,mca5,CCTF,8,2
+Saturday,14:00 - 15:00,CS35103,mca_5_mca5,mca5,LH6,6,1
+Monday,08:00 - 09:00,CS35103,mca_5_mca5,mca5,LH5,0,1
+Tuesday,15:00 - 16:00,CS35104,mca_5_mca5,mca5,SMS1,7,1
+Monday,09:00 - 10:00,CS35104,mca_5_mca5,mca5,LH5,1,1
+Monday,09:00 - 10:00,MA51101,msc_1_msc1,msc1,SEW1,1,1
+Saturday,10:00 - 11:00,MA51101,msc_1_msc1,msc1,FEW15,2,1
+Friday,11:00 - 12:00,MA51101,msc_1_msc1,msc1,GS7,3,1
+Wednesday,12:00 - 13:00,MA51101,msc_1_msc1,msc1,GW12,4,1
+Monday,15:00 - 16:00,MA51102,msc_1_msc1,msc1,GW11,7,1
+Thursday,11:00 - 12:00,MA51102,msc_1_msc1,msc1,GW9,3,1
+Friday,16:00 - 17:00,MA51102,msc_1_msc1,msc1,GW10,8,1
+Wednesday,08:00 - 09:00,MA51102,msc_1_msc1,msc1,GW5,0,1
+Monday,14:00 - 15:00,MA51103,msc_1_msc1,msc1,FN3,6,1
+Monday,12:00 - 13:00,MA51103,msc_1_msc1,msc1,FE17,4,1
+Wednesday,09:00 - 10:00,MA51103,msc_1_msc1,msc1,GW10,1,1
+Thursday,15:00 - 16:00,MA51103,msc_1_msc1,msc1,FN4,7,1
+Tuesday,17:00 - 18:00,MA51104,msc_1_msc1,msc1,GS7,9,1
+Wednesday,15:00 - 16:00,MA51104,msc_1_msc1,msc1,GW6,7,1
+Friday,15:00 - 16:00,MA51104,msc_1_msc1,msc1,GS5,7,1
+Tuesday,09:00 - 10:00,MA51104,msc_1_msc1,msc1,SMS2,1,1
+Saturday,11:00 - 12:00,MA53101,msc_3_msc3,msc3,GW5,3,1
+Monday,16:00 - 17:00,MA53101,msc_3_msc3,msc3,GW8,8,1
+Tuesday,12:00 - 13:00,MA53101,msc_3_msc3,msc3,LH1,4,1
+Monday,12:00 - 13:00,MA53101,msc_3_msc3,msc3,GW10,4,1
+Monday,09:00 - 10:00,MA53102,msc_3_msc3,msc3,FE17,1,1
+Thursday,09:00 - 10:00,MA53102,msc_3_msc3,msc3,GS3,1,1
+Thursday,15:00 - 16:00,MA53102,msc_3_msc3,msc3,GS8,7,1
+Tuesday,14:00 - 15:00,MA53102,msc_3_msc3,msc3,SEW9,6,1
+Thursday,10:00 - 11:00,MA53103,msc_3_msc3,msc3,SEW7,2,1
+Saturday,12:00 - 13:00,MA53103,msc_3_msc3,msc3,SMS2,4,1
+Wednesday,15:00 - 16:00,MA53103,msc_3_msc3,msc3,LH7,7,1
+Friday,17:00 - 18:00,MA53103,msc_3_msc3,msc3,FE18,9,1
+Tuesday,15:00 - 16:00,MA53104,msc_3_msc3,msc3,LH3,7,1
+Monday,11:00 - 12:00,MA53104,msc_3_msc3,msc3,GW4,3,1
+Wednesday,10:00 - 11:00,MA53104,msc_3_msc3,msc3,SMS2,2,1
+Friday,16:00 - 17:00,MA53104,msc_3_msc3,msc3,GW9,8,1
+Thursday,12:00 - 13:00,MA53302,msc_3_msc3,msc3,SEW7,4,1
+Saturday,16:00 - 17:00,MA53302,msc_3_msc3,msc3,GW6,8,1
+Tuesday,16:00 - 17:00,MA53302,msc_3_msc3,msc3,GW10,8,1
+Thursday,17:00 - 18:00,MA53302,msc_3_msc3,msc3,LH1,9,1
+Wednesday,09:00 - 10:00,MA53303,msc_3_msc3,msc3,SEW9,1,1
+Tuesday,09:00 - 10:00,MA53303,msc_3_msc3,msc3,GW12,1,1
+Wednesday,16:00 - 17:00,MA53303,msc_3_msc3,msc3,LH2,8,1
+Monday,10:00 - 11:00,MA53303,msc_3_msc3,msc3,LH4,2,1
